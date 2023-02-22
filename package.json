@@ -4,6 +4,7 @@
   "description": "Site facade",
   "main": "index.js",
   "scripts": {
+    "local": "npm run render && npx http-server",
     "render": "npm run tailwind && tsc && node dist/render.js",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./output.css"
   },
@@ -28,7 +29,8 @@
   },
   "homepage": "https://spyrals-io.github.io",
   "devDependencies": {
-    "tailwindcss": "^3.2.7",
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "http-server": "^14.1.1",
+    "tailwindcss": "^3.2.7"
   }
 }
