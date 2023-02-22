@@ -1,0 +1,34 @@
+{
+  "name": "spyrals-io.github.io",
+  "version": "0.1.0",
+  "description": "Site facade",
+  "main": "index.js",
+  "scripts": {
+    "render": "npm run tailwind && tsc && node dist/render.js",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./output.css"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.4",
+    "@types/prettier": "^2.7.2",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "prettier": "^2.8.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spyrals-IO/Spyrals-io.github.io.git"
+  },
+  "author": "spyrals",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Spyrals-IO/Spyrals-io.github.io/issues"
+  },
+  "homepage": "https://spyrals-io.github.io",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7",
+    "concurrently": "^7.6.0"
+  }
+}
