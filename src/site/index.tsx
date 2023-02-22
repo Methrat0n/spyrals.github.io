@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './footer'
 import Header from './header'
 
 export default () =>
@@ -11,6 +12,6 @@ export default () =>
   <body>
     <Header />
     { /*<Main /> */ }
-    { /*<Footer /> */ }
+    <Footer />
   </body>
 </html>
