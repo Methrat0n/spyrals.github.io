@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './header'
 
 export default () =>
 <html>
@@ -8,8 +9,8 @@ export default () =>
     <link href="/output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 className="text-3xl font-bold underline">
-      Hello worldu!
-    </h1>
+    <Header />
+    { /*<Main /> */ }
+    { /*<Footer /> */ }
   </body>
 </html>
