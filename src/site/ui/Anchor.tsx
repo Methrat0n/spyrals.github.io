@@ -6,6 +6,6 @@ type Props = {
 }
 
 export default ({href, label}: Props) =>
-  <a className="hover:underline decoration-yellow-400 underline-offset-4 decoration-2" href={`#${href}`}>
+  <a className="hover:underline decoration-yellow underline-offset-4 decoration-2" href={`#${href}`}>
     <h3>{label}</h3>
   </a>

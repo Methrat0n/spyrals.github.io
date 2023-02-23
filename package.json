@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "local": "npm run render && npx http-server",
-    "render": "npm run tailwind && tsc && node dist/render.js",
+    "render": "tsc && npm run tailwind && node dist/render.js",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./output.css"
   },
   "dependencies": {

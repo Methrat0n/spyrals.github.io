@@ -11,7 +11,7 @@ export default () =>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/output.css" rel="stylesheet" />
   </head>
-  <body className="bg-purple-900">
+  <body className="bg-purple-void">
     <Header />
     <Main />
     <Footer />

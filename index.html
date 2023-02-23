@@ -5,27 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-purple-900">
+  <body class="bg-purple-void">
     <header
-      class="flex fixed h-24 w-full justify-between border-b-2 border-purple-600 bg-white px-32 items-center"
+      class="flex sticky top-0 h-24 w-full justify-between border-b-2 border-purple-600 bg-white px-32 items-center"
     >
-      <a href="/"><img src="/svgs/logo.svg" alt="Spyrals logo" /></a>
+      <a href="/" class="w-40"
+        ><img src="/svgs/logo.svg" alt="Spyrals logo"
+      /></a>
       <div class="flex justify-between w-5/12 h-full items-center">
         <div class="flex w-full justify-evenly items-center">
           <a
-            class="hover:underline decoration-yellow-400 underline-offset-4 decoration-2"
+            class="hover:underline decoration-yellow underline-offset-4 decoration-2"
             href="#offre"
             ><h3>L&#x27;offre</h3></a
           ><a
-            class="hover:underline decoration-yellow-400 underline-offset-4 decoration-2"
+            class="hover:underline decoration-yellow underline-offset-4 decoration-2"
             href="#team"
             ><h3>L&#x27;équipe</h3></a
           ><a
-            class="hover:underline decoration-yellow-400 underline-offset-4 decoration-2"
+            class="hover:underline decoration-yellow underline-offset-4 decoration-2"
             href="#clients"
             ><h3>Clients</h3></a
           ><a
-            class="hover:underline decoration-yellow-400 underline-offset-4 decoration-2"
+            class="hover:underline decoration-yellow underline-offset-4 decoration-2"
             href="#contact"
             ><h3>Contact</h3></a
           >
@@ -47,29 +49,26 @@
     </header>
     <main class="pt-24 text-white">
       <section
-        class="flex flex-row items-center justify-between py-24"
+        class="flex flex-row items-center justify-between pt-8 pb-24"
         id="spyrals"
       >
         <div class="flex flex-col items-center justify-center mx-20">
           <h1 class="text-9xl pl-20">SPYRALS</h1>
           <p class="text-3xl pt-10 pb-8 pl-40">Le développement sur mesure</p>
           <a
-            class="mr-40 bg-white text-black border-2 border-yellow-400 w-fit rounded-xl py-2 px-8"
+            class="mr-40 bg-white text-black border-4 border-yellow w-fit rounded-xl py-2 px-8"
             href="#offre"
             ><button>Découvrir notre offre</button></a
           >
         </div>
         <div class="flex flex-row">
-          <div
-            class="border-purple-400 -rotate-3 -z-10 rounded-xl border-2 w-fit"
-          >
-            <img class="rounded-xl" src="/images/code.webp" />
-          </div>
-          <div
-            class="border-purple-600 rotate-12 -z-20 rounded-xl border-2 w-fit"
-          >
-            <img class="rounded-xl" src="/images/code.webp" />
-          </div>
+          <img
+            class="mt-12 border-purple-spyrals -rotate-6 -z-10 h-[35rem] w-[35rem] rounded-3xl border-4 object-cover"
+            src="/images/code.png"
+          /><img
+            class="border-purple-dark rotate-[16deg] -z-20 h-[45rem] w-[28rem] rounded-3xl border-4 object-cover"
+            src="/images/tel.png"
+          />
         </div>
       </section>
       <section class="flex flex-row mx-24" id="offre">
@@ -116,7 +115,7 @@
             repellendus voluptate ipsum id incidunt sunt eveniet vero ipsam ea.
           </p>
           <a
-            class="ml-80 bg-white text-black border-2 border-yellow-400 w-fit rounded-xl py-2 px-8"
+            class="ml-80 bg-white text-black border-4 border-yellow w-fit rounded-xl py-2 px-8"
             href="contact"
             ><button>Nous contacter</button></a
           >
@@ -201,26 +200,38 @@
           ullam dolor illum!
         </p>
         <img src="/svgs/arrow.svg" /><img src="/svgs/arrow.svg" />
-        <div class="purple rounded-xl border-2 w-fit">
-          <img class="rounded-xl" src="/images/worklife.webp" />
+        <div class="purple rounded-xl border-3">
+          <img
+            class="rounded-xl h-[32rem] w-[60rem]"
+            src="/images/worklife.webp"
+          />
         </div>
-        <div class="yellow rounded-xl border-2 w-fit">
-          <img class="rounded-xl" src="/images/worklife.webp" />
+        <div class="yellow rounded-xl border-3">
+          <img
+            class="rounded-xl h-[32rem] w-[60rem]"
+            src="/images/worklife.webp"
+          />
         </div>
-        <div class="purple rounded-xl border-2 w-fit">
-          <img class="rounded-xl" src="/images/worklife.webp" />
+        <div class="purple rounded-xl border-3">
+          <img
+            class="rounded-xl h-[32rem] w-[60rem]"
+            src="/images/worklife.webp"
+          />
         </div>
-        <div class="yellow rounded-xl border-2 w-fit">
-          <img class="rounded-xl" src="/images/worklife.webp" />
+        <div class="yellow rounded-xl border-3">
+          <img
+            class="rounded-xl h-[32rem] w-[60rem]"
+            src="/images/worklife.webp"
+          />
         </div>
       </section>
       <section id="contact">
         <h1>NOUS CONTACTER</h1>
-        <div class="purple rounded-xl border-2 w-fit">
-          <img class="rounded-xl" src="/images/code.webp" />
+        <div class="purple rounded-xl border-3">
+          <img class="rounded-xl h-[32rem] w-[60rem]" src="/images/code.webp" />
         </div>
-        <div class="yellow rounded-xl border-2 w-fit">
-          <img class="rounded-xl" src="/images/code.webp" />
+        <div class="yellow rounded-xl border-3">
+          <img class="rounded-xl h-[32rem] w-[60rem]" src="/images/code.webp" />
         </div>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
@@ -233,7 +244,7 @@
         <img src="/svgs/phone.svg" />
         <p>06 01 20 30 04</p>
         <a
-          class="bg-white text-black border-2 border-yellow-400 w-fit rounded-xl py-2 px-8"
+          class="bg-white text-black border-4 border-yellow w-fit rounded-xl py-2 px-8"
           href="/nouscontacter"
           ><button>Accéder au formulaire</button></a
         >
@@ -242,7 +253,9 @@
     <footer
       class="flex flex-row justify-between border-t-2 border-purple-600 mr-14 items-center h-24 mx-8 text-white"
     >
-      <a href="/"><img src="/svgs/logo.svg" alt="Spyrals logo" /></a>
+      <a href="/" class="w-40"
+        ><img src="/svgs/logo.svg" alt="Spyrals logo"
+      /></a>
       <div class="flex flex-row font-bold">
         <p>Nous suivre :</p>
         <div class="flex flex-row items-center h-7">

@@ -6,6 +6,6 @@ type Props = {
 }
 
 export default ({className, src}: Props) =>
-<div className={`${className} rounded-xl border-2 w-fit`}>
-  <img className="rounded-xl" src={src}/>
+<div className={`${className} rounded-xl border-3`}>
+  <img className="rounded-xl h-[32rem] w-[60rem]" src={src}/>
 </div>

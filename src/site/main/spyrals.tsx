@@ -1,9 +1,8 @@
 import React from 'react'
-import BordedPicture from '../ui/BordedPicture'
 import ButtonLink from '../ui/ButtonLink'
 
 export default () =>
-  <section className="flex flex-row items-center justify-between py-24" id='spyrals'>
+  <section className="flex flex-row items-center justify-between pt-8 pb-24" id='spyrals'>
     <SpyralsLeft />
     <SpyralsRight />
   </section>
@@ -15,8 +14,10 @@ const SpyralsLeft = () =>
     <ButtonLink className="mr-40" href="#offre" label="Découvrir notre offre" />
   </div>
 
+const imagesStyle = "rounded-3xl border-4 object-cover"
+
 const SpyralsRight = () =>
   <div className="flex flex-row">
-    <BordedPicture className="border-purple-400 -rotate-3 -z-10" src="/images/code.webp" />
-    <BordedPicture className="border-purple-600 rotate-12 -z-20" src="/images/code.webp" />
+    <img className={`mt-12 border-purple-spyrals -rotate-6 -z-10 h-[35rem] w-[35rem] ${imagesStyle}`} src="/images/code.png"/>
+    <img className={`border-purple-dark rotate-[16deg] -z-20 h-[45rem] w-[28rem] ${imagesStyle}`} src="/images/tel.png"/>
   </div>
