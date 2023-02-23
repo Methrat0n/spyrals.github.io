@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './footer'
 import Header from './header'
+import Main from './main'
 
 export default () =>
 <html>
@@ -11,7 +12,7 @@ export default () =>
   </head>
   <body>
     <Header />
-    { /*<Main /> */ }
+    <Main />
     <Footer />
   </body>
 </html>
