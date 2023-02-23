@@ -20,7 +20,7 @@ const ContactRight = () =>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, incidunt odit molestias soluta deleniti in debitis dolorem? Minima repudiandae, architecto unde fugit autem porro deserunt, voluptatibus consequatur, aut consectetur quisquam?</p>
     <Mail />
     <Phone />
-    <ButtonLink href="/nouscontacter" label="Accéder au formulaire" />
+    <ButtonLink className="" href="/nouscontacter" label="Accéder au formulaire" />
   </>
 
 const Mail = () =>
