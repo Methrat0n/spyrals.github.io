@@ -8,7 +8,7 @@ import Team from './team'
 import Worklife from './worklife'
 
 export default () =>
-  <main className="pt-24">
+  <main className="pt-24 text-white">
     <Spyrals />
     <Service />
     <Skills />

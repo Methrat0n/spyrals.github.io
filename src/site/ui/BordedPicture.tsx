@@ -1,11 +1,11 @@
 import React from 'react'
 
 type Props = {
-  borderColor: string
+  className: string
   src: string
 }
 
-export default ({borderColor, src}: Props) =>
-<div className={borderColor}>
-  <img src={src}/>
+export default ({className, src}: Props) =>
+<div className={`${className} rounded-xl border-2 w-fit`}>
+  <img className="rounded-xl" src={src}/>
 </div>

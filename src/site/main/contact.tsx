@@ -11,8 +11,8 @@ export default () =>
 
 const ContactLeft = () =>
   <>
-    <BordedPicture borderColor='purple' src='/images/code.webp' />
-    <BordedPicture borderColor='yellow' src='/images/code.webp' />
+    <BordedPicture className='purple' src='/images/code.webp' />
+    <BordedPicture className='yellow' src='/images/code.webp' />
   </>
 
 const ContactRight = () =>

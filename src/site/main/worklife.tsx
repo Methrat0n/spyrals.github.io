@@ -12,8 +12,8 @@ export default () =>
 
 const Gallery = () =>
   <>
-    <BordedPicture borderColor='purple' src='/images/worklife.webp' />
-    <BordedPicture borderColor='yellow' src='/images/worklife.webp' />
-    <BordedPicture borderColor='purple' src='/images/worklife.webp' />
-    <BordedPicture borderColor='yellow' src='/images/worklife.webp' />
+    <BordedPicture className='purple' src='/images/worklife.webp' />
+    <BordedPicture className='yellow' src='/images/worklife.webp' />
+    <BordedPicture className='purple' src='/images/worklife.webp' />
+    <BordedPicture className='yellow' src='/images/worklife.webp' />
   </>
