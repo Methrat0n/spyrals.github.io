@@ -1,4 +1,5 @@
 import React from 'react'
+import Fixed from './fixed'
 import Footer from './footer'
 import Header from './header'
 import Main from './main'
@@ -14,5 +15,6 @@ export default () =>
     <Header />
     <Main />
     <Footer />
+    <Fixed />
   </body>
 </html>
