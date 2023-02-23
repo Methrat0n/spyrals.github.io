@@ -12,7 +12,7 @@ const SpyralsLeft = () =>
   <div className="flex flex-col items-center justify-center mx-20">
     <h1 className="text-9xl pl-20">SPYRALS</h1>
     <p className="text-3xl pt-10 pb-8 pl-40">Le développement sur mesure</p>
-    <div className="pr-40"><ButtonLink href="#offre" label="Découvrir notre offre" /></div>
+    <ButtonLink className="mr-40" href="#offre" label="Découvrir notre offre" />
   </div>
 
 const SpyralsRight = () =>
