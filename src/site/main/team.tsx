@@ -1,35 +1,49 @@
 import React from 'react'
 
-type Props = {
-  avatar: string
-  backgroundColor: string
-  name: string
-}
-
 export default () =>
-  <section id='team'>
-    <h1>L'EQUIPE</h1>
+  <section className="flex flex-col pt-24 ml-32" id='team'>
+    <h1 className="text-6xl ml-32">L'EQUIPE</h1>
     <TeamContent />
     <TeamFooter />
   </section>
 
-const TeamContent = () =>
-  <>
-    <TeamCard avatar="/images/avatar.webp" backgroundColor="purple1" name="Mallorie" />
-    <TeamCard avatar="/images/avatar.webp" backgroundColor="purple1" name="Merlin"/>
-    <TeamCard avatar="/images/avatar.webp" backgroundColor="purple1" name="Fabien"/>
-    <TeamCard avatar="/images/avatar.webp" backgroundColor="purple1" name="Thibaut"/>
-  </>
+const commonCaption = "Passe sur ma card et découvre"
 
-const TeamCard = ({avatar, backgroundColor, name}: Props) =>
-  <div className={backgroundColor}>
-    <img alt={name} src={avatar}/>
-    <h3>{name}</h3>
+const figuresStyle = "flex flex-col justify-evenly items-center rounded-xl mx-2 py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem]"
+const imagesStyle = "w-[12rem] h-[14rem] object-cover"
+const pStyle = "text-3xl mt-4 text-center italic"
+const arrowsStyle = "bg-white w-[234px] h-[22px] object-fill"
+
+const TeamContent = () =>
+  <div className="flex flex-row font-bold overflow-x-auto my-20">
+    <figure className={`bg-pink ${figuresStyle}`}>
+      <img className={`${imagesStyle}`} src="/images/mallorie.png"/>
+      <figcaption>Mallorie</figcaption>
+      <p className={`${pStyle}`}>{commonCaption} mon profil !</p>
+    </figure>
+
+    <figure className={`bg-purple-dark ${figuresStyle}`}>
+      <img className={`${imagesStyle}`} src="/images/merlin.png"/>
+      <figcaption>Merlin</figcaption>
+      <p className={`${pStyle}`}>{commonCaption} mon savoir-faire !</p>
+    </figure>
+
+    <figure className={`bg-purple-spyrals ${figuresStyle}`}>
+      <img className={`${imagesStyle}`} src="/images/fabien.png"/>
+      <figcaption>Fabien</figcaption>
+      <p className={`${pStyle}`}>{commonCaption} mes compétences !</p>
+    </figure>
+
+    <figure className={`bg-yellow ${figuresStyle}`}>
+      <img className={`${imagesStyle}`} src="/images/thibaut.png"/>
+      <figcaption>Thibaut</figcaption>
+      <p className={`${pStyle}`}>{commonCaption} mes expériences !</p>
+    </figure>
   </div>
 
 const TeamFooter = () =>
-  <>
-    <p>DECOUVRE LES AUTRES PROFILS !</p>
-    <img src="/svgs/arrow.svg"/>
-    <img src="/svgs/arrow.svg"/>
-  </>
+  <div className="self-end mr-52 text-center text-xl">
+    <p>DÉCOUVRE LES AUTRES PROFILS !</p>    
+    <img className={`mr-40 ${arrowsStyle}`} src="/svgs/arrow.svg"/>
+    <img className={`ml-40 transform -scale-x-100 ${arrowsStyle}`} src="/svgs/arrow.svg"/>
+  </div>

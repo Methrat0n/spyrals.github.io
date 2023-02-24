@@ -9,6 +9,6 @@ export default () =>
 
 const FollowSocialButton = () => 
   <div className="flex flex-row items-center h-7">
-    <SocialNetwork logo='/svgs/facebookLogo.svg' href="https://linkedin.com/company/spyrals" />
-    <SocialNetwork logo='/svgs/linkedinLogo.svg' href="https://linkedin.com/company/spyrals" />
+    <SocialNetwork className="" logo='/svgs/facebookLogo.svg' href="https://linkedin.com/company/spyrals" />
+    <SocialNetwork className="" logo='/svgs/linkedinLogo.svg' href="https://linkedin.com/company/spyrals" />
   </div>

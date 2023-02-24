@@ -18,6 +18,6 @@ const Navigation = () =>
 
 const Socials = () =>
   <div className="flex h-7">
-    <SocialNetwork logo='/svgs/facebookLogo.svg' href="https://facebook.com" />
-    <SocialNetwork logo='/svgs/linkedinLogo.svg' href="https://linkedin.com" />
+    <SocialNetwork className="" logo='/svgs/facebookLogo.svg' href="https://facebook.com" />
+    <SocialNetwork className="" logo='/svgs/linkedinLogo.svg' href="https://linkedin.com" />
   </div>

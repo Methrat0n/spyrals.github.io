@@ -1,11 +1,12 @@
 import React from 'react'
 
 type Props = {
+  className: string
   href: string
   logo: string
 }
 
-export default ({href, logo}: Props) =>
-  <a className="w-full h-full" href={href}>
+export default ({className, href, logo}: Props) =>
+  <a className={`w-full h-full ${className}`} href={href}>
     <img className="w-full h-full" src={logo} alt={href} />
   </a>
