@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialNetwork from '../ui/SocialNetwork'
+import SocialNetwork from '../../ui/atoms/SocialNetwork'
 
 
 export default () =>

@@ -1,10 +1,12 @@
 import React from 'react'
-import Fixed from './fixed'
-import Footer from './footer'
-import Header from './header'
-import Main from './main'
+import Footer from './ui/organism/footer'
+import Header from './ui/organism/header'
 
-export default () =>
+type Props = {
+  Main: React.FC
+}
+
+export default ({ Main }: Props) =>
 <html>
   <head>
     <meta charSet="UTF-8" />
@@ -15,6 +17,5 @@ export default () =>
     <Header />
     <Main />
     <Footer />
-    <Fixed />
   </body>
 </html>

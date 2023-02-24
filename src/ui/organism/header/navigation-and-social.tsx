@@ -1,6 +1,6 @@
 import React from 'react'
-import Anchor from '../ui/Anchor'
-import SocialNetwork from '../ui/SocialNetwork'
+import Anchor from '../../atoms/Anchor'
+import SocialNetwork from '../../atoms/SocialNetwork'
 
 export default () =>
   <div className="flex justify-between w-5/12 h-full items-center">

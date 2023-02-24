@@ -10,7 +10,7 @@ const fixedBarStyle = "flex flex-row py-2 semi-bold items-center"
 const imagesStyle = "w-7 h-7 mx-2 rotate-90"
 
 const Contact = () =>
-  <a className={`rounded-l-md bg-redish pl-2 pr-4 ${fixedBarStyle}`} href="/nouscontacter">
+  <a className={`rounded-l-md bg-redish pl-2 pr-4 ${fixedBarStyle}`} href="/nous-contacter">
     <img className={`${imagesStyle}`} src="/svgs/chat.svg"/>
     <p>Nous écrire</p>
   </a>

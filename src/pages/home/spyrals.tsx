@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonLink from '../ui/ButtonLink'
+import ButtonLink from '../../ui/atoms/ButtonLink'
 
 export default () =>
   <section className="flex flex-row items-center justify-between pt-14 pb-24 overflow-hidden" id='spyrals'>

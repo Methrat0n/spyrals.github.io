@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialNetwork from '../ui/SocialNetwork'
+import SocialNetwork from '../../atoms/SocialNetwork'
 
 export default () =>
   <div className="flex flex-row font-bold">

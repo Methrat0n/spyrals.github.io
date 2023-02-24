@@ -1,13 +1,13 @@
 import React from 'react'
-import ButtonLink from '../ui/ButtonLink'
-import BordedPicture from '../ui/BordedPicture'
+import ButtonLink from '../../ui/atoms/ButtonLink'
+import BordedPicture from '../../ui/atoms/BordedPicture'
 
 export default () =>
-  <section id='contact'>
+  <main className="pt-24 text-white">
     <h1>NOUS CONTACTER</h1>
     <ContactLeft />
     <ContactRight />
-  </section>
+  </ main>
 
 const ContactLeft = () =>
   <>
