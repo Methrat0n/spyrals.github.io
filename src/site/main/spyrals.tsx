@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonLink from '../ui/ButtonLink'
 
 export default () =>
-  <section className="flex flex-row items-center justify-between pt-8 pb-24" id='spyrals'>
+  <section className="flex flex-row items-center justify-between pt-14 pb-24 overflow-hidden" id='spyrals'>
     <SpyralsLeft />
     <SpyralsRight />
   </section>

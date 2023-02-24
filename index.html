@@ -49,7 +49,7 @@
     </header>
     <main class="pt-24 text-white">
       <section
-        class="flex flex-row items-center justify-between pt-8 pb-24"
+        class="flex flex-row items-center justify-between pt-14 pb-24 overflow-hidden"
         id="spyrals"
       >
         <div class="flex flex-col items-center justify-center mx-20">
@@ -349,12 +349,21 @@
       <a href="/cgv"><h3>CGV</h3></a
       ><a href="/mentionslegales"><h3>Mentions légales</h3></a>
     </footer>
-    <a href="/nouscontacter"
-      ><img src="/svgs/chat.svg" />
-      <p>Nous écrire</p></a
-    ><a href="/video"
-      ><img src="/svgs/video.svg" />
-      <p>Voir la vidéo</p></a
+    <section
+      class="fixed top-1/2 -left-24 flex flex-row text-white -rotate-90"
+      id="fixedbar"
     >
+      <a
+        class="rounded-l-md bg-redish pl-2 pr-4 flex flex-row py-2 semi-bold items-center"
+        href="/nouscontacter"
+        ><img class="w-7 h-7 mx-2 rotate-90" src="/svgs/chat.svg" />
+        <p>Nous écrire</p></a
+      ><a
+        class="rounded-r-md bg-orange pr-2 pl-4 flex flex-row py-2 semi-bold items-center"
+        href="/video"
+        ><img class="w-7 h-7 mx-2 rotate-90" src="/svgs/video.svg" />
+        <p>Voir la vidéo</p></a
+      >
+    </section>
   </body>
 </html>
