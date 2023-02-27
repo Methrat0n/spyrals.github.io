@@ -1,3 +1,101 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'furore';
+    src: url('/assets/fonts/furore/furore-webfont.woff2') format('woff2'),
+         url('/assets/fonts/furore/furore-webfont.woff') format('woff'),
+         url('/assets/fonts/furore/furore.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'manrope';
+    src: url('/assets/fonts/manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'chakraPetch';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-bold-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'chakraPetch';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-bolditalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-bolditalic-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+
+  }
+  @font-face {
+    font-family: 'chakraPetch';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-italic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-italic-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'chakraPetch';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-light-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-Light.ttf') format('truetype');
+    font-weight: light;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'chakraPetch';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-lightitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-lightitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-LightItalic.ttf') format('truetype');
+    font-weight: light;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'chakra_petchmedium';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-medium-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-Medium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'chakra_petchmedium_italic';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-mediumitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-mediumitalic-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-MediumItalic.ttf') format('truetype');
+    font-weight: medium;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'chakra_petchregular';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'chakra_petchsemibold';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-semibold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-semibold-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'chakra_petchsemibold_italic';
+    src: url('/assets/fonts/chakra_petch/chakrapetch-semibolditalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/chakra_petch/chakrapetch-semibolditalic-webfont.woff') format('woff'),
+         url('/assets/fonts/chakra_petch/chakraPetch-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+}

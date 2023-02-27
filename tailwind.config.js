@@ -1,10 +1,17 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./dist/**/*.js"
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
+        'menu': ['Chakra\ Petch', ...defaultTheme.fontFamily.sans],
+        'title': ['Furore', ...defaultTheme.fontFamily.sans]
+      },
       colors: {
         yellow: '#FFBD59',
         black: '#10002B',
