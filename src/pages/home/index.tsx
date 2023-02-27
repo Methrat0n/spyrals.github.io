@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from './contact'
 import Customers from './customers'
 import Service from './service'
 import Skills from './skills'
@@ -15,5 +16,6 @@ export default () =>
     <Team />
     <Customers />
     <Worklife />
+    <Contact />
     <Fixed />
   </main>
