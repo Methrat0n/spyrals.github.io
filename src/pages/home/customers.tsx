@@ -3,7 +3,7 @@ import SocialNetwork from '../../ui/atoms/SocialNetwork'
 
 
 export default () =>
-  <section className="flex flex-col items-center pt-24 mb-24" id='clients'>
+  <section className="relative flex flex-col items-center pt-24 pb-36 overflow-x-hidden" id='clients'>
     <h1 className="text-6xl pt-12 font-title font-semibold">NOS CLIENTS</h1>
     <p className="text-2xl my-14">Clique sur le logo et découvre l'app' !</p>
     <CustomersList />

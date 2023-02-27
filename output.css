@@ -502,7 +502,7 @@ video {
 }
 
 @font-face {
-  font-family: 'chakra_petchmedium';
+  font-family: 'chakraPetch';
 
   src: url('/assets/fonts/chakra_petch/chakrapetch-medium-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-medium-webfont.woff') format('woff'),
@@ -514,7 +514,7 @@ video {
 }
 
 @font-face {
-  font-family: 'chakra_petchmedium_italic';
+  font-family: 'chakraPetch';
 
   src: url('/assets/fonts/chakra_petch/chakrapetch-mediumitalic-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-mediumitalic-webfont.woff') format('woff'),
@@ -526,7 +526,7 @@ video {
 }
 
 @font-face {
-  font-family: 'chakra_petchregular';
+  font-family: 'chakraPetch';
 
   src: url('/assets/fonts/chakra_petch/chakrapetch-regular-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-regular-webfont.woff') format('woff'),
@@ -538,7 +538,7 @@ video {
 }
 
 @font-face {
-  font-family: 'chakra_petchsemibold';
+  font-family: 'chakraPetch';
 
   src: url('/assets/fonts/chakra_petch/chakrapetch-semibold-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-semibold-webfont.woff') format('woff'),
@@ -550,7 +550,7 @@ video {
 }
 
 @font-face {
-  font-family: 'chakra_petchsemibold_italic';
+  font-family: 'chakraPetch';
 
   src: url('/assets/fonts/chakra_petch/chakrapetch-semibolditalic-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-semibolditalic-webfont.woff') format('woff'),
@@ -663,6 +663,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
@@ -693,6 +697,10 @@ video {
 
 .-z-20 {
   z-index: -20;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-10 {
@@ -1163,6 +1171,10 @@ video {
   overflow-x: auto;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .overflow-x-scroll {
   overflow-x: scroll;
 }
@@ -1330,6 +1342,10 @@ video {
   padding-bottom: 6rem;
 }
 
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1388,6 +1404,10 @@ video {
 
 .text-justify {
   text-align: justify;
+}
+
+.font-menu {
+  font-family: ChakraPetch, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-title {
