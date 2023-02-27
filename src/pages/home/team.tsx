@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () =>
   <section className="flex flex-col pt-24 ml-32" id='team'>
-    <h1 className="text-6xl ml-32">L'EQUIPE</h1>
+    <h1 className="text-6xl ml-32 font-title font-semibold">L'EQUIPE</h1>
     <TeamContent />
     <TeamFooter />
   </section>

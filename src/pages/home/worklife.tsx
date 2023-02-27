@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () =>
   <section className="flex flex-col items-center pt-24 ml-32" id='worklife'>
-    <h1 className="text-6xl self-start ml-16">VIE D'ENTREPRISE</h1>
+    <h1 className="text-6xl self-start ml-16 font-title font font-semibold">VIE D'ENTREPRISE</h1>
     <p className="my-12 mx-96">Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget. Aliquet vel ullamcorper pretium sed pretium facilisis eget duis vitae. Vulputate mattis sed nunc fringilla est dictum nullam rhoncus a. Ut eget dolor aliquet est at. Odio morbi tincidunt lectus vitae tempor sit nisi platea. </p>
     <WorklifeArrows />
     <Gallery />

@@ -7,7 +7,7 @@ export default () =>
   </section>
 
 const SkillsTitle = () =>
-  <h1 className="text-5xl mb-44">
+  <h1 className="text-5xl mb-44 font-title font-semibold">
     NOS COMPETENCES
   </h1>
 
