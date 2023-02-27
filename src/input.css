@@ -59,7 +59,7 @@
     font-style: italic;
   }
   @font-face {
-    font-family: 'chakra_petchmedium';
+    font-family: 'chakraPetch';
     src: url('/assets/fonts/chakra_petch/chakrapetch-medium-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-medium-webfont.woff') format('woff'),
          url('/assets/fonts/chakra_petch/chakraPetch-Medium.ttf') format('truetype');
@@ -67,7 +67,7 @@
     font-style: normal;
   }
   @font-face {
-    font-family: 'chakra_petchmedium_italic';
+    font-family: 'chakraPetch';
     src: url('/assets/fonts/chakra_petch/chakrapetch-mediumitalic-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-mediumitalic-webfont.woff') format('woff'),
          url('/assets/fonts/chakra_petch/chakraPetch-MediumItalic.ttf') format('truetype');
@@ -75,7 +75,7 @@
     font-style: italic;
   }
   @font-face {
-    font-family: 'chakra_petchregular';
+    font-family: 'chakraPetch';
     src: url('/assets/fonts/chakra_petch/chakrapetch-regular-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-regular-webfont.woff') format('woff'),
          url('/assets/fonts/chakra_petch/chakraPetch-Regular.ttf') format('truetype');
@@ -83,7 +83,7 @@
     font-style: normal;
   }
   @font-face {
-    font-family: 'chakra_petchsemibold';
+    font-family: 'chakraPetch';
     src: url('/assets/fonts/chakra_petch/chakrapetch-semibold-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-semibold-webfont.woff') format('woff'),
          url('/assets/fonts/chakra_petch/chakraPetch-SemiBold.ttf') format('truetype');
@@ -91,7 +91,7 @@
     font-style: normal;
   }
   @font-face {
-    font-family: 'chakra_petchsemibold_italic';
+    font-family: 'chakraPetch';
     src: url('/assets/fonts/chakra_petch/chakrapetch-semibolditalic-webfont.woff2') format('woff2'),
          url('/assets/fonts/chakra_petch/chakrapetch-semibolditalic-webfont.woff') format('woff'),
          url('/assets/fonts/chakra_petch/chakraPetch-SemiBoldItalic.ttf') format('truetype');

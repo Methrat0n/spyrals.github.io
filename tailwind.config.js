@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
-        'menu': ['Chakra\ Petch', ...defaultTheme.fontFamily.sans],
+        'menu': ['ChakraPetch', ...defaultTheme.fontFamily.sans],
         'title': ['Furore', ...defaultTheme.fontFamily.sans]
       },
       colors: {
