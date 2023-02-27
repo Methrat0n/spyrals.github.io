@@ -47,29 +47,87 @@
         </div>
       </div>
     </header>
-    <main class="pt-24 text-white">
-      <h1>NOUS CONTACTER</h1>
-      <div class="purple rounded-xl border-3">
-        <img class="rounded-xl h-[32rem] w-[60rem]" src="/images/code.webp" />
+    <main
+      class="flex flex-row justify-between pt-52 pl-36 pr-24 pb-80 text-white"
+    >
+      <div>
+        <h1 class="text-6xl font-title font-semibold pb-48">Nous Contacter</h1>
+        <p class="font-medium text-xl pb-20">
+          Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur
+          aliquam id egestas.
+        </p>
+        <div class="position-relative">
+          <img
+            src="/svgs/spyrals-background.svg"
+            alt="Le logo de spyrals utilisé en background."
+            class="-z-20"
+          /><a href="tel:06 01 20 30 04" class="font-semibold"
+            ><div class="flex flex-row item-center h-8">
+              <img
+                src="/svgs/phone-in-circle.svg"
+                alt="Un téléphone dans un cercle, pour nous téléphoner."
+              /><span class="my-auto ml-2.5">06 01 20 30 04</span>
+            </div></a
+          >
+        </div>
+        <img
+          class="-rotate-[9deg] h-80 w-[33rem] border-yellow -z-10 rounded-3xl border-4 object-cover"
+          src="/images/typing-fast.png"
+          alt="Developpeur tapant frénétiquement sur son clavier"
+        />
       </div>
-      <div class="yellow rounded-xl border-3">
-        <img class="rounded-xl h-[32rem] w-[60rem]" src="/images/code.webp" />
-      </div>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
-        incidunt odit molestias soluta deleniti in debitis dolorem? Minima
-        repudiandae, architecto unde fugit autem porro deserunt, voluptatibus
-        consequatur, aut consectetur quisquam?
-      </p>
-      <img src="/svgs/mail.svg" />
-      <p>mail@mail.com</p>
-      <img src="/svgs/phone.svg" />
-      <p>06 01 20 30 04</p>
-      <a
-        class="bg-white text-black border-4 border-yellow w-fit rounded-xl py-2 px-8 font-semibold"
-        href="/nouscontacter"
-        ><button>Accéder au formulaire</button></a
+      <form
+        class="flex flex-col item-center h-[56rem] bg-purple-spyrals w-[43rem] rotate-2 pt-24 px-32 pb-28"
       >
+        <label for="surname" class="-rotate-2 font-semibold">Votre prénom</label
+        ><input
+          type="text"
+          id="surname"
+          name="surname"
+          class="bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-7"
+        /><label for="name" class="-rotate-2 font-semibold">Votre nom</label
+        ><input
+          type="text"
+          id="name"
+          name="name"
+          class="bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-7"
+        /><label for="mail" class="-rotate-2 font-semibold"
+          >Votre addresse mail</label
+        ><input
+          type="email"
+          id="mail"
+          name="mail"
+          required=""
+          class="bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-7"
+        /><label for="phone" class="-rotate-2 font-semibold"
+          >Votre téléphone</label
+        ><input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-7"
+        /><label for="weLiveIn" class="-rotate-2 font-semibold"
+          >Votre société</label
+        ><input
+          type="text"
+          id="weLiveIn"
+          name="weLiveIn"
+          class="bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-7"
+        /><label for="wants" class="-rotate-2 font-semibold"
+          >Que pouvons-nous faire pour vous ?</label
+        ><textarea
+          id="wants"
+          name="wants"
+          rows="5"
+          cols="33"
+          class="bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-7 pt-4"
+        ></textarea
+        ><input
+          type="submit"
+          value="Envoyer"
+          class="ml-auto bg-white text-black p-2 font-semibold rounded-lg -rotate-2 w-28"
+        />
+      </form>
     </main>
     <footer
       class="flex flex-row justify-between border-t-2 border-purple-600 mr-14 items-center h-24 mx-8 text-white"

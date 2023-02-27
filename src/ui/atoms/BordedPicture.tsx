@@ -3,9 +3,8 @@ import React from 'react'
 type Props = {
   className: string
   src: string
+  alt: string
 }
 
-export default ({className, src}: Props) =>
-<div className={`${className} rounded-xl border-3`}>
-  <img className="rounded-xl h-[32rem] w-[60rem]" src={src}/>
-</div>
+export default ({className, ...props}: Props) =>
+  <img className={`${className} rounded-3xl border-4 object-cover`} {...props} />
