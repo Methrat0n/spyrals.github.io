@@ -9,7 +9,7 @@ export default () =>
     <Gallery />
   </section>
 
-const arrowsStyle = "bg-white w-[93px] h-[22px] object-fill"
+const arrowsStyle = "w-24 h-5 object-fill"
 
 const WorklifeArrows = () =>
   <div className="self-end mr-40">

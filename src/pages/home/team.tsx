@@ -12,7 +12,7 @@ const commonCaption = "Passe sur ma card et découvre"
 const figuresStyle = "flex flex-col justify-evenly items-center rounded-xl mx-2 py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem]"
 const imagesStyle = "w-[12rem] h-[14rem] object-cover"
 const pStyle = "text-3xl mt-4 text-center italic"
-const arrowsStyle = "bg-white w-[234px] h-[22px] object-fill"
+const arrowsStyle = "w-56 h-5 object-fill"
 
 const TeamContent = () =>
   <div className="flex flex-row font-bold overflow-x-auto my-20 hide-scroll">
