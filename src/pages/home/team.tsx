@@ -15,7 +15,7 @@ const pStyle = "text-3xl mt-4 text-center italic"
 const arrowsStyle = "bg-white w-[234px] h-[22px] object-fill"
 
 const TeamContent = () =>
-  <div className="flex flex-row font-bold overflow-x-auto my-20">
+  <div className="flex flex-row font-bold overflow-x-auto my-20 hide-scroll">
     <figure className={`bg-pink ${figuresStyle}`}>
       <img className={`${imagesStyle}`} src="/images/mallorie.png"/>
       <figcaption>Mallorie</figcaption>

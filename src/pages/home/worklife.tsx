@@ -18,7 +18,7 @@ const WorklifeArrows = () =>
   </div>
 
 const Gallery = () =>
-  <div className="flex flex-row overflow-auto py-20 pl-4">
+  <div className="flex flex-row overflow-auto py-20 pl-4 hide-scroll">
     <BordedPicture className='mt-12 border-purple-spyrals -rotate-[4deg] -z-20 h-[20rem] w-[23rem]' src='/images/worklife.webp' alt="Worklife" />
     <BordedPicture className='mt-12 border-yellow rotate-[9deg] -translate-y-12 -z-10 h-[20rem] w-[19rem]' src="/images/worklife.webp" alt="Worklife" />
     <BordedPicture className='mt-12 border-purple-dark -rotate-1 translate-y-12 -z-10 h-[20rem] w-[26rem]' src="/images/worklife.webp" alt="Worklife" />
