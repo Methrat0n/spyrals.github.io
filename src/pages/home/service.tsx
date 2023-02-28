@@ -9,7 +9,7 @@ export default () =>
   </section>
 
 const ServiceLeft = () =>
-  <div className="flex flex-col items-center justify-center w-1/2 mr-12">
+  <div className="flex flex-col items-center justify-center w-1/2 mr-12 max-w-md">
     <ServiceValue className='bg-purple-spyrals' text='Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.' title="Service / Valeur" />
     <ServiceValue className='bg-purple-dark' text='Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.' title="Service / Valeur" />
     <ServiceValue className='bg-purple-darkest' text='Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.' title="Service / Valeur" />

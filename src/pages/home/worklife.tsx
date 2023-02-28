@@ -1,4 +1,5 @@
 import React from 'react'
+import BordedPicture from '../../ui/atoms/BordedPicture'
 
 export default () =>
   <section className="flex flex-col items-center pt-24 ml-32" id='worklife'>
@@ -16,12 +17,10 @@ const WorklifeArrows = () =>
     <img className={`ml-16 transform -scale-x-100 ${arrowsStyle}`} src="/svgs/arrow.svg"/>
   </div>
 
-const imagesStyle = "rounded-3xl border-4 object-cover"
-
 const Gallery = () =>
   <div className="flex flex-row overflow-auto py-20 pl-4">
-    <img className={`mt-12 border-purple-spyrals -rotate-[4deg] -z-20 h-[20rem] w-[23rem] ${imagesStyle}`} src="/images/worklife.webp"/>
-    <img className={`mt-12 border-yellow rotate-[9deg] -translate-y-12 -z-10 h-[20rem] w-[19rem] ${imagesStyle}`} src="/images/worklife.webp"/>
-    <img className={`mt-12 border-purple-dark -rotate-1 translate-y-12 -z-10 h-[20rem] w-[26rem] ${imagesStyle}`} src="/images/worklife.webp"/>
-    <img className={`mt-12 border-yellow rotate-[20deg] -z-20 h-[21rem] w-[21rem] ${imagesStyle}`} src="/images/worklife.webp"/>
+    <BordedPicture className='mt-12 border-purple-spyrals -rotate-[4deg] -z-20 h-[20rem] w-[23rem]' src='/images/worklife.webp' alt="Worklife" />
+    <BordedPicture className='mt-12 border-yellow rotate-[9deg] -translate-y-12 -z-10 h-[20rem] w-[19rem]' src="/images/worklife.webp" alt="Worklife" />
+    <BordedPicture className='mt-12 border-purple-dark -rotate-1 translate-y-12 -z-10 h-[20rem] w-[26rem]' src="/images/worklife.webp" alt="Worklife" />
+    <BordedPicture className='mt-12 border-yellow rotate-[20deg] -z-20 h-[21rem] w-[21rem]' src="/images/worklife.webp" alt="Worklife" />
   </div>

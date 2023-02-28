@@ -1,4 +1,5 @@
 import React from 'react'
+import BordedPicture from '../../ui/atoms/BordedPicture'
 import ButtonLink from '../../ui/atoms/ButtonLink'
 
 export default () =>
@@ -10,12 +11,10 @@ export default () =>
     </div>
   </section>
 
-const imagesStyle = "rounded-3xl border-4 object-cover"
-
 const ContactLeft = () =>
   <div className="flex flex-row items-center">
-    <img className={`mt-12 border-purple-dark -rotate-[11deg] -z-20 h-[30rem] w-[24rem] ${imagesStyle}`} src="/images/laptop.png"/>
-    <img className={`border-yellow rotate-6 -z-10 h-[20rem] w-[17rem] ${imagesStyle}`} src="/images/lightbulb.png"/>
+    <BordedPicture className='mt-12 border-purple-dark -rotate-[11deg] -z-20 h-[30rem] w-[24rem]' src="/images/laptop.png" alt="Développeur tapant sur un clavier"/>
+    <BordedPicture className='border-yellow rotate-6 -z-10 h-[20rem] w-[17rem]' src="/images/lightbulb.png" alt="Ampoule électrique allumée"/>
   </div>
 
 const ContactRight = () =>
