@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'slide-track': 'scroll 20s linear infinite'
+      },
       fontFamily: {
         'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
         'menu': ['ChakraPetch', ...defaultTheme.fontFamily.sans],
@@ -24,6 +27,12 @@ module.exports = {
         redish: '#FF0054',
         orange: '#FF5400',
         pink: '#B909B4'
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+	        '100%': { transform: 'translateX(-100%)' }
+        }
       }
     },
   },

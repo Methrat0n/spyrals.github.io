@@ -8,7 +8,7 @@ export default () =>
   </div>
 
 const FollowSocialButton = () => 
-  <div className="flex flex-row items-center h-7">
-    <SocialNetwork className="" logo='/svgs/facebookLogo.svg' href="https://linkedin.com/company/spyrals" />
-    <SocialNetwork className="" logo='/svgs/linkedinLogo.svg' href="https://linkedin.com/company/spyrals" />
+  <div className="flex flex-row items-center">
+    <SocialNetwork className="h-7" logo='/svgs/facebookLogo.svg' href="https://linkedin.com/company/spyrals" />
+    <SocialNetwork className="h-7" logo='/svgs/linkedinLogo.svg' href="https://linkedin.com/company/spyrals" />
   </div>
