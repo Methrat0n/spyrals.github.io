@@ -24,21 +24,20 @@ const ContactLeft = () =>
   </div>
 
 const ContactRight = () =>
-  <form className='flex flex-col item-center h-[56rem] bg-purple-spyrals w-[43rem] rotate-2 pt-24 px-32 pb-28 rounded-3xl'>
+  <form className='flex flex-col item-center h-[56rem] bg-purple-spyrals w-[43rem] rotate-2 pt-24 px-32 pb-28 rounded-3xl' action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="df879691-e4e5-404d-9487-af5be1c2fc05" />
+    <input type="hidden" name="subject" value="Website lead" />
+    <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+    <input type="checkbox" name="botcheck" className='hidden' />
+
     <Input name='surname' type='text' label='Votre prénom'/>
     <Input name='name' type='text' label='Votre nom'/>
     <Input name='mail' type='email' label='Votre addresse mail' required />
     <Input name='phone' type='tel' label='Votre téléphone' />
-    <Input name='weLiveIn' type='text' label='Votre société' />
+    <Input name='Society' type='text' label='Votre société' />
 
     <Area name="wants" label="Que pouvons-nous faire pour vous ?" />
 
     <input type="submit" value="Envoyer" className='ml-auto bg-white text-black p-2 font-semibold rounded-lg -rotate-2 w-28' />
   </form>
-
-  /*
-      margin-left: auto;
-    background: white;
-    color: black;
-    padding: 9px;
-  */

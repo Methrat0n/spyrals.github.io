@@ -80,8 +80,21 @@
       </div>
       <form
         class="flex flex-col item-center h-[56rem] bg-purple-spyrals w-[43rem] rotate-2 pt-24 px-32 pb-28 rounded-3xl"
+        action="https://api.web3forms.com/submit"
+        method="POST"
       >
-        <label for="surname" class="-rotate-2 font-semibold">Votre prénom</label
+        <input
+          type="hidden"
+          name="access_key"
+          value="df879691-e4e5-404d-9487-af5be1c2fc05"
+        /><input type="hidden" name="subject" value="Website lead" /><input
+          type="hidden"
+          name="redirect"
+          value="https://web3forms.com/success"
+        /><input type="checkbox" name="botcheck" class="hidden" /><label
+          for="surname"
+          class="-rotate-2 font-semibold"
+          >Votre prénom</label
         ><input
           type="text"
           id="surname"
