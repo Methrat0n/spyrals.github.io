@@ -16,8 +16,10 @@ const Navigation = () =>
     <Anchor href="contact" label="Contact" />
   </div>
 
+const socialsStyles = "mx-1 h-7 py-2 bg-purple-spyrals octagon w-7"
+
 const Socials = () =>
-  <div className="flex">
-    <SocialNetwork className="h-7" logo='/svgs/facebookLogo.svg' href="https://facebook.com" />
-    <SocialNetwork className="h-7" logo='/svgs/linkedinLogo.svg' href="https://linkedin.com" />
+  <div className="flex flex-row">
+    <SocialNetwork className={`${socialsStyles}`} logo='/svgs/facebookHeaderLogo.svg' href="https://linkedin.com/company/spyrals" />
+    <SocialNetwork className={`${socialsStyles}`} logo='/svgs/linkedinHeaderLogo.svg' href="https://linkedin.com/company/spyrals" />
   </div>

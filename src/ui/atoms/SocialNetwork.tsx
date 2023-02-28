@@ -7,6 +7,6 @@ type Props = {
 }
 
 export default ({className, href, logo}: Props) =>
-  <a className={`${className}`} href={href}>
-    <img className={`w-full h-full ${className}`} src={logo} alt={href} />
+  <a href={href}>
+    <div className={`${className}`}><img className='w-full h-full' src={logo} alt={href} /></div>
   </a>

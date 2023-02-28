@@ -7,8 +7,10 @@ export default () =>
     <FollowSocialButton />    
   </div>
 
+const socialsStyles = "mx-1 h-7 py-2 bg-white octagon w-7"
+
 const FollowSocialButton = () => 
-  <div className="flex flex-row items-center">
-    <SocialNetwork className="h-7" logo='/svgs/facebookLogo.svg' href="https://linkedin.com/company/spyrals" />
-    <SocialNetwork className="h-7" logo='/svgs/linkedinLogo.svg' href="https://linkedin.com/company/spyrals" />
+  <div className="flex flex-row items-center ml-4">
+    <SocialNetwork className={`${socialsStyles}`} logo='/svgs/facebookFooterLogo.svg' href="https://linkedin.com/company/spyrals" />
+    <SocialNetwork className={`${socialsStyles}`} logo='/svgs/linkedinFooterLogo.svg' href="https://linkedin.com/company/spyrals" />
   </div>
