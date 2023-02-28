@@ -13,7 +13,7 @@ const ContactLeft = () =>
   <div>
     <h1 className="text-6xl font-title font-semibold pb-[7rem]">Nous Contacter</h1>
     <p className='font-medium text-xl pb-20'>Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.</p>
-    <a href='tel:06 01 20 30 04' className='font-semibold relative -z-10 block -mb-[6.8rem] ml-[15.9rem]'>
+    <a href='tel:0601203004' className='font-semibold relative block -mb-[6.8rem] ml-[15.9rem]'>
       <div className='flex flex-row item-center h-8'>
         <img src='/svgs/phone-in-circle.svg' alt="Un téléphone dans un cercle, pour nous téléphoner." className='scale-150'/>
         <span className='my-auto ml-4 text-xl'>06 01 20 30 04</span>
@@ -39,5 +39,5 @@ const ContactRight = () =>
 
     <Area name="wants" label="Que pouvons-nous faire pour vous ?" />
 
-    <input type="submit" value="Envoyer" className='ml-auto bg-white text-black p-2 font-semibold rounded-lg -rotate-2 w-28' />
+    <input type="submit" value="Envoyer" className='ml-auto bg-white text-black p-2 font-semibold rounded-lg -rotate-2 w-28 cursor-pointer' />
   </form>

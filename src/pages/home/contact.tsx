@@ -22,18 +22,22 @@ const ContactRight = () =>
     <p className="">Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.</p>
     <Mail />
     <Phone />    
-    <ButtonLink className="" href="/nous-contacter" label="Accéder au formulaire" />
+    <ButtonLink className="z-10" href="/nous-contacter" label="Accéder au formulaire" />
   </div>
+
+const mail = "mail@mail.com"
 
 const Mail = () =>
-  <div className="flex flex-row mt-4 ml-4">
+  <a href={`mailTo:${mail}`} className="flex flex-row mt-4 ml-4">
     <img className="h-7 mr-2" src="/svgs/mail.svg"/>
-    <p className="font-bold">mail@mail.com</p>
-  </div>
+    <p className="font-bold">{mail}</p>
+  </a>
+
+const phone = "06 01 20 30 04"
 
 const Phone = () =>
-<div className="flex flex-row bg-purple-spyrals rounded-xl py-9 px-16 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg] -z-10">
-  <img className="h-7 mr-2" src="/svgs/phone.svg"/>
-  <p className="font-bold text-2xl">06 01 20 30 04</p>
-</div>
+  <a href={`tel:${phone}`} className="flex flex-row bg-purple-spyrals rounded-xl py-9 px-16 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg]">
+    <img className="h-7 mr-2" src="/svgs/phone.svg"/>
+    <p className="font-bold text-2xl">{phone}</p>
+  </a>
   
