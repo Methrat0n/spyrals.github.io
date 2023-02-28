@@ -39,6 +39,12 @@ const TeamContent = () =>
       <figcaption>Thibaut</figcaption>
       <p className={`${pStyle}`}>{commonCaption} mes expériences !</p>
     </figure>
+
+    <figure className={`bg-purple-dark ${figuresStyle}`}>
+      <img className={`${imagesStyle}`} src="/images/merlin.png"/>
+      <figcaption>Julien</figcaption>
+      <p className={`${pStyle}`}>{commonCaption} mes qualifications !</p>
+    </figure>
   </div>
 
 const TeamFooter = () =>
