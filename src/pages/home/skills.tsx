@@ -1,9 +1,10 @@
 import React from 'react'
 
 export default () =>
-  <section className="flex flex-col items-center mt-24 mb-36" id='skills'>
+  <section className="flex flex-col items-center mt-24 mb-36 relative overflow-x-clip" id='skills'>
     <SkillsTitle />
-    <SkillsContent />    
+    <SkillsContent />
+    <img className='self-end -z-20 absolute -right-72 -top-40 h-[68rem] w-[78rem]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
   </section>
 
 const SkillsTitle = () =>

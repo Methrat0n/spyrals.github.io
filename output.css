@@ -683,6 +683,14 @@ video {
   right: -2.5rem;
 }
 
+.-right-72 {
+  right: -18rem;
+}
+
+.-top-40 {
+  top: -10rem;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -966,6 +974,10 @@ video {
   height: 56rem;
 }
 
+.h-\[68rem\] {
+  height: 68rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1040,6 +1052,10 @@ video {
 
 .w-\[60rem\] {
   width: 60rem;
+}
+
+.w-\[78rem\] {
+  width: 78rem;
 }
 
 .w-\[85rem\] {
@@ -1274,6 +1290,10 @@ video {
 
 .overflow-x-auto {
   overflow-x: auto;
+}
+
+.overflow-x-clip {
+  overflow-x: clip;
 }
 
 .overflow-x-scroll {
