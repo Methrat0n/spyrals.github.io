@@ -11,22 +11,20 @@ export default () =>
 
 const ContactLeft = () =>
   <div>
-    <h1 className="text-6xl font-title font-semibold pb-48">Nous Contacter</h1>
+    <h1 className="text-6xl font-title font-semibold pb-[7rem]">Nous Contacter</h1>
     <p className='font-medium text-xl pb-20'>Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.</p>
-    <div className='position-relative'>
-      <img src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' className='-z-20' />
-      <a href='tel:06 01 20 30 04' className='font-semibold'>
-        <div className='flex flex-row item-center h-8'>
-          <img src='/svgs/phone-in-circle.svg' alt="Un téléphone dans un cercle, pour nous téléphoner."/>
-          <span className='my-auto ml-2.5'>06 01 20 30 04</span>
-        </div>
-      </a>
-    </div>
-    <BordedPicture className='-rotate-[9deg] h-80 w-[33rem] border-yellow -z-10' src='/images/typing-fast.png' alt="Developpeur tapant frénétiquement sur son clavier" />
+    <a href='tel:06 01 20 30 04' className='font-semibold relative -z-10 block -mb-[6.8rem] ml-[15.9rem]'>
+      <div className='flex flex-row item-center h-8'>
+        <img src='/svgs/phone-in-circle.svg' alt="Un téléphone dans un cercle, pour nous téléphoner." className='scale-150'/>
+        <span className='my-auto ml-4 text-xl'>06 01 20 30 04</span>
+      </div>
+    </a>
+    <img src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' className='-z-20 relative -ml-[27rem] max-w-fit' />
+    <BordedPicture className='-rotate-[9deg] h-80 w-[33rem] border-yellow -z-10 -mt-[37rem] -z-10' src='/images/typing-fast.png' alt="Developpeur tapant frénétiquement sur son clavier" />
   </div>
 
 const ContactRight = () =>
-  <form className='flex flex-col item-center h-[56rem] bg-purple-spyrals w-[43rem] rotate-2 pt-24 px-32 pb-28'>
+  <form className='flex flex-col item-center h-[56rem] bg-purple-spyrals w-[43rem] rotate-2 pt-24 px-32 pb-28 rounded-3xl'>
     <Input name='surname' type='text' label='Votre prénom'/>
     <Input name='name' type='text' label='Votre nom'/>
     <Input name='mail' type='email' label='Votre addresse mail' required />
