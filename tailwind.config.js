@@ -3,7 +3,8 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
-    "./dist/**/*.js"
+    "./dist/**/*.js",
+    "config.json"
   ],
   theme: {
     extend: {
@@ -33,6 +34,13 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
 	        '100%': { transform: 'translateX(-100%)' }
         }
+      },
+      rotate: {
+        '4': '4deg',
+        '7': '7deg',
+        '8': '8deg',
+        '9': '9deg',
+        '20': '20deg'
       }
     },
   },

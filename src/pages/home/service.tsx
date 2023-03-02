@@ -1,4 +1,5 @@
 import React from 'react'
+import config from '../../utils/config'
 import ButtonLink from '../../ui/atoms/ButtonLink'
 import ServiceValue from './service-value'
 
@@ -10,14 +11,14 @@ export default () =>
 
 const ServiceLeft = () =>
   <div className="flex flex-col items-center justify-center w-1/2 mr-12 max-w-md">
-    <ServiceValue className='bg-purple-spyrals' text='Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.' title="Service / Valeur" />
-    <ServiceValue className='bg-purple-dark' text='Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.' title="Service / Valeur" />
-    <ServiceValue className='bg-purple-darkest' text='Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.' title="Service / Valeur" />
+    <ServiceValue className='bg-purple-spyrals' text={config.offer.card1_text} title={config.offer.card1_title} />
+    <ServiceValue className='bg-purple-dark' text={config.offer.card2_text} title={config.offer.card2_title} />
+    <ServiceValue className='bg-purple-darkest' text={config.offer.card3_text} title={config.offer.card3_title} />
   </div>
 
 const ServiceRight = () =>
   <div className="flex flex-col items-center justify-around w-1/2 ml-12 mb-12">
-    <h1 className="text-[65px] self-start font-title font-semibold">NOTRE OFFRE</h1>
-    <p className="mx-10 self-center text-justify">Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget. Aliquet vel ullamcorper pretium sed pretium facilisis eget duis vitae. Vulputate mattis sed nunc fringilla est dictum nullam rhoncus a. Ut eget dolor aliquet est at. Odio morbi tincidunt lectus vitae tempor sit nisi platea. Augue gravida nullam dolor in. Ultrices ultrices lectus faucibus sed pretium tempus. Euismod nam tempor sem scelerisque lacus nibh a. Aliquam elit nisi libero mauris.</p>
-    <ButtonLink className="self-end mr-24" href="nous-contacter" label="Nous contacter" />
+    <h1 className="text-[4rem] self-start font-title font-semibold">{config.offer.title}</h1>
+    <p className="mx-10 self-center text-justify">{config.offer.text}</p>
+    <ButtonLink className="self-end mr-24" href={config.offer.button_link} label={config.offer.button_label} />
   </div>

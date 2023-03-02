@@ -1,13 +1,12 @@
 import React from 'react'
+import config from '../../utils/config'
 
 export default () =>
   <section className="flex flex-col pt-24 ml-32" id='team'>
-    <h1 className="text-6xl ml-32 font-title font-semibold">L'EQUIPE</h1>
+    <h1 className="text-6xl ml-32 font-title font-semibold">{config.team.title}</h1>
     <TeamContent />
     <TeamFooter />
   </section>
-
-const commonCaption = "Passe sur ma card et découvre"
 
 const figuresStyle = "flex flex-col justify-evenly items-center rounded-xl mx-2 py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem]"
 const imagesStyle = "w-[12rem] h-[14rem] object-cover"
@@ -16,40 +15,28 @@ const arrowsStyle = "w-56 h-5 object-fill"
 
 const TeamContent = () =>
   <div className="flex flex-row font-bold overflow-x-auto my-20 hide-scroll">
-    <figure className={`bg-pink ${figuresStyle}`}>
-      <img className={`${imagesStyle}`} src="/images/mallorie.png"/>
-      <figcaption>Mallorie</figcaption>
-      <p className={`${pStyle}`}>{commonCaption} mon profil !</p>
-    </figure>
-
-    <figure className={`bg-purple-dark ${figuresStyle}`}>
-      <img className={`${imagesStyle}`} src="/images/merlin.png"/>
-      <figcaption>Merlin</figcaption>
-      <p className={`${pStyle}`}>{commonCaption} mon savoir-faire !</p>
-    </figure>
-
-    <figure className={`bg-purple-spyrals ${figuresStyle}`}>
-      <img className={`${imagesStyle}`} src="/images/fabien.png"/>
-      <figcaption>Fabien</figcaption>
-      <p className={`${pStyle}`}>{commonCaption} mes compétences !</p>
-    </figure>
-
-    <figure className={`bg-yellow ${figuresStyle}`}>
-      <img className={`${imagesStyle}`} src="/images/thibaut.png"/>
-      <figcaption>Thibaut</figcaption>
-      <p className={`${pStyle}`}>{commonCaption} mes expériences !</p>
-    </figure>
-
-    <figure className={`bg-purple-dark ${figuresStyle}`}>
-      <img className={`${imagesStyle}`} src="/images/merlin.png"/>
-      <figcaption>Julien</figcaption>
-      <p className={`${pStyle}`}>{commonCaption} mes qualifications !</p>
-    </figure>
+    {config.team.members.map((member, index) => {
+      return <MemberCard name={member.name} text={member.text} img={member.img} color={config.team.colors[index % config.team.colors.length]} />
+    })}
   </div>
+
+type Props = {
+  name: string
+  text: string
+  img: string
+  color: string
+}
+
+const MemberCard = ({name, text, img, color}: Props) =>
+  <figure className={`${color} ${figuresStyle}`}>
+    <img className={`${imagesStyle}`} src={config.img_path + img} alt={name}/>
+    <figcaption>{name}</figcaption>
+    <p className={`${pStyle}`}>{text}</p>
+  </figure>
 
 const TeamFooter = () =>
   <div className="self-end mr-52 text-center text-xl">
-    <p>DÉCOUVRE LES AUTRES PROFILS !</p>    
-    <img className={`mr-40 ${arrowsStyle}`} src="/svgs/arrow.svg"/>
-    <img className={`ml-40 transform -scale-x-100 ${arrowsStyle}`} src="/svgs/arrow.svg"/>
+    <p>{config.team.text}</p>
+    <img className={`mr-40 ${arrowsStyle}`} src={config.svg_path + config.team.arrow}/>
+    <img className={`ml-40 transform -scale-x-100 ${arrowsStyle}`} src={config.svg_path + config.team.arrow}/>
   </div>

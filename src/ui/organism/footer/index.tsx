@@ -1,4 +1,5 @@
 import React from 'react'
+import config from '../../../utils/config'
 import FooterLink from './footer-link'
 import FollowSocials from './follow-socials'
 import PhoneContact from './phone-contact'
@@ -9,15 +10,15 @@ export default () =>
     <SpyralsLogoFooter />
     <FollowSocials />
     <PhoneContact />
-    <FooterLink href="cgv" label="CGV" />
-    <FooterLink href="mentionslegales" label="Mentions légales" />
+    <FooterLink href={config.footer.link_3} label={config.footer.label_3} />
+    <FooterLink href={config.footer.link_4} label={config.footer.label_4} />
     <GithubHosted />
   </footer>
 
   const GithubHosted = () =>
     <div className='flex items-center'>
-      <span className='mr-4'>Fière d'être hebergé par</span>
-      <a href="https://github.com/Spyrals-IO/Spyrals-io.github.io">
-        <img className='h-12' src='/svgs/logo-github.svg' alt='Le logo de github, notre host' />
+      <span className='mr-4'>{config.footer.hosted_text}</span>
+      <a href={config.footer.hosted_link}>
+        <img className='h-12' src={config.svg_path + config.footer.hosted_logo} alt={config.footer.hosted_alt} />
       </a>
     </div>

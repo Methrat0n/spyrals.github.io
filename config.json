@@ -1,0 +1,233 @@
+{
+  "url": "https://www.spyrals.fr/",
+  "svg_path": "/svgs/",
+  "img_path": "/images/",
+  "logo": "logo.svg",
+  "logo_alt": "Spyrals logo",
+  "telephone": "06 01 20 30 04",
+  "mail": "mail@mail.com",
+  "menu": {
+    "label_1": "L'offre",
+    "link_1": "offre",
+    "label_2": "L'équipe",
+    "link_2": "team",
+    "label_3": "Clients",
+    "link_3": "clients",
+    "label_4": "Contact",
+    "link_4": "contact"
+  },
+  "footer": {
+    "label_1": "Nous suivre :",
+    "label_2": "Nous téléphoner : ",
+    "label_3": "CGV",
+    "link_3": "cgv",
+    "label_4": "Mentions légales",
+    "link_4": "mentionslegales",
+    "hosted_text": "Fier d'être hebergé par",
+    "hosted_link": "https://github.com/Spyrals-IO/Spyrals-io.github.io",
+    "hosted_logo": "logo-github.svg",
+    "hosted_alt": "Le logo de github, notre hébergeur"
+  },
+  "spyrals": {
+    "title": "SPYRALS",
+    "text": "Le développement sur mesure",
+    "button_link": "#offre",
+    "button_label": "Découvrir notre offre",
+    "img1": "code.png",
+    "img1_alt": "Du code sur fond noir, comme tout vrai dev.",
+    "img2": "tel.png",
+    "img2_alt": "On dirait quelqu'un qui utilise un téléphone mais en fait c'est une photo."
+  },
+  "offer": {
+    "title": "NOTRE OFFRE",
+    "text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget. Aliquet vel ullamcorper pretium sed pretium facilisis eget duis vitae. Vulputate mattis sed nunc fringilla est dictum nullam rhoncus a. Ut eget dolor aliquet est at. Odio morbi tincidunt lectus vitae tempor sit nisi platea. Augue gravida nullam dolor in. Ultrices ultrices lectus faucibus sed pretium tempus. Euismod nam tempor sem scelerisque lacus nibh a. Aliquam elit nisi libero mauris.",
+    "button_label": "Nous contacter",
+    "button_link": "nous-contacter",
+    "card1_title": "Service / Valeur",
+    "card1_text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.",
+    "card2_title": "Service / Valeur",
+    "card2_text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.",
+    "card3_title": "Service / Valeur",
+    "card3_text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget."
+  },
+  "skills": {
+    "title": "NOS COMPETENCES",
+    "gallery": [
+      {
+        "img": "javascriptLogo.svg",
+        "alt": "Logo javascript"
+      },
+      {
+        "img": "typescriptLogo.svg",
+        "alt": "Logo typescript"
+      },
+      {
+        "img": "scalaLogo.svg",
+        "alt": "Logo scala"
+      },
+      {
+        "img": "nodeLogo.svg",
+        "alt": "Logo node"
+      },
+      {
+        "img": "playLogo.svg",
+        "alt": "Logo play framework"
+      },
+      {
+        "img": "remixLogo.svg",
+        "alt": "Logo remix framework"
+      }
+    ],
+    "colors": ["bg-purple-darkest","bg-purple-spyrals","bg-pink","bg-purple-dark","bg-purple-spyrals","bg-purple-darkest"],
+    "rotation": ["-rotate-12","rotate-1","rotate-8","rotate-1","rotate-7","-rotate-8"],
+    "translate": ["","","-translate-y-6","translate-y-6","-translate-y-6",""]
+  },
+  "team": {
+    "title": "L'EQUIPE",
+    "text": "DÉCOUVRE LES AUTRES PROFILS !",
+    "arrow": "arrow.svg",
+    "members": [
+      {
+        "name": "Mallorie",
+        "text": "Passe sur ma card et découvre mon profil !",
+        "img": "mallorie.png"
+      },
+      {
+        "name": "Merlin",
+        "text": "Passe sur ma card et découvre mon savoir-faire !",
+        "img": "merlin.png"
+      },
+      {
+        "name": "Fabien",
+        "text": "Passe sur ma card et découvre mes compétences !",
+        "img": "fabien.png"
+      },
+      {
+        "name": "Thibaut",
+        "text": "Passe sur ma card et découvre mes expériences !",
+        "img": "thibaut.png"
+      },
+      {
+        "name": "Julien",
+        "text": "Passe sur ma card et découvre mes qualifications !",
+        "img": "merlin.png"
+      }
+    ],
+    "colors": ["bg-pink","bg-purple-dark","bg-purple-spyrals","bg-yellow"]
+  },
+  "customers": {
+    "title": "NOS CLIENTS",
+    "text": "Clique sur le logo et découvre l'app' !",
+    "gallery": [
+      {
+        "logo": "google.png",
+        "link": "https://google.com"
+      },
+      {
+        "logo": "google.png",
+        "link": "https://google.com"
+      },
+      {
+        "logo": "google.png",
+        "link": "https://google.com"
+      },
+      {
+        "logo": "google.png",
+        "link": "https://google.com"
+      },
+      {
+        "logo": "google.png",
+        "link": "https://google.com"
+      },
+      {
+        "logo": "google.png",
+        "link": "https://google.com"
+      },
+      {
+        "logo": "google.png",
+        "link": "https://google.com"
+      }
+    ]
+  },
+  "worklife": {
+    "title": "VIE D'ENTREPRISE",
+    "text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget. Aliquet vel ullamcorper pretium sed pretium facilisis eget duis vitae. Vulputate mattis sed nunc fringilla est dictum nullam rhoncus a. Ut eget dolor aliquet est at. Odio morbi tincidunt lectus vitae tempor sit nisi platea.",
+    "arrow": "arrow.svg",
+    "gallery": [
+      {
+        "img": "cooking.png",
+        "alt": "Quelqu'un cuit une crêpe",
+        "height": "h-[20rem]",
+        "width": "w-[23rem]"
+      },
+      {
+        "img": "donut.png",
+        "alt": "Un donut croqué",
+        "height": "h-[20rem]",
+        "width": "w-[19rem]"
+      },
+      {
+        "img": "living-room.png",
+        "alt": "Un salon remplit de personnes qui travaillent confortablement",
+        "height": "h-[20rem]",
+        "width": "w-[26rem]"
+      },
+      {
+        "img": "drawing.png",
+        "alt": "Quelqu'un dessine un logo sur un colis",
+        "height": "h-[21rem]",
+        "width": "w-[21rem]"
+      }
+    ],
+    "colors": ["border-purple-spyrals","border-yellow","border-purple-dark","border-yellow"],
+    "rotation": ["-rotate-4","rotate-9","-rotate-1","rotate-20"],
+    "translate":["","-translate-y-12","translate-y-12",""],
+    "zIndex":["-z-20","-z-10","-z-10","-z-20"]
+  },
+  "contact": {
+    "title": "NOUS CONTACTER",
+    "text": "Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.",
+    "button_label": "Accéder au formulaire",
+    "button_link": "/nous-contacter",
+    "phone_icon": "phone.svg",
+    "mail_icon": "mail.svg",
+    "img1": "laptop.png",
+    "img1_alt": "Développeur tapant sur un clavier",
+    "img2": "lightbulb.png",
+    "img2_alt": "Ampoule électrique allumée"
+  },
+  "fixed": {
+    "contact_text": "Nous écrire",
+    "contact_link": "/nous-contacter",
+    "contact_img": "chat.svg",
+    "contact_img_alt": "Bulle de discussion",
+    "video_text": "Voir la vidéo",
+    "video_link": "/video",
+    "video_img": "video.svg",
+    "video_img_alt": "Caméra"
+  },
+  "contactForm": {
+    "title": "Nous Contacter",
+    "text": "Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.",
+    "phone_icon": "phone-in-circle.svg",
+    "phone_alt": "Un téléphone dans un cercle, pour nous téléphoner.",
+    "img": "typing-fast.png",
+    "img_alt": "Développeur tapant frénétiquement sur son clavier",
+    "label_firstname": "Votre prénom",
+    "label_name": "Votre nom",
+    "label_mail": "Votre adresse mail",
+    "label_phone": "Votre téléphone",
+    "label_company": "Votre société",
+    "label_request": "Que pouvons-nous faire pour vous ?",
+    "label_submit": "Envoyer"
+  },
+  "socials": {
+    "facebook_link": "https://linkedin.com/company/spyrals",
+    "facebook_logo_white": "facebookHeaderLogo.svg",
+    "facebook_logo_black": "facebookFooterLogo.svg",
+    "linkedin_link": "https://linkedin.com/company/spyrals",
+    "linkedin_logo_white": "linkedinHeaderLogo.svg",
+    "linkedin_logo_black": "linkedinFooterLogo.svg"
+  }
+}
+

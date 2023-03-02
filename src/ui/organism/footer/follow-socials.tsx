@@ -1,9 +1,10 @@
 import React from 'react'
+import config from '../../../utils/config'
 import SocialNetwork from '../../atoms/SocialNetwork'
 
 export default () =>
   <div className="flex flex-row font-bold">
-    <p>Nous suivre :</p>
+    <p>{config.footer.label_1}</p>
     <FollowSocialButton />    
   </div>
 
@@ -11,6 +12,6 @@ const socialsStyles = "mx-1 h-7 py-2 bg-white octagon w-7"
 
 const FollowSocialButton = () => 
   <div className="flex flex-row items-center ml-4">
-    <SocialNetwork className={`${socialsStyles}`} logo='/svgs/facebookFooterLogo.svg' href="https://linkedin.com/company/spyrals" />
-    <SocialNetwork className={`${socialsStyles}`} logo='/svgs/linkedinFooterLogo.svg' href="https://linkedin.com/company/spyrals" />
+    <SocialNetwork className={`${socialsStyles}`} logo={config.svg_path + config.socials.facebook_logo_black} href={config.socials.facebook_link} />
+    <SocialNetwork className={`${socialsStyles}`} logo={config.svg_path + config.socials.linkedin_logo_black} href={config.socials.linkedin_link} />
   </div>

@@ -1,11 +1,12 @@
 import React from 'react'
+import config from '../../utils/config'
 import SocialNetwork from '../../ui/atoms/SocialNetwork'
 
 
 export default () =>
   <section className="relative flex flex-col items-center pt-24 pb-44 overflow-hidden" id='clients'>
-    <h1 className="text-6xl pt-12 font-title font-semibold">NOS CLIENTS</h1>
-    <p className="text-2xl my-14">Clique sur le logo et découvre l'app' !</p>
+    <h1 className="text-6xl pt-12 font-title font-semibold">{config.customers.title}</h1>
+    <p className="text-2xl my-14">{config.customers.text}</p>
     <div className="flex flex-row">
       <CustomersList />
       <CustomersList />
@@ -21,11 +22,7 @@ const classNameLogo = "w-fit flex flex-row justify-around h-28 items-center"
 
 const CustomersList = () =>
 <div className="flex flex-row overflow-hidden justify-around w-screen animate-slide-track">
-    <SocialNetwork className={classNameLogo} href='https://google.com' logo='/images/google.png' />
-    <SocialNetwork className={classNameLogo} href='https://google.com' logo='/images/google.png' />
-    <SocialNetwork className={classNameLogo} href='https://google.com' logo='/images/google.png' />
-    <SocialNetwork className={classNameLogo} href='https://google.com' logo='/images/google.png' />
-    <SocialNetwork className={classNameLogo} href='https://google.com' logo='/images/google.png' />
-    <SocialNetwork className={classNameLogo} href='https://google.com' logo='/images/google.png' />
-    <SocialNetwork className={classNameLogo} href='https://google.com' logo='/images/google.png' />
+    {config.customers.gallery.map((customer) => {
+      return <SocialNetwork className={classNameLogo} href={customer.link} logo={config.img_path + customer.logo} />
+    })}
   </div>
