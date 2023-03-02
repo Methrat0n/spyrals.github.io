@@ -76,6 +76,10 @@
       {
         "img": "remixLogo.svg",
         "alt": "Logo remix framework"
+      },
+      {
+        "img": "reactLogo.svg",
+        "alt": "Logo react"
       }
     ],
     "colors": ["bg-purple-darkest","bg-purple-spyrals","bg-pink","bg-purple-dark","bg-purple-spyrals","bg-purple-darkest"],
