@@ -54,32 +54,36 @@
     "title": "NOS COMPETENCES",
     "gallery": [
       {
-        "img": "javascriptLogo.svg",
+        "img": "/svgs/javascriptLogo.svg",
         "alt": "Logo javascript"
       },
       {
-        "img": "typescriptLogo.svg",
+        "img": "/svgs/typescriptLogo.svg",
         "alt": "Logo typescript"
       },
       {
-        "img": "scalaLogo.svg",
+        "img": "/svgs/scalaLogo.svg",
         "alt": "Logo scala"
       },
       {
-        "img": "nodeLogo.svg",
+        "img": "/svgs/nodeLogo.svg",
         "alt": "Logo node"
       },
       {
-        "img": "playLogo.svg",
+        "img": "/svgs/playLogo.svg",
         "alt": "Logo play framework"
       },
       {
-        "img": "remixLogo.svg",
+        "img": "/svgs/remixLogo.svg",
         "alt": "Logo remix framework"
       },
       {
-        "img": "reactLogo.svg",
+        "img": "/svgs/reactLogo.svg",
         "alt": "Logo react"
+      },
+      {
+        "img": "/images/reactorLogo.png",
+        "alt": "Logo reactor"
       }
     ],
     "colors": ["bg-purple-darkest","bg-purple-spyrals","bg-pink","bg-purple-dark","bg-purple-spyrals","bg-purple-darkest"],

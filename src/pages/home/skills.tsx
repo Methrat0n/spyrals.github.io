@@ -37,4 +37,4 @@ type Props = {
 }
 
 const SkillCard = ({alt, img, color, rotate, translate}: Props) =>
-  <img className={`${color} ${rotate} ${translate} ${imagesStyle}`} src={config.svg_path + img} alt={alt}/>
+  <img className={`${color} ${rotate} ${translate} ${imagesStyle}`} src={img} alt={alt} key={alt}/>
