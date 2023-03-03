@@ -983,10 +983,6 @@ video {
   height: 45rem;
 }
 
-.h-\[56rem\] {
-  height: 56rem;
-}
-
 .h-\[68rem\] {
   height: 68rem;
 }
@@ -1057,10 +1053,6 @@ video {
 
 .w-\[35rem\] {
   width: 35rem;
-}
-
-.w-\[43rem\] {
-  width: 43rem;
 }
 
 .w-\[78rem\] {
@@ -1431,6 +1423,11 @@ video {
   padding: 0.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1454,6 +1451,11 @@ video {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-2 {
@@ -1484,10 +1486,6 @@ video {
   padding-bottom: 6rem;
 }
 
-.pb-28 {
-  padding-bottom: 7rem;
-}
-
 .pb-44 {
   padding-bottom: 11rem;
 }
@@ -1496,20 +1494,8 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-80 {
-  padding-bottom: 20rem;
-}
-
-.pb-\[7rem\] {
-  padding-bottom: 7rem;
-}
-
 .pl-20 {
   padding-left: 5rem;
-}
-
-.pl-36 {
-  padding-left: 9rem;
 }
 
 .pl-4 {
@@ -1522,10 +1508,6 @@ video {
 
 .pl-96 {
   padding-left: 24rem;
-}
-
-.pr-24 {
-  padding-right: 6rem;
 }
 
 .pt-10 {
@@ -1546,10 +1528,6 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pt-52 {
-  padding-top: 13rem;
 }
 
 .text-center {
@@ -1652,4 +1630,59 @@ video {
 .focus-visible\:outline-none:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:h-\[56rem\] {
+    height: 56rem;
+  }
+
+  .sm\:w-\[43rem\] {
+    width: 43rem;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .sm\:pb-28 {
+    padding-bottom: 7rem;
+  }
+
+  .sm\:pb-80 {
+    padding-bottom: 20rem;
+  }
+
+  .sm\:pb-\[7rem\] {
+    padding-bottom: 7rem;
+  }
+
+  .sm\:pl-36 {
+    padding-left: 9rem;
+  }
+
+  .sm\:pr-24 {
+    padding-right: 6rem;
+  }
+
+  .sm\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .sm\:pt-52 {
+    padding-top: 13rem;
+  }
 }
