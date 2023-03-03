@@ -5,13 +5,11 @@ export default () =>
   <section className="flex flex-col pt-24 ml-32" id='team'>
     <h1 className="text-6xl ml-32 font-title font-semibold">{config.team.title}</h1>
     <TeamContent />
-    <TeamFooter />
   </section>
 
 const figuresStyle = "flex flex-col justify-evenly items-center rounded-xl mx-2 py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem]"
 const imagesStyle = "w-[12rem] h-[14rem] object-cover"
 const pStyle = "text-3xl mt-4 text-center italic"
-const arrowsStyle = "w-56 h-5 object-fill"
 
 const TeamContent = () =>
   <div className="flex flex-row font-bold overflow-x-auto my-20 hide-scroll">
@@ -34,9 +32,3 @@ const MemberCard = ({name, text, img, color}: Props) =>
     <p className={`${pStyle}`}>{text}</p>
   </figure>
 
-const TeamFooter = () =>
-  <div className="self-end mr-52 text-center text-xl">
-    <p>{config.team.text}</p>
-    <img className={`mr-40 ${arrowsStyle}`} src={config.svg_path + config.team.arrow}/>
-    <img className={`ml-40 transform -scale-x-100 ${arrowsStyle}`} src={config.svg_path + config.team.arrow}/>
-  </div>

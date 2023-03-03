@@ -6,17 +6,8 @@ export default () =>
   <section className="flex flex-col items-center pt-24 ml-32" id='worklife'>
     <h1 className="text-6xl self-start ml-16 font-title font font-semibold">{config.worklife.title}</h1>
     <p className="my-12 mx-96">{config.worklife.text}</p>
-    <WorklifeArrows />
     <Gallery />
   </section>
-
-const arrowsStyle = "w-24 h-5 object-fill"
-
-const WorklifeArrows = () =>
-  <div className="self-end mr-40">
-    <img className={`mr-16 ${arrowsStyle}`} src={config.svg_path + config.worklife.arrow}/>
-    <img className={`ml-16 transform -scale-x-100 ${arrowsStyle}`} src={config.svg_path + config.worklife.arrow}/>
-  </div>
 
 const Gallery = () =>
   <div className="flex flex-row overflow-auto py-20 pl-4 hide-scroll">
