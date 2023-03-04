@@ -205,11 +205,11 @@
     "img2_alt": "Ampoule électrique allumée"
   },
   "fixed": {
-    "contact_text": "Nous écrire",
+    "contact_text": "Contact",
     "contact_link": "/nous-contacter",
     "contact_img": "chat.svg",
     "contact_img_alt": "Bulle de discussion",
-    "video_text": "Voir la vidéo",
+    "video_text": "Nos services",
     "video_link": "/video",
     "video_img": "video.svg",
     "video_img_alt": "Caméra"
