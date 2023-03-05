@@ -52,10 +52,10 @@
       </div>
     </header>
     <main
-      class="flex flex-row justify-between pt-52 pl-36 pr-24 pb-80 text-white"
+      class="flex flex-col sm:flex-row items-center sm:justify-between sm:pt-52 sm:pl-36 sm:pr-24 sm:pb-80 text-white"
     >
-      <div>
-        <h1 class="text-6xl font-title font-semibold pb-[7rem]">
+      <div class="flex flex-col">
+        <h1 class="text-6xl font-title font-semibold sm:pb-[7rem]">
           Nous Contacter
         </h1>
         <p class="font-medium text-xl pb-20">
@@ -73,17 +73,13 @@
             /><span class="my-auto ml-4 text-xl">06 01 20 30 04</span>
           </div></a
         ><img
-          src="/svgs/spyrals-background.svg"
-          alt="Le logo de spyrals utilisé en background."
-          class="-z-20 relative -ml-[27rem] max-w-fit"
-        /><img
-          class="-rotate-[9deg] h-80 w-[33rem] border-yellow -z-10 -mt-[37rem] rounded-3xl border-4 object-cover"
+          class="-rotate-[9deg] h-80 w-[33rem] border-yellow -z-10 -mt-[37rem] hidden sm:block rounded-3xl border-4 object-cover"
           src="/images/typing-fast.png"
           alt="Développeur tapant frénétiquement sur son clavier"
         />
       </div>
       <form
-        class="flex flex-col item-center h-[56rem] bg-purple-spyrals w-[43rem] rotate-2 pt-24 px-32 pb-28 rounded-3xl"
+        class="flex flex-col item-center px-10 py-10 sm:h-[56rem] bg-purple-spyrals w-screen sm:w-[43rem] rotate-2 sm:pt-24 sm:px-32 sm:pb-28 rounded-3xl"
         action="https://api.web3forms.com/submit"
         method="POST"
       >
@@ -147,6 +143,11 @@
           class="ml-auto bg-white text-black p-2 font-semibold rounded-lg -rotate-2 w-28 cursor-pointer"
         />
       </form>
+      <img
+        src="/svgs/spyrals-background.svg"
+        alt="Le logo de spyrals utilisé en background."
+        class="-z-20 absolute -ml-[27rem] max-w-fit overflow-x-clip"
+      />
     </main>
     <footer
       class="flex flex-row justify-between border-t-2 border-purple-600 mr-14 items-center h-24 mx-8 text-white"
