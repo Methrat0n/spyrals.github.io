@@ -27,13 +27,13 @@ const ContactRight = () =>
   </div>
 
 const Mail = () =>
-  <a href={config.mail} className="flex flex-row mt-4 ml-4">
+  <a href={`mailTo:${config.mail}`} className="flex flex-row mt-4 ml-4">
     <img className="h-7 mr-2" src={config.svg_path + config.contact.mail_icon}/>
     <p className="font-bold">{config.mail}</p>
   </a>
 
 const Phone = () =>
-  <a href={config.telephone} className="flex flex-row bg-purple-spyrals rounded-xl p-8 sm:py-9 sm:px-16 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg]">
+  <a href={`tel:${config.telephone}`} className="flex flex-row bg-purple-spyrals rounded-xl p-8 sm:py-9 sm:px-16 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg]">
     <img className="h-7 mr-2" src={config.svg_path + config.contact.phone_icon}/>
     <p className="font-bold text-lg sm:text-2xl">{config.telephone}</p>
   </a>
