@@ -3,12 +3,12 @@ import config from '../../../utils/config'
 import SocialNetwork from '../../atoms/SocialNetwork'
 
 export default () =>
-  <div className="flex flex-row font-bold">
-    <p>{config.footer.label_1}</p>
+  <div className="flex flex-row font-bold mx-1">
+    <p className='hidden sm:inline'>{config.footer.label_1}</p>
     <FollowSocialButton />    
   </div>
 
-const socialsStyles = "mx-1 h-7 py-2 bg-white octagon w-7"
+const socialsStyles = "mx-1 h-7 py-2 mx-1 bg-white octagon w-7"
 
 const FollowSocialButton = () => 
   <div className="flex flex-row items-center ml-4">

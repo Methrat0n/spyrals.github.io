@@ -6,6 +6,6 @@ type Props = {
 }
 
 export default ({href, label}: Props) =>
-  <a href={`/${href}`}>
+  <a className='mx-1' href={`/${href}`}>
     <h3>{label}</h3>
   </a>
