@@ -104,5 +104,5 @@ dist
 
 .DS_STORE
 
-.html
+*.html
 output.css
