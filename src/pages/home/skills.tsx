@@ -9,14 +9,14 @@ export default () =>
   </section>
 
 const SkillsTitle = () =>
-  <h1 className="text-5xl mb-44 font-title font-semibold">
+  <h1 className="text-4xl sm:text-5xl mb-20 sm:mb-44 font-title font-semibold max-sm:mx-5">
     {config.skills.title}
   </h1>
 
 const imagesStyle = "rounded-xl px-12 mx-4 h-[10rem] w-[12rem] object-contain place-content-center -z-10"
 
 const SkillsContent = () =>
-  <div className="flex flex-row">
+  <div className="flex flex-row max-sm:overflow-x-scroll max-sm:p-10 max-sm:w-screen hide-scroll">
     {config.skills.gallery.map((skill, index) => {
       return <SkillCard 
         alt={skill.alt} 

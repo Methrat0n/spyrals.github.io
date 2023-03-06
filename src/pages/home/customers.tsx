@@ -5,7 +5,7 @@ import SocialNetwork from '../../ui/atoms/SocialNetwork'
 
 export default () =>
   <section className="relative flex flex-col items-center pt-24 pb-44 overflow-hidden" id='clients'>
-    <h1 className="text-6xl pt-12 font-title font-semibold">{config.customers.title}</h1>
+    <h1 className="text-4xl sm:text-6xl pt-12 font-title font-semibold">{config.customers.title}</h1>
     <p className="text-2xl my-14">{config.customers.text}</p>
     <div className="flex flex-row">
       <CustomersList />
