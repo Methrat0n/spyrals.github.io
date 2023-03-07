@@ -31,10 +31,10 @@ const imagesStyle = "w-7 h-7"
 
 const FixedMobile = () =>
   <div className='sm:hidden'>
-    <a className={`rounded-l-md bg-redish ${fixedBarStyle}`} href={config.fixed.contact_link}>
+    <a className={`rounded-l-lg bg-redish ${fixedBarStyle}`} href={config.fixed.contact_link}>
       <img className={imagesStyle} src={config.svg_path + config.fixed.contact_img}/>
     </a>
-    <a className={`rounded-l-md bg-orange ${fixedBarStyle}`} href={config.fixed.video_link}>
+    <a className={`rounded-l-lg bg-orange ${fixedBarStyle}`} href={config.fixed.video_link}>
       <img className={imagesStyle} src={config.svg_path + config.fixed.video_img}/>
     </a>
   </div>
