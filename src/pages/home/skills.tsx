@@ -5,7 +5,7 @@ export default () =>
   <section className="flex flex-col items-center mt-24 mb-36 relative overflow-x-clip" id='skills'>
     <SkillsTitle />
     <SkillsContent />
-    <img className='self-end -z-20 absolute -right-72 -top-20 sm:-top-40 min-w-[45rem] sm:h-[68rem] sm:w-[78rem]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
+    <img className='self-end absolute -right-72 -top-20 sm:-top-40 min-w-[45rem] sm:h-[68rem] sm:w-[78rem]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
   </section>
 
 const SkillsTitle = () =>
@@ -13,7 +13,8 @@ const SkillsTitle = () =>
     {config.skills.title}
   </h1>
 
-const imagesStyle = "rounded-xl px-12 mx-4 h-[10rem] w-[12rem] object-contain place-content-center -z-10"
+const imagesAnimation = "lg:transition lg:duration-0 lg:hover:duration-150 lg:hover:ease-in-out lg:hover:scale-150 lg:transform-gpu lg:cursor-pointer"
+const imagesStyle = "rounded-xl px-12 mx-4 h-[10rem] w-[12rem] object-contain place-content-center z-10"
 
 const SkillsContent = () =>
   <div className="flex flex-row max-sm:overflow-x-scroll max-sm:p-10 max-sm:w-screen hide-scroll">
@@ -37,4 +38,4 @@ type Props = {
 }
 
 const SkillCard = ({alt, img, color, rotate, translate}: Props) =>
-  <img className={`${color} ${rotate} ${translate} ${imagesStyle}`} src={img} alt={alt} key={alt}/>
+  <img className={`${color} ${rotate} ${translate} ${imagesStyle} ${imagesAnimation}`} src={img} alt={alt} key={alt}/>

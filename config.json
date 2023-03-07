@@ -192,7 +192,7 @@
     "colors": ["border-purple-spyrals","border-yellow","border-purple-dark","border-yellow"],
     "rotation": ["-rotate-4","rotate-9","-rotate-1","rotate-20"],
     "translate":["","-translate-y-12","translate-y-12",""],
-    "zIndex":["-z-20","-z-10","-z-10","-z-20"]
+    "zIndex":["z-10","z-20","z-20","z-10"]
   },
   "contact": {
     "title": "NOUS CONTACTER",
