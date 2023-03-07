@@ -6,6 +6,8 @@
   "logo_alt": "Spyrals logo",
   "telephone": "06 01 20 30 04",
   "mail": "mail@mail.com",
+  "home_title": "Spyrals",
+  "home_description": "",
   "menu": {
     "label_1": "L'offre",
     "link_1": "offre",
@@ -33,9 +35,9 @@
     "text": "Le développement sur mesure",
     "button_link": "#offre",
     "button_label": "Découvrir notre offre",
-    "img1": "code.png",
+    "img1": "img accueil 1.svg",
     "img1_alt": "Du code sur fond noir, comme tout vrai dev.",
-    "img2": "tel.png",
+    "img2": "img accueil 2.svg",
     "img2_alt": "On dirait quelqu'un qui utilise un téléphone mais en fait c'est une photo."
   },
   "offer": {
@@ -199,9 +201,9 @@
     "button_link": "/nous-contacter",
     "phone_icon": "phone.svg",
     "mail_icon": "mail.svg",
-    "img1": "laptop.png",
+    "img1": "img contact 1.svg",
     "img1_alt": "Développeur tapant sur un clavier",
-    "img2": "lightbulb.png",
+    "img2": "img contact 2.svg",
     "img2_alt": "Ampoule électrique allumée"
   },
   "fixed": {
@@ -219,7 +221,7 @@
     "text": "Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.",
     "phone_icon": "phone-in-circle.svg",
     "phone_alt": "Un téléphone dans un cercle, pour nous téléphoner.",
-    "img": "typing-fast.png",
+    "img": "img page contact-formulaire.svg",
     "img_alt": "Développeur tapant frénétiquement sur son clavier",
     "label_firstname": "Votre prénom",
     "label_name": "Votre nom",

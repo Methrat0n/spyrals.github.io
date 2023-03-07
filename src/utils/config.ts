@@ -8,6 +8,8 @@ interface Config {
   logo_alt: string
   telephone: string
   mail: string
+  home_title: string
+  home_description: string
   menu: {
     label_1: string
     link_1: string

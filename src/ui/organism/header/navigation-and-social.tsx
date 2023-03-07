@@ -18,7 +18,7 @@ const Navigation = () =>
     <Anchor href={config.menu.link_4} label={config.menu.label_4} />
   </div>
 
-const socialsStyles = "mx-1 h-7 py-2 bg-purple-spyrals octagon w-7"
+const socialsStyles = "mx-1 h-7 w-7"
 
 const Socials = () =>
   <div className="hidden sm:flex flex-row">

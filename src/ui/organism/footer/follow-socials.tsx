@@ -8,7 +8,7 @@ export default () =>
     <FollowSocialButton />    
   </div>
 
-const socialsStyles = "mx-1 h-7 py-2 mx-1 bg-white octagon w-7"
+const socialsStyles = "mx-1 h-7 mx-1 w-7"
 
 const FollowSocialButton = () => 
   <div className="flex flex-row items-center ml-4">

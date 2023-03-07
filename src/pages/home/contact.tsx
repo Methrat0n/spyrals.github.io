@@ -1,6 +1,5 @@
 import React from 'react'
 import config from '../../utils/config'
-import BordedPicture from '../../ui/atoms/BordedPicture'
 import ButtonLink from '../../ui/atoms/ButtonLink'
 
 export default () =>
@@ -14,8 +13,8 @@ export default () =>
 
 const ContactLeft = () =>
   <div className="sm:flex flex-row items-center hidden">
-    <BordedPicture className='mt-12 border-purple-dark -rotate-[11deg] -z-20 h-[30rem] w-[24rem]' src={config.img_path + config.contact.img1} alt={config.contact.img1_alt}/>
-    <BordedPicture className='border-yellow rotate-6 -z-10 h-[20rem] w-[17rem]' src={config.img_path + config.contact.img2} alt={config.contact.img2_alt}/>
+    <img className='mt-12 -rotate-[11deg] -z-20 h-[30rem] w-[24rem]' src={config.svg_path + config.contact.img1} alt={config.contact.img1_alt}/>
+    <img className='rotate-6 -z-10 h-[20rem] w-[17rem]' src={config.svg_path + config.contact.img2} alt={config.contact.img2_alt}/>
   </div>
 
 const ContactRight = () =>

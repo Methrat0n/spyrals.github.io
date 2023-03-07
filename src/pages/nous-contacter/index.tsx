@@ -1,7 +1,6 @@
 import React from 'react'
 
 import config from '../../utils/config'
-import BordedPicture from '../../ui/atoms/BordedPicture'
 import { Input, Area } from '../../ui/atoms/Inputs'
 
 export default () =>
@@ -21,11 +20,11 @@ const ContactLeft = () =>
         <span className='my-auto ml-4 text-xl'>{config.telephone}</span>
       </div>
     </a>
-    <BordedPicture className='-rotate-[9deg] h-80 w-[33rem] mt-[18rem] border-yellow -z-10 hidden sm:block self-end' src={config.img_path + config.contactForm.img} alt={config.contactForm.img_alt} />
+    <img className='-rotate-[9deg] h-80 w-[33rem] mt-[18rem] -z-10 hidden sm:block self-end' src={config.svg_path + config.contactForm.img} alt={config.contactForm.img_alt} />
   </div>
 
 const ContactRight = () =>
-  <form className='flex flex-col item-center my-8 p-10 sm:h-[56rem] bg-purple-spyrals w-[18rem] sm:w-[43rem] rotate-2 sm:pt-24 sm:px-32 sm:pb-28 rounded-3xl' action="https://api.web3forms.com/submit" method="POST">
+  <form className='flex flex-col item-center my-8 p-5 sm:h-[56rem] bg-purple-spyrals max-sm:min-w-[18rem] sm:w-[43rem] rotate-2 sm:pt-24 sm:px-32 sm:pb-28 rounded-3xl' action="https://api.web3forms.com/submit" method="POST">
 
     <input type="hidden" name="access_key" value="df879691-e4e5-404d-9487-af5be1c2fc05" />
     <input type="hidden" name="subject" value="Website lead" />

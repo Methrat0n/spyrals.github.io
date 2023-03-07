@@ -1,7 +1,6 @@
 import React from 'react'
 import config from '../../utils/config'
 import ButtonLink from '../../ui/atoms/ButtonLink'
-import BordedPicture from '../../ui/atoms/BordedPicture'
 
 export default () =>
   <section className="flex flex-col sm:flex-row max-sm:px-5 items-center justify-between sm:pt-14 pb-24 overflow-hidden" id='spyrals'>
@@ -18,6 +17,6 @@ const SpyralsLeft = () =>
 
 const SpyralsRight = () =>
   <div className="flex flex-row">
-    <BordedPicture className={`mt-12 border-purple-spyrals -rotate-6 -z-10 h-40 w-40 sm:h-[35rem] sm:w-[35rem]`} src={config.img_path + config.spyrals.img1} alt={config.spyrals.img1_alt} />
-    <BordedPicture className={`border-purple-dark rotate-[16deg] -z-20 h-52 w-44 sm:h-[45rem] sm:w-[28rem] max-sm:translate-y-10`} src={config.img_path + config.spyrals.img2} alt={config.spyrals.img2_alt}/>
+    <img className={`mt-12 -rotate-6 -z-10 h-40 w-40 sm:h-[35rem] sm:w-[35rem]`} src={config.svg_path + config.spyrals.img1} alt={config.spyrals.img1_alt} />
+    <img className={`rotate-[16deg] -z-20 h-52 w-44 sm:h-[45rem] sm:w-[28rem] max-sm:translate-y-10`} src={config.svg_path + config.spyrals.img2} alt={config.spyrals.img2_alt}/>
   </div>
