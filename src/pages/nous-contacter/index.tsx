@@ -11,7 +11,7 @@ export default () =>
   </main>
 
 const ContactLeft = () =>
-  <div className='flex flex-col items-center min-w-[37rem] w-[37rem] sm:items-start sm:mr-5 relative'>
+  <div className='flex flex-col items-center min-w-0 sm:min-w-[37rem] sm:w-[37rem] sm:items-start sm:mr-5 relative'>
     <h1 className="text-3xl sm:text-6xl font-title font-semibold sm:pb-[7rem]">{config.contactForm.title}</h1>
     <p className='font-medium text-xl max-sm:pt-4 pb-7 sm:pr-16 sm:pb-20 text-jutify'>{config.contactForm.text}</p>
     <a href={`tel:${config.telephone}`} className='font-semibold self-end relative block sm:-mb-[6.8rem] sm:ml-[15.9rem]'>
@@ -21,7 +21,7 @@ const ContactLeft = () =>
       </div>
     </a>
     <BordedPicture className='-rotate-[9deg] h-80 min-w-[33rem] mt-[18rem] border-yellow z-20 hidden sm:block self-end translate-x-16' src={config.img_path + config.contactForm.img} alt={config.contactForm.img_alt} />
-    <img className='-z-10 absolute -ml-[27rem] min-w-fit max-w-fit overflow-x-clip self-end sm:top-[24.20%] sm:left-[25.75%]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
+    <img className='-z-10 absolute -ml-[27rem] min-w-fit max-w-fit overflow-x-clip self-end top-[58%] -left-[71.5%] sm:top-[24.20%] sm:left-[25.75%]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
   </div>
 
 const ContactRight = () =>
