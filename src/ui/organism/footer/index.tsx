@@ -11,14 +11,10 @@ export default () =>
     <div className='flex flex-wrap items-center justify-end sm:grow sm:justify-around max-sm:pt-5'>
       <FollowSocials />
       <PhoneContact />
-      <div className='flex flex-row justify-evenly sm:hidden'>
+      <div className='flex flex-row justify-around sm:w-1/4 mx-1'>
         <FooterLink href={config.footer.link_3} label={config.footer.label_3} />
         <FooterLink href={config.footer.link_4} label={config.footer.label_4} />
       </div>
-      <span className='hidden sm:inline'>
-      <FooterLink href={config.footer.link_3} label={config.footer.label_3} />
-      <FooterLink href={config.footer.link_4} label={config.footer.label_4} />
-      </span>
       <GithubHosted />
     </div>
   </footer>
@@ -27,6 +23,6 @@ export default () =>
     <div className='flex items-center'>
       <span className='mr-4'>{config.footer.hosted_text}</span>
       <a href={config.footer.hosted_link}>
-        <img className='h-12' src={config.svg_path + config.footer.hosted_logo} alt={config.footer.hosted_alt} />
+        <img className='h-7 sm:h-12' src={config.svg_path + config.footer.hosted_logo} alt={config.footer.hosted_alt} />
       </a>
     </div>
