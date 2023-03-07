@@ -8,6 +8,8 @@
   "mail": "mail@mail.com",
   "home_title": "Spyrals",
   "home_description": "",
+  "contact_title": "Nous contacter",
+  "contact_description": "",
   "menu": {
     "label_1": "L'offre",
     "link_1": "offre",

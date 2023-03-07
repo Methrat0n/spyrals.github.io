@@ -10,6 +10,8 @@ interface Config {
   mail: string
   home_title: string
   home_description: string
+  contact_title: string
+  contact_description: string
   menu: {
     label_1: string
     link_1: string
