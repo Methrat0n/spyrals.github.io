@@ -27,7 +27,8 @@ module.exports = {
         },
         redish: '#FF0054',
         orange: '#FF5400',
-        pink: '#B909B4'
+        pink: '#B909B4',
+        aliceblue: '#f6f7fcff'
       },
       keyframes: {
         scroll: {
