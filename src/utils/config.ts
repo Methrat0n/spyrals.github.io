@@ -1,5 +1,13 @@
 const configProdJson = require('../../config.prod.json')
-const configDevJson = require('../../config.dev.json')
+
+let configDevJson;
+
+try {
+  configDevJson = require('../../config.dev.json')
+} catch {
+  configDevJson = {}
+}
+
 
 interface Config {
   url: string
@@ -104,7 +112,7 @@ interface Config {
       width: string
       }
     ]
-    colors: string[]
+    colors: (string | [string, string])[]
     rotation: string[]
     translate: string[]
     zIndex: string[]

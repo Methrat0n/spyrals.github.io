@@ -11,7 +11,7 @@ export default () =>
   </div>
 
 const Navigation = () =>
-  <div className="hidden sm:flex w-full justify-evenly items-center pt-6 text-lg text-aliceblue">
+  <div className="hidden sm:flex w-full justify-evenly items-center text-lg text-aliceblue">
     <Anchor href={config.menu.link_1} label={config.menu.label_1} />
     <Anchor href={config.menu.link_2} label={config.menu.label_2} />
     <Anchor href={config.menu.link_3} label={config.menu.label_3} />

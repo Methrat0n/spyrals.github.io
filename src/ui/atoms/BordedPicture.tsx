@@ -38,5 +38,5 @@ type BorderGradientProps = {
 
 const BorderGradientImage = ({borderGradient, positioning, className, sizes, ...props}: BorderGradientProps) =>
   <div className={`${positioning} ${sizes} rounded-3xl bg-gradient-to-r from-${borderGradient.from} ${borderGradient.via ? `via-${borderGradient.via}` : ''} to-${borderGradient.to} p-[4px]`}>
-    <img className={`${className ?? ''} h-full rounded-3xl object-cover`} {...props} />
+    <img className={`${className ?? ''} h-full w-full rounded-3xl object-cover`} {...props} />
   </div>

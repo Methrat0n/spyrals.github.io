@@ -106,3 +106,4 @@ dist
 
 *.html
 output.css
+config.dev.json

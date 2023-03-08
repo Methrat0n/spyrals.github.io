@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'slide-track': 'scroll 20s linear infinite'
+        'slide-track': 'scroll 40s linear infinite'
       },
       fontFamily: {
         'sans': ['Manrope', ...defaultTheme.fontFamily.sans],

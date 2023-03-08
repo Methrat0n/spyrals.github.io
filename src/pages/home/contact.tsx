@@ -15,8 +15,8 @@ export default () =>
 const ContactLeft = () =>
   <div className="sm:flex flex-row items-center hidden">
     <BordedPicture 
+      borderGradient={{from: 'purple-dark', to: 'miamiPink'}}
       positioning='-rotate-[11deg] mt-12 z-10' 
-      className='border-purple-dark'
       sizes='h-[30rem] w-[24rem]'
       src={config.img_path + config.contact.img1} 
       alt={config.contact.img1_alt}
@@ -39,7 +39,7 @@ const ContactRight = () =>
   </div>
 
 const Mail = () =>
-  <a href={`mailTo:${config.mail}`} className="flex flex-row mt-4 ml-4">
+  <a href={`mailTo:${config.mail}`} className="flex flex-row mt-8 ml-8">
     <img className="h-7 mr-2" src={config.svg_path + config.contact.mail_icon}/>
     <p className="font-bold">{config.mail}</p>
   </a>

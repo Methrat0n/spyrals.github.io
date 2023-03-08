@@ -17,7 +17,7 @@ const Gallery = () =>
       alt={frame.alt} 
       height={frame.height} 
       width={frame.width} 
-      color={config.worklife.colors[index % config.worklife.colors.length]}
+      border={config.worklife.colors[index % config.worklife.colors.length]}
       rotation={config.worklife.rotation[index % config.worklife.rotation.length]}
       translate={config.worklife.translate[index % config.worklife.translate.length]}
       zIndex={config.worklife.zIndex[index % config.worklife.zIndex.length]}
@@ -30,11 +30,15 @@ type Props = {
   alt: string
   height: string
   width: string
-  color: string
+  border: string | [string, string]
   rotation: string
   translate: string
   zIndex: string
 }
 
-const Frame = ({img, alt, height, width, color, rotation, translate, zIndex}: Props) =>
-  <BordedPicture sizes={`${height} ${width} `} positioning={`${rotation} ${translate} ${zIndex} mt-12`} className={color} src={config.img_path + img} alt={alt} />
+const Frame = ({img, alt, height, width, border, rotation, translate, zIndex}: Props) => {
+
+  const borderProps = Array.isArray(border) ? { borderGradient: {from: border[0], to: border[1]}} : { className: 'border-'+border}
+
+  return <BordedPicture sizes={`${height} ${width} `} positioning={`${rotation} ${translate} ${zIndex} mt-12`} src={config.img_path + img} alt={alt} {...borderProps} />
+}

@@ -18,7 +18,6 @@ export default () =>
 
 const background = "absolute rounded-2xl w-[85rem] h-[30rem]"
 
-// animate-slide-track
 const CustomersList = () =>
   <div className="flex flex-row overflow-hidden items-center justify-around w-[450vw] sm:w-[200vw] lg:w-screen animate-slide-track">
     {config.customers.gallery.map((customer) => {

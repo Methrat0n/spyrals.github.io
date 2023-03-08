@@ -40,5 +40,5 @@ const ContactRight = () =>
 
     <Area name="wants" label={config.contactForm.label_request} />
 
-    <input type="submit" value={config.contactForm.label_submit} className='ml-auto bg-white text-black p-2 font-semibold rounded-lg -rotate-2 w-28 cursor-pointer' />
+    <input type="submit" value={config.contactForm.label_submit} className='border-yellow border-[3px] ml-auto bg-white text-black p-2 font-semibold rounded-lg -rotate-2 w-28 cursor-pointer' />
   </form>

@@ -8,7 +8,7 @@ import SpyralsLogoFooter from '../header/spyrals-logo'
 export default () =>
   <footer className="flex flex-row justify-between border-t-2 border-purple-600 items-center h-24 mx-1 sm:mx-8 text-white">
     <SpyralsLogoFooter />
-    <div className='flex flex-wrap items-center justify-end sm:grow sm:justify-around max-sm:pt-5'>
+    <div className='flex flex-wrap items-center justify-end sm:grow sm:justify-around max-sm:pt-5 mt-[1.1rem]'>
       <FollowSocials />
       <PhoneContact />
       <div className='flex flex-row justify-around sm:w-1/4 mx-1'>
