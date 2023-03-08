@@ -9,7 +9,7 @@ export default () =>
   </section>
 
 const SkillsTitle = () =>
-  <h1 className="text-4xl sm:text-5xl mb-20 sm:mb-44 font-title font-semibold max-sm:mx-5">
+  <h1 className="text-4xl sm:text-[4rem] mb-20 sm:mb-44 font-title font-semibold max-sm:mx-5">
     {config.skills.title}
   </h1>
 

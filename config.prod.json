@@ -11,8 +11,8 @@
   "contact_title": "Nous contacter",
   "contact_description": "",
   "menu": {
-    "label_1": "L'offre",
-    "link_1": "offre",
+    "label_1": "Services",
+    "link_1": "services",
     "label_2": "L'équipe",
     "link_2": "team",
     "label_3": "Clients",
@@ -35,15 +35,15 @@
   "spyrals": {
     "title": "SPYRALS",
     "text": "Le développement sur mesure",
-    "button_link": "#offre",
-    "button_label": "Découvrir notre offre",
+    "button_link": "#services",
+    "button_label": "Découvrir nos services",
     "img1": "code.png",
     "img1_alt": "Du code sur fond noir, comme tout vrai dev.",
     "img2": "tel.png",
     "img2_alt": "On dirait quelqu'un qui utilise un téléphone mais en fait c'est une photo."
   },
   "offer": {
-    "title": "NOTRE OFFRE",
+    "title": "NOS SERVICES",
     "text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget. Aliquet vel ullamcorper pretium sed pretium facilisis eget duis vitae. Vulputate mattis sed nunc fringilla est dictum nullam rhoncus a. Ut eget dolor aliquet est at. Odio morbi tincidunt lectus vitae tempor sit nisi platea. Augue gravida nullam dolor in. Ultrices ultrices lectus faucibus sed pretium tempus. Euismod nam tempor sem scelerisque lacus nibh a. Aliquam elit nisi libero mauris.",
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
@@ -213,7 +213,7 @@
     "contact_link": "/nous-contacter",
     "contact_img": "chat.svg",
     "contact_img_alt": "Bulle de discussion",
-    "video_text": "Nos services",
+    "video_text": "Notre Offre",
     "video_link": "/video",
     "video_img": "video.svg",
     "video_img_alt": "Caméra"

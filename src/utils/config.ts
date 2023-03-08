@@ -1,4 +1,5 @@
-const configJson = require('../../config.json')
+const configProdJson = require('../../config.prod.json')
+const configDevJson = require('../../config.dev.json')
 
 interface Config {
   url: string
@@ -155,4 +156,4 @@ interface Config {
   }
 }
 
-export default configJson as Config
+export default {...configProdJson, ...configDevJson} as Config

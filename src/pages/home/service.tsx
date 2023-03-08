@@ -4,7 +4,7 @@ import ButtonLink from '../../ui/atoms/ButtonLink'
 import ServiceValue from './service-value'
 
 export default () =>
-  <section className="flex flex-col-reverse sm:flex-row sm:mx-48 max-sm:items-center justify-between pt-24" id='offre'>
+  <section className="flex flex-col-reverse sm:flex-row sm:mx-48 max-sm:items-center justify-between pt-24" id={config.menu.link_1}>
     <ServiceLeft />
     <ServiceRight />
   </section>
@@ -18,7 +18,7 @@ const ServiceLeft = () =>
 
 const ServiceRight = () =>
   <div className="flex flex-col items-center justify-around sm:w-1/2 sm:ml-12 mb-12 w-full">
-    <h1 className="text-4xl sm:text-5xl max-sm:text-center sm:text-[4rem] sm:self-start font-title font-semibold max-sm:mx-5">{config.offer.title}</h1>
+    <h1 className="text-4xl max-sm:text-center sm:text-[4rem] sm:self-start font-title font-semibold max-sm:mx-5">{config.offer.title}</h1>
     <p className="mx-5 max-sm:my-5 sm:mx-10 self-center text-justify">{config.offer.text}</p>
     <ButtonLink className="sm:self-end sm:mr-24" href={config.offer.button_link} label={config.offer.button_label} />
   </div>

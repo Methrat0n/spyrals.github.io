@@ -18,12 +18,12 @@ const Navigation = () =>
     <Anchor href={config.menu.link_4} label={config.menu.label_4} />
   </div>
 
-const socialsStyles = "mx-1 h-7 w-7"
+const socialsStyles = "mx-1 h-8 w-8"
 
 const Socials = () =>
   <div className="hidden sm:flex flex-row">
-    <SocialNetwork className={`${socialsStyles}`} logo={config.svg_path + config.socials.facebook_logo_white} href={config.socials.facebook_link} />
-    <SocialNetwork className={`${socialsStyles}`} logo={config.svg_path + config.socials.linkedin_logo_white} href={config.socials.linkedin_link} />
+    <SocialNetwork className={socialsStyles} logo={config.svg_path + config.socials.facebook_logo_white} href={config.socials.facebook_link} />
+    <SocialNetwork className={socialsStyles} logo={config.svg_path + config.socials.linkedin_logo_white} href={config.socials.linkedin_link} />
   </div>
 
 const fixedBarStyle = "flex flex-col p-2"

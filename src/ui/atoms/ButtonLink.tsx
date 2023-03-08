@@ -7,7 +7,7 @@ type Props = {
 }
 
 export default ({className, href, label}: Props) =>
-<a className={`${className} bg-white text-black border-2 border-yellow w-fit rounded-xl py-2 px-8 font-semibold`} href={href}>
+<a className={`${className} bg-white text-black border-[3px] border-yellow w-fit rounded-xl py-2 px-8 font-semibold`} href={href}>
   <button>
       {label}
   </button>

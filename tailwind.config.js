@@ -3,8 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
-    "./dist/**/*.js",
-    "config.json"
+    "*.html"
   ],
   theme: {
     extend: {
@@ -19,6 +18,7 @@ module.exports = {
       colors: {
         yellow: '#FFBD59',
         black: '#10002B',
+        blueLagoon: '#5f03b1ff',
         purple: {
           spyrals: '#8C53FF',
           dark: '#8C0CB7',
@@ -26,8 +26,9 @@ module.exports = {
           void: '#10002B'
         },
         redish: '#FF0054',
-        orange: '#FF5400',
+        orange: '#f96810ff',
         pink: '#B909B4',
+        miamiPink: '#c72bdfff',
         aliceblue: '#f6f7fcff'
       },
       keyframes: {

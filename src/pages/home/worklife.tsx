@@ -37,4 +37,4 @@ type Props = {
 }
 
 const Frame = ({img, alt, height, width, color, rotation, translate, zIndex}: Props) =>
-  <BordedPicture className={`mt-12 ${height} ${width} ${color} ${rotation} ${translate} ${zIndex}`} src={config.img_path + img} alt={alt} />
+  <BordedPicture sizes={`${height} ${width} `} positioning={`${rotation} ${translate} ${zIndex} mt-12`} className={color} src={config.img_path + img} alt={alt} />
