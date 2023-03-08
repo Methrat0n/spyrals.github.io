@@ -132,28 +132,28 @@
     "text": "Clique sur le logo et découvre l'app' !",
     "gallery": [
       {
-        "logo": "google.png",
-        "link": "https://google.com"
+        "logo": "/svgs/customers/BNP-logo.svg",
+        "link": "https://mabanque.bnpparibas/"
       },
       {
-        "logo": "google.png",
-        "link": "https://google.com"
+        "logo": "/svgs/customers/maieuticapp-logo.svg",
+        "link": "https://www.maieuticapp.com/"
       },
       {
-        "logo": "google.png",
-        "link": "https://google.com"
+        "logo": "/images/customers/iadvize-logo.png",
+        "link": "https://www.iadvize.com/en/"
       },
       {
-        "logo": "google.png",
-        "link": "https://google.com"
+        "logo": "/images/customers/talend-logo.png",
+        "link": "https://www.talend.com/"
       },
       {
-        "logo": "google.png",
-        "link": "https://google.com"
+        "logo": "/images/customers/izho.jpeg",
+        "link": "https://izho.com/"
       },
       {
-        "logo": "google.png",
-        "link": "https://google.com"
+        "logo": "/images/customers/digimobee.png",
+        "link": "https://digimobee.fr/"
       },
       {
         "logo": "google.png",

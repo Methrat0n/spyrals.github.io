@@ -18,11 +18,10 @@ export default () =>
 
 const background = "absolute rounded-2xl w-[85rem] h-[30rem]"
 
-const classNameLogo = "w-fit flex flex-row justify-around h-28 items-center mx-8"
-
+// animate-slide-track
 const CustomersList = () =>
   <div className="flex flex-row overflow-hidden justify-around w-[350vw] sm:w-screen animate-slide-track">
     {config.customers.gallery.map((customer) => {
-      return <Customer className={classNameLogo} href={customer.link} logo={config.img_path + customer.logo} />
+      return <Customer href={customer.link} logo={customer.logo} />
     })}
   </div>
