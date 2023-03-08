@@ -25,7 +25,7 @@ const ContactLeft = () =>
   </div>
 
 const ContactRight = () =>
-  <form className='flex flex-col item-center my-8 p-5 sm:h-[56rem] bg-purple-spyrals max-sm:min-w-[18rem] sm:min-w-[43rem] rotate-2 sm:pt-24 sm:mx-1 sm:px-32 sm:pb-28 rounded-3xl' action="https://api.web3forms.com/submit" method="POST">
+  <form className='flex flex-col item-center my-8 p-5 sm:h-[56rem] bg-purple-spyrals max-sm:min-w-[18rem] sm:min-w-[43rem] rotate-2 sm:pt-24 sm:mx-1 sm:px-32 sm:pb-28 rounded-3xl z-30' action="https://api.web3forms.com/submit" method="POST">
 
     <input type="hidden" name="access_key" value="df879691-e4e5-404d-9487-af5be1c2fc05" />
     <input type="hidden" name="subject" value="Website lead" />

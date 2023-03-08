@@ -5,7 +5,7 @@ export default () =>
   <section className="flex flex-col items-center mt-24 mb-36 relative overflow-x-clip" id='skills'>
     <SkillsTitle />
     <SkillsContent />
-    <img className='self-end absolute -right-72 -top-20 sm:-top-40 min-w-[45rem] sm:h-[68rem] sm:w-[78rem]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
+    <img className='self-end absolute -right-72 -top-20 sm:-top-40 min-w-[45rem] sm:h-[68rem] sm:w-[78rem] -z-10' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
   </section>
 
 const SkillsTitle = () =>
