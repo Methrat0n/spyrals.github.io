@@ -25,6 +25,7 @@ const SkillsContent = () =>
         color={config.skills.colors[index % config.skills.colors.length]} 
         rotate={config.skills.rotation[index % config.skills.rotation.length]} 
         translate={config.skills.translate[index % config.skills.translate.length]} 
+        key={index}
       />
     })}
   </div>

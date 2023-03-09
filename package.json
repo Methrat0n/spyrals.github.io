@@ -4,7 +4,8 @@
   "description": "Site facade",
   "main": "index.js",
   "scripts": {
-    "local": "npm run render && npx http-server",
+    "local": "npx http-server",
+    "render:watch": "while true ; do npm run render ; sleep 10 ; done",
     "render": "tsc && node dist/render.js && npm run tailwind",
     "tailwind": "npx tailwindcss --minify -i ./src/input.css -o ./output.css"
   },

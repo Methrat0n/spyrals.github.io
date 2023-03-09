@@ -13,7 +13,7 @@
   "menu": {
     "label_1": "Services",
     "link_1": "services",
-    "label_2": "L'équipe",
+    "label_2": "Core Team",
     "link_2": "team",
     "label_3": "Clients",
     "link_3": "clients",
@@ -95,33 +95,33 @@
     "translate": ["","","-translate-y-6","translate-y-6","-translate-y-6",""]
   },
   "team": {
-    "title": "L'EQUIPE",
+    "title": "CORE TEAM",
     "text": "DÉCOUVRE LES AUTRES PROFILS !",
     "arrow": "arrow.svg",
     "members": [
       {
         "name": "Merlin",
-        "text": "Passe sur ma card et découvre mon savoir-faire !",
+        "text": "C.T.O",
         "img": "merlin.png"
       },
       {
         "name": "Mallorie",
-        "text": "Passe sur ma card et découvre mon profil !",
+        "text": "Operational Director & Head designer",
         "img": "mallorie.png"
       },
       {
         "name": "Julien",
-        "text": "Passe sur ma card et découvre mes qualifications !",
+        "text": "Fullstack Senior Engineer",
         "img": "merlin.png"
       },
       {
         "name": "Fabien",
-        "text": "Passe sur ma card et découvre mes compétences !",
+        "text": "Fullstack Engineer",
         "img": "fabien.png"
       },
       {
         "name": "Thibaut",
-        "text": "Passe sur ma card et découvre mes expériences !",
+        "text": "Frontend Developper & Designer",
         "img": "thibaut.png"
       }
     ],

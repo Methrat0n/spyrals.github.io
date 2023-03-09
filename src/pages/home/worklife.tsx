@@ -11,18 +11,19 @@ export default () =>
 
 const Gallery = () =>
   <div className="flex flex-row overflow-auto py-20 pl-28 md:pl-4 hide-scroll w-screen md:w-full">
-    {config.worklife.gallery.map((frame, index) => {
-      return <Frame 
-      img={frame.img} 
-      alt={frame.alt} 
-      height={frame.height} 
-      width={frame.width} 
-      border={config.worklife.colors[index % config.worklife.colors.length]}
-      rotation={config.worklife.rotation[index % config.worklife.rotation.length]}
-      translate={config.worklife.translate[index % config.worklife.translate.length]}
-      zIndex={config.worklife.zIndex[index % config.worklife.zIndex.length]}
-     />
-    })}
+    {config.worklife.gallery.map((frame, index) =>
+      <Frame 
+        img={frame.img} 
+        alt={frame.alt} 
+        height={frame.height} 
+        width={frame.width} 
+        border={config.worklife.colors[index % config.worklife.colors.length]}
+        rotation={config.worklife.rotation[index % config.worklife.rotation.length]}
+        translate={config.worklife.translate[index % config.worklife.translate.length]}
+        zIndex={config.worklife.zIndex[index % config.worklife.zIndex.length]}
+        key={index}
+      />
+    )}
   </div>
 
 type Props = {

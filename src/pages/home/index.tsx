@@ -9,7 +9,7 @@ import Worklife from './worklife'
 import Fixed from './fixed'
 
 export default () =>
-  <main className="pt-24 text-white">
+  <main className="pt-16 md:pt-24 text-white">
     <Spyrals />
     <Service />
     <Skills />
