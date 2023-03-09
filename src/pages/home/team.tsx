@@ -3,7 +3,7 @@ import config from '../../utils/config'
 
 export default () =>
   <section className="flex flex-col pt-14 md:pt-24 md:ml-32" id='team'>
-    <h1 className="text-5xl md:text-6xl md:ml-32 font-title font-semibold max-md:self-center">{config.team.title}</h1>
+    <h1 className="text-4xl md:text-5xl lg:text-6xl md:ml-32 font-title font-semibold max-md:self-center">{config.team.title}</h1>
     <TeamContent />
   </section>
 

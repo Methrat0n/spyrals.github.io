@@ -43,6 +43,9 @@ module.exports = {
         '8': '8deg',
         '9': '9deg',
         '20': '20deg'
+      },
+      screens: {
+        '2xl': '1440px'
       }
     },
   },

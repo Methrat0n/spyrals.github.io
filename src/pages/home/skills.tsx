@@ -9,15 +9,15 @@ export default () =>
   </section>
 
 const SkillsTitle = () =>
-  <h1 className="text-4xl md:text-[4rem] mb-20 md:mb-44 font-title font-semibold max-md:mx-5">
+  <h1 className="text-4xl lg:text-5xl mb-20 md:mb-44 font-title font-semibold max-md:mx-5">
     {config.skills.title}
   </h1>
 
 const imagesAnimation = "lg:transition lg:duration-0 lg:hover:duration-150 lg:hover:ease-in-out lg:hover:scale-150 lg:transform-gpu lg:cursor-pointer"
-const imagesStyle = "rounded-xl px-12 mx-4 h-[10rem] w-[12rem] object-contain place-content-center z-10"
+const imagesStyle = "rounded-xl px-5 py-3 mx-4 h-[7rem] w-[9rem] 2xl:px-5 2xl:py-3 2xl:mx-4 2xl:h-[7rem] 2xl:w-[9rem] object-contain place-content-center z-10"
 
 const SkillsContent = () =>
-  <div className="flex flex-row max-md:overflow-x-scroll max-md:p-10 max-md:w-screen hide-scroll">
+  <div className="hide-scroll flex flex-row max-md:overflow-x-scroll max-md:p-10 lg:w-screen 2xl:justify-center">
     {config.skills.gallery.map((skill, index) => {
       return <SkillCard 
         alt={skill.alt} 

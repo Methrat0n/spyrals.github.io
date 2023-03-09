@@ -3,9 +3,9 @@ import config from '../../utils/config'
 import BordedPicture from '../../ui/atoms/BordedPicture'
 
 export default () =>
-  <section className="flex flex-col items-center pt-24 md:ml-32 overflow-x-hidden" id='worklife'>
-    <h1 className="text-4xl md:text-6xl self-start ml-16 font-title font font-semibold max-md:mx-5 max-md:self-center">{config.worklife.title}</h1>
-    <p className="my-12 md:mx-96 mx-5 max-md:text-justify">{config.worklife.text}</p>
+  <section className="flex flex-col items-center pt-24 md:ml-10 lg:ml-32 overflow-x-hidden" id='worklife'>
+    <h1 className="text-4xl md:text-5xl lg:text-6xl self-start lg:ml-16 font-title font font-semibold max-md:mx-5 max-md:self-center">{config.worklife.title}</h1>
+    <p className="my-12 md:mx-14 lg:mx-96 mx-5 max-md:text-justify">{config.worklife.text}</p>
     <Gallery />
   </section>
 

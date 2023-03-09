@@ -4,7 +4,7 @@ import config from '../../../utils/config'
 import SocialNetwork from '../../atoms/SocialNetwork'
 
 export default () =>
-  <div className="flex flex-row-reverse md:flex-row justify-between w-5/12 h-full items-center">
+  <div className="flex flex-row-reverse md:flex-row justify-between lg:w-5/12 h-full items-center">
     <Navigation />
     <Socials />
     <FixedMobile />
