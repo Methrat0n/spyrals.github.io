@@ -4,7 +4,7 @@ import SocialNetwork from '../../atoms/SocialNetwork'
 
 export default () =>
   <div className="flex flex-row font-bold mx-1">
-    <p className='hidden sm:inline'>{config.footer.label_1}</p>
+    <p className='hidden md:inline'>{config.footer.label_1}</p>
     <FollowSocialButton />    
   </div>
 

@@ -4,16 +4,16 @@ import BordedPicture from '../../ui/atoms/BordedPicture'
 import ButtonLink from '../../ui/atoms/ButtonLink'
 
 export default () =>
-  <section className="flex flex-col items-center sm:pt-24 sm:ml-20 mb-40 sm:mt-40 text-white" id="contact">
-    <h1 className="text-4xl sm:text-6xl font-title font-semibold sm:ml-80 max-sm:mx-5">{config.contact.title}</h1>
-    <div className="flex flex-col sm:flex-row justify-between">
+  <section className="flex flex-col items-center md:pt-24 md:ml-20 mb-40 md:mt-40 text-white" id="contact">
+    <h1 className="text-4xl md:text-6xl font-title font-semibold md:ml-80 max-md:mx-5">{config.contact.title}</h1>
+    <div className="flex flex-col md:flex-row justify-between">
       <ContactLeft />
       <ContactRight />
     </div>
   </section>
 
 const ContactLeft = () =>
-  <div className="sm:flex flex-row items-center hidden">
+  <div className="md:flex flex-row items-center hidden">
     <BordedPicture 
       borderGradient={{from: 'purple-dark', to: 'miamiPink'}}
       positioning='-rotate-[11deg] mt-12 z-10' 
@@ -31,7 +31,7 @@ const ContactLeft = () =>
   </div>
 
 const ContactRight = () =>
-  <div className="flex flex-col mt-12 sm:mr-44 sm:ml-20 sm:pl-96 mx-5 max-sm:items-center">
+  <div className="flex flex-col mt-12 md:mr-44 md:ml-20 md:pl-96 mx-5 max-md:items-center">
     <p>{config.contact.text}</p>
     <Mail />
     <Phone />    
@@ -45,8 +45,8 @@ const Mail = () =>
   </a>
 
 const Phone = () =>
-  <a href={`tel:${config.telephone}`} className="flex flex-row bg-purple-spyrals rounded-xl p-8 sm:py-9 sm:px-16 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg]">
+  <a href={`tel:${config.telephone}`} className="flex flex-row bg-purple-spyrals rounded-xl p-8 md:py-9 md:px-16 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg]">
     <img className="h-7 mr-2" src={config.svg_path + config.contact.phone_icon}/>
-    <p className="font-bold text-lg sm:text-2xl">{config.telephone}</p>
+    <p className="font-bold text-lg md:text-2xl">{config.telephone}</p>
   </a>
   

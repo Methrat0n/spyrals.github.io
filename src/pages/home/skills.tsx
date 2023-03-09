@@ -5,11 +5,11 @@ export default () =>
   <section className="flex flex-col items-center mt-24 mb-36 relative overflow-x-clip" id='skills'>
     <SkillsTitle />
     <SkillsContent />
-    <img className='self-end absolute -right-72 -top-20 sm:-top-40 min-w-[45rem] sm:h-[68rem] sm:w-[78rem] -z-10' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
+    <img className='self-end absolute -right-72 -top-20 md:-top-40 min-w-[45rem] md:h-[68rem] md:w-[78rem] -z-10' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
   </section>
 
 const SkillsTitle = () =>
-  <h1 className="text-4xl sm:text-[4rem] mb-20 sm:mb-44 font-title font-semibold max-sm:mx-5">
+  <h1 className="text-4xl md:text-[4rem] mb-20 md:mb-44 font-title font-semibold max-md:mx-5">
     {config.skills.title}
   </h1>
 
@@ -17,7 +17,7 @@ const imagesAnimation = "lg:transition lg:duration-0 lg:hover:duration-150 lg:ho
 const imagesStyle = "rounded-xl px-12 mx-4 h-[10rem] w-[12rem] object-contain place-content-center z-10"
 
 const SkillsContent = () =>
-  <div className="flex flex-row max-sm:overflow-x-scroll max-sm:p-10 max-sm:w-screen hide-scroll">
+  <div className="flex flex-row max-md:overflow-x-scroll max-md:p-10 max-md:w-screen hide-scroll">
     {config.skills.gallery.map((skill, index) => {
       return <SkillCard 
         alt={skill.alt} 

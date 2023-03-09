@@ -1,7 +1,7 @@
 import React from 'react'
 
 const labelClassNames = '-rotate-2 font-semibold text-lg'
-const inputClassNames = 'bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-3 sm:mb-7'
+const inputClassNames = 'bg-transparent border-b-[1px] focus-visible:outline-none -rotate-2 mb-3 md:mb-7'
 
 type InputProps= {
   name: string

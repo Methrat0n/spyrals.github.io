@@ -2,7 +2,7 @@ import React from 'react'
 import config from '../../utils/config'
 
 export default () =>
-  <section className="max-sm:hidden z-50 fixed top-2/3 -left-24 flex flex-row text-white -rotate-90 w-80" id="fixedbar">
+  <section className="max-md:hidden z-50 fixed top-2/3 -left-24 flex flex-row text-white -rotate-90 w-80" id="fixedbar">
     <Contact />
     <Video />    
   </section>
