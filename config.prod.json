@@ -182,7 +182,7 @@
         "img": "living-room.png",
         "alt": "Un salon remplit de personnes qui travaillent confortablement",
         "height": "h-[20rem]",
-        "width": "w-[26rem]"
+        "width": "min-w-[26rem]"
       },
       {
         "img": "drawing.png",
