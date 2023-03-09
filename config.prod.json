@@ -153,10 +153,10 @@
       },
       {
         "logo": "/images/customers/digimobee.png",
-        "link": "https://digimobee.fr/"
+        "link": "https://merci-app.com/"
       },
       {
-        "logo": "google.png",
+        "logo": "/svgs/customers/merci-logo.svg",
         "link": "https://google.com"
       }
     ]
