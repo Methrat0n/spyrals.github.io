@@ -101,7 +101,7 @@
     "members": [
       {
         "name": "Merlin",
-        "text": "C.T.O",
+        "text": "Chief Technology Officer",
         "img": "merlin.png"
       },
       {
@@ -125,7 +125,7 @@
         "img": "thibaut.png"
       }
     ],
-    "colors": ["bg-pink","bg-purple-dark","bg-purple-spyrals","bg-yellow"]
+    "colors": ["from-purple-dark to-[#2E0237]","from-[#FF03EE] to-[#880C85]","from-[#8C53FF] to-[#051133]","from-[#FFBD59] to-[#D16023]"]
   },
   "customers": {
     "title": "NOS CLIENTS",

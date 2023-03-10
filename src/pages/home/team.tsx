@@ -8,9 +8,7 @@ export default () =>
   </section>
 
 const figuresAnimations = ""
-const figuresStyle = "flex flex-col justify-evenly items-center rounded-xl py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem] z-10"
-const imagesStyle = "w-[12rem] h-[14rem] object-cover"
-const pStyle = "text-3xl mt-4 text-center italic font-menu bold italic"
+const figuresStyle = "flex flex-col items-center rounded-xl py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem] z-10"
 
 const TeamContent = () =>
   <div className="flex flex-row font-bold overflow-x-auto my-10 hide-scroll py-10 ml-10 md:ml-0">
@@ -47,12 +45,14 @@ type Props = {
 const MemberCard = ({name, text, img, color}: Props) =>
   <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2'>
     <div className='flip-card-inner'>
-      <figure className={`${color} ${figuresStyle} ${figuresAnimations} flip-card-front`}>
-        <img className={`${imagesStyle}`} src={config.img_path + img} alt={name}/>
-        <figcaption className='font-chakraPetch text-4xl -mb-8'>{name}</figcaption>
-        <p className={pStyle}>{text}</p>
+      <figure className={`${color} ${figuresStyle} ${figuresAnimations} bg-gradient-to-br flip-card-front`}>
+        <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.img_path + img} alt={name}/>
+        <figcaption className='flex flex-col items-center'>
+          <p className='text-xl my-6'>{name}</p>
+          <p className='font-menu text-3xl text-center italic font-bold'>{text}</p>
+        </figcaption>
       </figure>
-      <div className={`${figuresStyle} bg-white flip-card-back`}/>
+      <div className={`${figuresStyle} ${color} bg-gradient-to-br flip-card-back`}/>
     </div>
   </div>
 
