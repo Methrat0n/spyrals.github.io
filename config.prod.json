@@ -100,13 +100,18 @@
     "arrow": "arrow.svg",
     "members": [
       {
+        "name": "Merlin",
+        "text": "Passe sur ma card et découvre mon savoir-faire !",
+        "img": "merlin.png"
+      },
+      {
         "name": "Mallorie",
         "text": "Passe sur ma card et découvre mon profil !",
         "img": "mallorie.png"
       },
       {
-        "name": "Merlin",
-        "text": "Passe sur ma card et découvre mon savoir-faire !",
+        "name": "Julien",
+        "text": "Passe sur ma card et découvre mes qualifications !",
         "img": "merlin.png"
       },
       {
@@ -118,11 +123,6 @@
         "name": "Thibaut",
         "text": "Passe sur ma card et découvre mes expériences !",
         "img": "thibaut.png"
-      },
-      {
-        "name": "Julien",
-        "text": "Passe sur ma card et découvre mes qualifications !",
-        "img": "merlin.png"
       }
     ],
     "colors": ["bg-pink","bg-purple-dark","bg-purple-spyrals","bg-yellow"]
