@@ -11,7 +11,7 @@ export default () =>
 
 const SpyralsLeft = () =>
   <div className="flex flex-col items-center justify-center max-md:w-full md:mr-10 lg:mr-20 lg:mx-20">
-    <h1 className="text-5xl self-start md:text-6xl 2xl:text-9xl md:pl-20 font-title font-semibold max-md:ml-5">{config.spyrals.title}</h1>
+    <h1 className="text-5xl self-start md:text-6xl lg:text-9xl md:pl-20 font-title font-semibold max-md:ml-5">{config.spyrals.title}</h1>
     <p className="text-2xl lg:text-3xl pt-10 pb-8 md:pl-8 lg:pl-40 font-semibold max-md:self-end text-right">{config.spyrals.text}</p>
     <ButtonLink className="mt-10 md:mr-20 lg:mr-40" href={config.spyrals.button_link} label={config.spyrals.button_label} />
   </div>

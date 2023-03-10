@@ -10,7 +10,7 @@ export default () =>
   </section>
 
 const Gallery = () =>
-  <div className="flex flex-row overflow-auto py-20 pl-28 md:pl-4 hide-scroll">
+  <div className="flex flex-row overflow-auto py-20 pl-28 md:pl-4 hide-scroll w-screen md:w-full">
     {config.worklife.gallery.map((frame, index) => {
       return <Frame 
       img={frame.img} 

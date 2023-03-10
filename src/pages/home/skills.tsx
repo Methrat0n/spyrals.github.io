@@ -14,10 +14,10 @@ const SkillsTitle = () =>
   </h1>
 
 const imagesAnimation = "lg:transition lg:duration-0 lg:hover:duration-150 lg:hover:ease-in-out lg:hover:scale-150 lg:transform-gpu lg:cursor-pointer"
-const imagesStyle = "rounded-xl px-5 py-3 mx-4 h-[7rem] w-[9rem] 2xl:px-5 2xl:py-3 2xl:mx-4 2xl:h-[7rem] 2xl:w-[9rem] object-contain place-content-center z-10"
+const imagesStyle = "rounded-xl px-5 py-3 mx-4 h-[7rem] min-w-[9rem] 2xl:px-5 2xl:py-3 md:mx-1 2xl:mx-4 md:px-3 md:h-[5rem] md:min-w-[6rem] 2xl:h-[7rem] 2xl:w-[9rem] object-contain place-content-center z-10"
 
 const SkillsContent = () =>
-  <div className="hide-scroll flex flex-row max-md:overflow-x-scroll max-md:p-10 lg:w-screen 2xl:justify-center">
+  <div className="hide-scroll flex flex-row max-md:overflow-x-scroll max-md:p-10 w-screen md:justify-between lg:justify-center">
     {config.skills.gallery.map((skill, index) => {
       return <SkillCard 
         alt={skill.alt} 

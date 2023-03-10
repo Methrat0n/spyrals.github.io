@@ -4,7 +4,7 @@ import BordedPicture from '../../ui/atoms/BordedPicture'
 import ButtonLink from '../../ui/atoms/ButtonLink'
 
 export default () =>
-  <section className="flex flex-col items-center md:pt-24 md:ml-20 mb-40 md:mt-40 text-white overflow-x-clip" id="contact">
+  <section className="flex flex-col items-center md:pt-24 md:pl-8 lg:pl-20 mb-40 md:mt-40 text-white overflow-x-clip" id="contact">
     <h1 className="text-4xl md:text-5xl lg:text-6xl font-title font-semibold md:ml-0 lg:ml-80 max-md:mx-5">{config.contact.title}</h1>
     <div className="flex flex-col md:flex-row justify-between">
       <ContactLeft />
@@ -17,7 +17,7 @@ const ContactLeft = () =>
     <BordedPicture 
       borderGradient={{from: 'purple-dark', to: 'miamiPink'}}
       positioning='-rotate-[11deg] mt-12 z-10' 
-      sizes='h-[15rem] w-[12rem] lg:h-[30rem] lg:w-[24rem]'
+      sizes='h-[15rem] w-[12rem] md:min-h-[16rem] md:min-w-[13rem] lg:min-h-[30rem] lg:min-w-[24rem]'
       src={config.img_path + config.contact.img1} 
       alt={config.contact.img1_alt}
     />
@@ -31,7 +31,7 @@ const ContactLeft = () =>
   </div>
 
 const ContactRight = () =>
-  <div className="flex flex-col mt-12 md:mr-24 lg:mr-44 md:ml-10 lg:ml-20 md:pl-14 lg:pl-96 mx-5 max-md:items-center">
+  <div className="flex flex-col mt-12 md:mr-8 lg:mr-44 md:ml-10 lg:ml-20 md:pl-24 lg:pl-96 mx-5 max-md:items-center">
     <p>{config.contact.text}</p>
     <Mail />
     <Phone />    
