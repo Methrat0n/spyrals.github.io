@@ -13,7 +13,8 @@ module.exports = {
       fontFamily: {
         'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
         'menu': ['ChakraPetch', ...defaultTheme.fontFamily.sans],
-        'title': ['Furore', ...defaultTheme.fontFamily.sans]
+        'title': ['Furore', ...defaultTheme.fontFamily.sans],
+        'card': ['Oswald', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         yellow: '#FFBD59',

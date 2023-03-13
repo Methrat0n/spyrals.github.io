@@ -81,14 +81,116 @@ interface Config {
     title: string
     text: string
     arrow: string
-    members: [
-      {
-        name: string
-        text: string
-        img: string
-      }
-    ]
-    colors: string[]
+    skill_title: string
+    responsability_title: string
+    merlin: {
+      name: string
+      job: string
+      job_verso: string
+      portrait: string
+      img_verso_1: string
+      img_verso_2: string
+      skill_1: string
+      skill_2: string
+      skill_3: string
+      skill_4: string
+      skill_5: string
+      skill_6: string
+      skill_7: string
+      skill_8: string
+      skill_9: string
+      skill_10: string
+      responsability_1: string
+      responsability_2: string
+      responsability_3: string
+      responsability_4: string
+      responsability_5: string
+      responsability_6: string
+      responsability_7: string
+    }
+    mallorie: {
+      name: string
+      job: string
+      job_verso: string
+      portrait: string
+      img_verso_1: string
+      skill_1: string
+      skill_2: string
+      skill_3: string
+      skill_4: string
+      skill_5: string
+      skill_6: string
+      responsability_1: string
+      responsability_2: string
+      responsability_3: string
+      responsability_4: string
+    }
+    julien: {
+      name: string
+      job: string
+      job_verso: string
+      portrait: string
+      img_verso_1: string
+      img_verso_2: string
+      img_verso_3: string
+      skill_1: string
+      skill_2: string
+      skill_3: string
+      skill_4: string
+      skill_5: string
+      skill_6: string
+      skill_7: string
+      skill_8: string
+      responsability_1: string
+      responsability_2: string
+      responsability_3: string
+      responsability_4: string
+    }
+    fabien: {
+      name: string
+      job: string
+      job_verso: string
+      portrait: string
+      img_verso_1: string
+      img_verso_2: string
+      img_verso_3: string
+      skill_1: string
+      skill_2: string
+      skill_3: string
+      skill_4: string
+      skill_5: string
+      skill_6: string
+      skill_7: string
+      skill_8: string
+      skill_9: string
+      skill_10: string
+      responsability_1: string
+      responsability_2: string
+    }
+    thibaut: {
+      name: string
+      job: string
+      job_verso: string
+      portrait: string
+      img_verso_1: string
+      img_verso_2: string
+      img_verso_3: string
+      img_verso_4: string
+      img_verso_5: string
+      img_verso_6: string
+      img_verso_7: string
+      img_verso_8: string
+      img_verso_9: string
+      skill_1: string
+      skill_2: string
+      skill_3: string
+      skill_4: string
+      skill_5: string
+      responsability_1: string
+      responsability_2: string
+      responsability_3: string
+      responsability_4: string
+    }
   }
   customers: {
     title: string
