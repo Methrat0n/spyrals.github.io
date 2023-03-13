@@ -33,7 +33,7 @@ const TeamContent = () =>
 // footer check les logos
 
 const Merlin = () =>
-  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2'>
+  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 focus:-z-10 mx-2' tabIndex={1}>
     <div className='flip-card-inner'>
       <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations} bg-gradient-to-br flip-card-front`}>
         <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.merlin.portrait} alt={config.team.merlin.name} />
@@ -87,7 +87,7 @@ const Merlin = () =>
   </div>
 
 const Mallorie = () =>
-  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2'>
+  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 focus:-z-10 mx-2' tabIndex={2}>
     <div className='flip-card-inner'>
       <figure className={`from-[#FF03EE] to-[#880C85] ${figuresStyle} ${figuresAnimations} bg-gradient-to-br flip-card-front`}>
         <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.mallorie.portrait} alt={config.team.mallorie.name} />
@@ -125,7 +125,7 @@ const Mallorie = () =>
   </div>
 
 const Julien = () =>
-  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2'>
+  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 focus:-z-10 mx-2' tabIndex={3}>
     <div className='flip-card-inner'>
       <figure className={`from-[#8C53FF] to-[#051133] ${figuresStyle} ${figuresAnimations} bg-gradient-to-br flip-card-front`}>
         <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.julien.portrait} alt={config.team.julien.name} />
@@ -171,7 +171,7 @@ const Julien = () =>
   </div>
 
 const Fabien = () =>
-  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2'>
+  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 focus:-z-10 mx-2' tabIndex={4}>
     <div className='flip-card-inner'>
       <figure className={`from-[#FFBD59] to-[#D16023] ${figuresStyle} ${figuresAnimations} bg-gradient-to-br flip-card-front`}>
         <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.fabien.portrait} alt={config.team.fabien.name} />
@@ -220,7 +220,7 @@ const skillsThibautStyle = 'flex flex-row items-center'
 const imagesThibautStyle = 'h-6 w-6 mr-2'
 
 const Thibaut = () =>
-  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2'>
+  <div className='flip-card h-[29rem] w-[21rem] min-w-[21rem] z-10 focus:-z-10 mx-2' tabIndex={5}>
     <div className='flip-card-inner'>
       <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations} bg-gradient-to-br flip-card-front`}>
         <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.thibaut.portrait} alt={config.team.thibaut.name} />
