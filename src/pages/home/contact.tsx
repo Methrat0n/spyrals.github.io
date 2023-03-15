@@ -17,14 +17,14 @@ const ContactLeft = () =>
     <BordedPicture 
       borderGradient={{from: 'purple-dark', to: 'miamiPink'}}
       positioning='-rotate-[11deg] mt-12 z-10' 
-      sizes='h-[15rem] w-[12rem] md:min-h-[16rem] md:min-w-[13rem] lg:min-h-[30rem] lg:min-w-[24rem]'
+      sizes='h-[16rem] w-[13rem] md:min-h-[16rem] md:min-w-[13rem] lg:min-h-[30rem] lg:min-w-[24rem]'
       src={config.img_path + config.contact.img1} 
       alt={config.contact.img1_alt}
     />
     <BordedPicture 
       positioning='rotate-6 z-20' 
       className='border-yellow'
-      sizes='h-[10rem] w-[8.5rem] lg:h-[20rem] lg:w-[17rem]' 
+      sizes='h-[11rem] w-[9.5rem] lg:h-[20rem] lg:w-[17rem]' 
       src={config.img_path + config.contact.img2} 
       alt={config.contact.img2_alt}
     />

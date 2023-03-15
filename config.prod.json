@@ -22,12 +22,12 @@
   },
   "footer": {
     "label_1": "Nous suivre :",
-    "label_2": "Nous téléphoner : ",
+    "label_2": "Téléphone : ",
     "label_3": "CGV",
     "link_3": "cgv",
     "label_4": "Mentions légales",
     "link_4": "mentionslegales",
-    "hosted_text": "Fier d'être hebergé par",
+    "hosted_text": "Fier d'être hébergé par",
     "hosted_link": "https://github.com/Spyrals-IO/Spyrals-io.github.io",
     "hosted_logo": "logo-github.svg",
     "hosted_alt": "Le logo de github, notre hébergeur"
@@ -62,12 +62,12 @@
         "alt": "Logo javascript"
       },
       {
-        "img": "/svgs/typescriptLogo.svg",
-        "alt": "Logo typescript"
-      },
-      {
         "img": "/svgs/scalaLogo.svg",
         "alt": "Logo scala"
+      },
+      {
+        "img": "/svgs/typescriptLogo.svg",
+        "alt": "Logo typescript"
       },
       {
         "img": "/svgs/nodeLogo.svg",
@@ -78,16 +78,16 @@
         "alt": "Logo play framework"
       },
       {
-        "img": "/svgs/remixLogo.svg",
-        "alt": "Logo remix framework"
+        "img": "/images/reactorLogo.png",
+        "alt": "Logo reactor"
       },
       {
         "img": "/svgs/reactLogo.svg",
         "alt": "Logo react"
       },
       {
-        "img": "/images/reactorLogo.png",
-        "alt": "Logo reactor"
+        "img": "/svgs/remixLogo.svg",
+        "alt": "Logo remix framework"
       }
     ],
     "colors": ["bg-purple-darkest","bg-purple-spyrals","bg-pink","bg-purple-dark","bg-purple-spyrals","bg-purple-darkest"],
