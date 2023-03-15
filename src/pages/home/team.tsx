@@ -246,8 +246,8 @@ const Thibaut = () =>
           <h2 className='font-menu text-2xl font-bold'>{config.team.responsability_title}</h2>
           <div className='flex flex-row'>
             <div className='flex flex-col w-fit ml-3 items-center'>
-              <img className='h-9 w-7' src={config.team.thibaut.img_verso_6} />
-              <img className='h-9 w-10' src={config.team.thibaut.img_verso_7} />
+              <img className='max-h-9 min-w-7 mb-2' src={config.team.thibaut.img_verso_6} />
+              <img className='max-h-10 min-w-10 mb-2' src={config.team.thibaut.img_verso_7} />
               <img className='h-9 w-4' src={config.team.thibaut.img_verso_8} />
               <img className='h-10 w-8' src={config.team.thibaut.img_verso_9} />
             </div>
