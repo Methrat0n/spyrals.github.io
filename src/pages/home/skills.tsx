@@ -13,11 +13,8 @@ const SkillsTitle = () =>
     {config.skills.title}
   </h1>
 
-const imagesAnimation = "lg:transition lg:duration-0 lg:hover:duration-150 lg:hover:ease-in-out lg:hover:scale-150 lg:transform-gpu lg:cursor-pointer"
-const imagesStyle = "rounded-xl px-5 py-3 mx-4 h-[7rem] min-w-[9rem] 2xl:px-5 2xl:py-3 md:mx-1 2xl:mx-4 md:px-3 md:h-[5rem] md:min-w-[5.5rem] 2xl:h-[7rem] 2xl:w-[9rem] object-contain place-content-center z-10"
-
 const SkillsContent = () =>
-  <div className="hide-scroll flex flex-row max-md:overflow-x-scroll max-md:p-10 w-screen md:justify-between lg:justify-center">
+  <div className="hide-scroll flex flex-row max-md:overflow-x-scroll max-md:p-10 w-screen md:justify-center">
     {config.skills.gallery.map((skill, index) => {
       return <SkillCard 
         alt={skill.alt} 
@@ -37,6 +34,9 @@ type Props = {
   rotate: string
   translate: string
 }
+
+const imagesAnimation = "md:transition md:duration-0 md:hover:duration-150 md:hover:ease-in-out md:hover:scale-150 md:transform-gpu md:cursor-pointer"
+const imagesStyle = "rounded-xl px-5 py-3 mx-4 max-h-[7rem] min-w-[9rem] md:mx-4 md:px-4 md:py-2 md:max-h-[4.5rem] md:min-w-[5.5rem] md:max-w-[5.5rem] 2xl:max-h-[7rem] 2xl:min-w-[9rem] 2xl:max-w-[9rem] 2xl:px-5 2xl:py-3 md:mx-1 2xl:mx-4 md:px-3 object-contain place-content-center z-10"
 
 const SkillCard = ({alt, img, color, rotate, translate}: Props) =>
   <img className={`${color} ${rotate} ${translate} ${imagesStyle} ${imagesAnimation}`} src={img} alt={alt} key={alt}/>
