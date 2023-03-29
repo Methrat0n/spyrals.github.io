@@ -9,7 +9,7 @@ type Props = {
 }
 
 export default ({ Main, description, title }: Props) =>
-<html>
+<html className='hide'>
   <head>
     <meta charSet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
