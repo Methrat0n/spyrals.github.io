@@ -1,15 +1,13 @@
 ## How change the website content ( site facade )
 
-Go on github : ([github Spyals-IO / Spyrals-io.github.io](https://github.com/Spyrals-IO/Spyrals-io.github.io)) <br />
-__You should Arrive on the section called " Code "__
-
 ### For texts
-- Click on the file called " config.json "
-- Click on edit
+- Click on the file called " config.prod.json "
+- Click on the descending arrow just besides the pen, himself besides "Blame".
+- Click "Open in github.dev"
 - CTRL+F word / sentence you would like to change 
-- Change all blue values in quote you'd like to change
+- Change all values you wants
 
-Commit after that. Don't forget to comment why you've done this for the well understanding of your teamates
+Commit after that. Don't forget to comment why you've done this for the well understanding of your teammates
 To check your changes were taken into account : reclick on the section " Code " and you will find an orange point / a green checked on the top of the list. When the green point is checked you can observe your changes on spyrals.fr 
 
 ### For images
@@ -25,8 +23,8 @@ To check your changes were taken into account : reclick on the section " Code " 
 
 #### To change an image's file's name 
 First upload your image as aforementioned with the name wanted. 
-If you have well followed this procedure, you ve noticed the old name of the image you're changing. Keep the two names in mind. 
-- Click on the file called " config.json "
+If you have well followed this procedure, you've noticed the old name of the image you're changing. Keep the two names in mind. 
+- Edit the file "config.prod.json" as describe in the texts section
 - CTRL-F the old name, switch it with the new one
 
 Commit after that. Don't forget to comment why you've done this for the well understanding of your teamates
