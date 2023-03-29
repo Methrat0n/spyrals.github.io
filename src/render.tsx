@@ -6,10 +6,12 @@ import config from './utils/config'
 import Site from '.'
 import Contact from './pages/nous-contacter'
 import Home from './pages/home'
+import Video from './pages/video'
 
 const pages = [
   [<Site Main={Home} description={config.home_description} title={config.home_title} />,"./index.html"],
-  [<Site Main={Contact} description={config.contact_description} title={config.contact_title} />, "./nous-contacter.html"]
+  [<Site Main={Contact} description={config.contact_description} title={config.contact_title} />, "./nous-contacter.html"],
+  [<Site Main={Video} description={config.contact_description} title={config.contact_title} />, "./video.html"]
 ] as const
 
 const render = ([element, outputFile]: readonly [JSX.Element, string]) => {
