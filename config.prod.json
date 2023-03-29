@@ -4,8 +4,8 @@
   "img_path": "/images/",
   "logo": "logo.svg",
   "logo_alt": "Spyrals logo",
-  "telephone": "06 01 20 30 04",
-  "mail": "mail@mail.com",
+  "telephone": "06 95 93 58 74",
+  "mail": "contact@spyrals.fr",
   "home_title": "Spyrals",
   "home_description": "",
   "contact_title": "Nous contacter",
@@ -44,7 +44,7 @@
   },
   "offer": {
     "title": "NOS SERVICES",
-    "text": "De la conception à la maintenance applicative, en passant par le design et l'implémentation, nous accompagnons nos clients sur la totalité de leurs projets ou des prestations ponctuelles. Nos business analyst et craftsmans se mettent à votre écoute afin d'éprouver votre projet, le rédiger, le challenger. Ils vous proposent les meilleurs méthodologies d'éxecution et d'implémentation pour vos besoins spécifiquement. Toujours à la pointe de nos métier, nous nous formons continuellement aux nouvelles systems afin de vous fournir l'experience la plus efficace, en phase avec votre identité. Le developpement étant notre expertise historique, il nous tient à coeur de traiter tout sujet dans un délais réduis en maintenant une qualité et une maintenabilité exemplaire. Notre expertise s'efface pour nous permettre de nous concentrer sur notre relation client :  fiabilité, retours quotidien et suivit de vos besoins",
+    "text": "De la conception à la maintenance applicative, en passant par le design et l'implémentation, nous accompagnons nos clients sur la totalité de leurs projets ou des prestations ponctuelles. Nos business analyst et craftsmans se mettent à votre écoute afin d'éprouver votre projet, le rédiger, le challenger. Ils vous proposent les meilleurs méthodologies d'éxecution et d'implémentation pour vos besoins. Afin de vous fournir l'expérience la plus efficace et en phase avec votre identité nous investissons pour maîtriser toutes les dernières innovations design. Notre expertise en développement, nous permet de traiter tout sujet dans un délais minimal en nous concentrant sur notre objectif : satisfaire nos clients avec une éxecution et une fiabilité exemplaire",
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
     "card1_title": "Conception",
@@ -249,7 +249,7 @@
   },
   "worklife": {
     "title": "VIE D'ENTREPRISE",
-    "text": "Nous sommes fières d'avoir construit une entreprise ou les employés se sentent valorisé grâce à une culture d'entreprise forte. Notre défis était de créer un environnement de travail positif dans lequel chacun peut s'épanouir, prendre des responsabilité et developper de nouvelles compétences en collaborant avec un expert. La créativité et l'expertise technique étant nos points forts, nous essayons de toujours stimuler nos équipes en leurs encourageant à exprimer leurs idées sans craintes. Nous avons eu la chance d'avoir des profils très réceptifs à ces challenges ce qui nous permet de vivre une réelle aventure humaine",
+    "text": "Nous sommes fières d'avoir construit une entreprise ou les employés se sentent valorisé grâce à une culture d'entreprise forte. Notre défis était de créer un environnement de travail positif dans lequel chacun peut s'épanouir, prendre des responsabilité et developper de nouvelles compétences en collaborant avec un expert. La créativité et l'expertise technique étant nos points forts, nous essayons de toujours stimuler nos équipes en les encourageant à exprimer leurs idées sans crainte. Nous avons eu la chance d'avoir des profils très réceptifs à ces challenges ce qui nous permet de vivre une réelle aventure humaine",
     "gallery": [
       {
         "img": "cooking.png",
@@ -283,7 +283,7 @@
   },
   "contact": {
     "title": "NOUS CONTACTER",
-    "text": "Envie de nous confiez une mission, d'un avis sur l'un de vos projet, d'une collaboration. Laissez nous un message",
+    "text": "Besoin d'un avis sur un projet, d'une collaboration. Envoyez-nous un message !",
     "button_label": "Accéder au formulaire",
     "button_link": "/nous-contacter",
     "phone_icon": "phone.svg",
@@ -305,7 +305,7 @@
   },
   "contactForm": {
     "title": "Nous Contacter",
-    "text": "Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.",
+    "text": "Besoin d'un avis sur un projet, d'une collaboration. Envoyez-nous un message !",
     "phone_icon": "phone-in-circle.svg",
     "phone_alt": "Un téléphone dans un cercle, pour nous téléphoner.",
     "img": "typing-fast.png",
