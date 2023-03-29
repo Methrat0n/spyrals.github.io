@@ -44,15 +44,16 @@
   },
   "offer": {
     "title": "NOS SERVICES",
-    "text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget. Aliquet vel ullamcorper pretium sed pretium facilisis eget duis vitae. Vulputate mattis sed nunc fringilla est dictum nullam rhoncus a. Ut eget dolor aliquet est at. Odio morbi tincidunt lectus vitae tempor sit nisi platea. Augue gravida nullam dolor in. Ultrices ultrices lectus faucibus sed pretium tempus. Euismod nam tempor sem scelerisque lacus nibh a. Aliquam elit nisi libero mauris.",
+    " De la conception à la tierce maintenance applicative, nous accompagnons nos clients sur la totalité de leurs projets ou des prestations ponctuelles. Nos business analyst et crafmans se mettent à votre écoute afin d'éprouver votre projet, le rédiger. Ils vous proposent les meilleurs méthodologies d'execution et d'implemantation pour votre budget. Toujours à la pointe de la mode, nous nous formons continuellement aux nouvelles tendances afin de vous fournir le design le plus efficace en phase avec votre identité. Le developpement IT étant notre plus forte zone d'expertise, il nous tient à coeur de régler n'importe quel problème IT dans un délais minimum. Notre expertise, nous permet de nous concentrer sur notre relation client :  fiabilité, retours quotidien et suivit de vos SLA",
+    "card3_title": "Developpement IT", ",
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
-    "card1_title": "Service / Valeur",
-    "card1_text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.",
-    "card2_title": "Service / Valeur",
-    "card2_text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget.",
-    "card3_title": "Service / Valeur",
-    "card3_text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget."
+    "card1_title": "Conception",
+  "card1_text": "Après votre premier devis de conception, nous analysons votre projet, le rédigeons. Vos équipes ont du mal avec les méthodes d'implémentation et d'execution ? Pas de soucis, nous aimons partager nos savoirs - faire ",
+    "card2_title": "Innovation & design",
+    "card2_text": "Par ce que chaque client est différent, nous cherchons d'abors a analyser votre identité pour vous proposer des designs, des maquettes prototypées et déjà rédigées pour une expérience client toujours plus optimale. Nous nous testons pour vous plusieurs visuels, afin de refleter aux mieux vos choix et partis pris.",
+    "card3_title": "Developpement IT",
+    "card3_text": "La transparence et la fiabilité étant au coeur de nos préocupations : nous nous chargeons de la mise en production et estimatons les coûts de votre tierce maintenance applicative"
   },
   "skills": {
     "title": "NOS COMPETENCES",
@@ -119,7 +120,8 @@
       "skill_10": "Play",
       "responsability_1": "Lead dev senior",
       "responsability_2": "Analyse besoin client",
-      "responsability_3": "Conception architecturale",
+      "responsability_3": "
+      architecturale",
       "responsability_4": "Conception infrastructure",
       "responsability_5": "Consulting client",
       "responsability_6": "Gestion budgétaire",
@@ -245,8 +247,7 @@
   },
   "worklife": {
     "title": "VIE D'ENTREPRISE",
-    "text": "Lorem ipsum dolor sit amet consectetur. Felis amet faucibus orci sit urna eleifend. Iaculis pellentesque facilisis nascetur lorem leo volutpat eget. Aliquet vel ullamcorper pretium sed pretium facilisis eget duis vitae. Vulputate mattis sed nunc fringilla est dictum nullam rhoncus a. Ut eget dolor aliquet est at. Odio morbi tincidunt lectus vitae tempor sit nisi platea.",
-    "arrow": "arrow.svg",
+    "text": "Nous sommes fières d'avoir construit une entreprise ou les employés se sentent valorisé grâce à une culture d'entreprise forte. Notre défis était de créer un environnement de travail positif dans lequel chacun peut s'épanouir, prendre des responsabilité et developper de nouvelles compétences en collaborant avec un expert. La créativité et l'expertise technique étant nos points forts, nous essayons de toujours stimuler nos équipes en leurs encourageant à exprimer leurs idées sans craintes. Nous avons eu la chance d'avoir des profils très réceptifs à ces challenges ce qui nous permet de vivre une réelle aventure humaine",
     "gallery": [
       {
         "img": "cooking.png",
@@ -280,7 +281,7 @@
   },
   "contact": {
     "title": "NOUS CONTACTER",
-    "text": "Lorem ipsum dolor sit amet consectetur. Fames molestie consectetur aliquam id egestas.",
+    "text": "Envie de nous confiez une mission, d'un avis sur l'un de vos projet, d'une collaboration. Laissez nous un message",
     "button_label": "Accéder au formulaire",
     "button_link": "/nous-contacter",
     "phone_icon": "phone.svg",
@@ -295,7 +296,7 @@
     "contact_link": "/nous-contacter",
     "contact_img": "chat.svg",
     "contact_img_alt": "Bulle de discussion",
-    "video_text": "Notre Offre",
+    "video_text": "No",
     "video_link": "/video",
     "video_img": "video.svg",
     "video_img_alt": "Caméra"
