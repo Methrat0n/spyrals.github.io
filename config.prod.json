@@ -44,15 +44,15 @@
   },
   "offer": {
     "title": "NOS SERVICES",
-    "text": "De la conception à la tierce maintenance applicative, nous accompagnons nos clients sur la totalité de leurs projets ou des prestations ponctuelles. Nos business analyst et crafmans se mettent à votre écoute afin d'éprouver votre projet, le rédiger. Ils vous proposent les meilleurs méthodologies d'execution et d'implemantation pour votre budget. Toujours à la pointe de la mode, nous nous formons continuellement aux nouvelles tendances afin de vous fournir le design le plus efficace en phase avec votre identité. Le developpement IT étant notre plus forte zone d'expertise, il nous tient à coeur de régler n'importe quel problème IT dans un délais minimum. Notre expertise, nous permet de nous concentrer sur notre relation client :  fiabilité, retours quotidien et suivit de vos SLA",
+    "text": "De la conception à la maintenance applicative, en passant par le design et l'implémentation, nous accompagnons nos clients sur la totalité de leurs projets ou des prestations ponctuelles. Nos business analyst et craftsmans se mettent à votre écoute afin d'éprouver votre projet, le rédiger, le challenger. Ils vous proposent les meilleurs méthodologies d'éxecution et d'implémentation pour vos besoins spécifiquement. Toujours à la pointe de nos métier, nous nous formons continuellement aux nouvelles systems afin de vous fournir l'experience la plus efficace, en phase avec votre identité. Le developpement étant notre expertise historique, il nous tient à coeur de traiter tout sujet dans un délais réduis en maintenant une qualité et une maintenabilité exemplaire. Notre expertise s'efface pour nous permettre de nous concentrer sur notre relation client :  fiabilité, retours quotidien et suivit de vos besoins",
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
     "card1_title": "Conception",
-    "card1_text": "Après votre premier devis de conception, nous analysons votre projet, le rédigeons. Vos équipes ont du mal avec les méthodes d'implémentation et d'execution ? Pas de soucis, nous aimons partager nos savoirs - faire ",
+    "card1_text": "Nous analysons votre projet, le rédigeons et préparons les possibilités techniques pour vous offrir un choix éclairé. Vos équipes désirent de l'aide pour l'implémentation ou l'éxecution ? Nous proposons également du coaching ou du consulting spécialisé.",
     "card2_title": "Innovation & design",
-    "card2_text": "Par ce que chaque client est différent, nous cherchons d'abors a analyser votre identité pour vous proposer des designs, des maquettes prototypées et déjà rédigées pour une expérience client toujours plus optimale. Nous nous testons pour vous plusieurs visuels, afin de refleter aux mieux vos choix et partis pris.",
-    "card3_title": "Developpement IT",
-    "card3_text": "La transparence et la fiabilité étant au coeur de nos préocupations : nous nous chargeons de la mise en production et estimatons les coûts de votre tierce maintenance applicative"
+    "card2_text": "Parce que chaque client est différent, nous cherchons d'abors à analyser votre identité pour vous proposer des designs, des maquettes et prototypes pour une expérience client toujours plus optimale. Nous testons avec vous plusieurs visuels, afin de refléter aux mieux vos choix et partis pris.",
+    "card3_title": "Développement & Production",
+    "card3_text": "La transparence et la fiabilité étant au coeur de nos préocupations : nous nous chargeons de la mise en production et estimatons les coûts de votre maintenance applicative"
   },
   "skills": {
     "title": "NOS COMPETENCES",
@@ -294,7 +294,7 @@
     "contact_link": "/nous-contacter",
     "contact_img": "chat.svg",
     "contact_img_alt": "Bulle de discussion",
-    "video_text": "No",
+    "video_text": "Nos services",
     "video_link": "/video",
     "video_img": "video.svg",
     "video_img_alt": "Caméra"
