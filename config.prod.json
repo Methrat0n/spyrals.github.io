@@ -252,28 +252,28 @@
     "text": "Nous sommes fières d'avoir construit une entreprise ou les employés se sentent valorisé grâce à une culture d'entreprise forte. Notre défis était de créer un environnement de travail positif dans lequel chacun peut s'épanouir, prendre des responsabilité et developper de nouvelles compétences en collaborant avec un expert. La créativité et l'expertise technique étant nos points forts, nous essayons de toujours stimuler nos équipes en les encourageant à exprimer leurs idées sans crainte. Nous avons eu la chance d'avoir des profils très réceptifs à ces challenges ce qui nous permet de vivre une réelle aventure humaine",
     "gallery": [
       {
-        "img": "cooking.png",
-        "alt": "Quelqu'un cuit une crêpe",
-        "height": "h-[20rem]",
-        "width": "min-w-[23rem]"
+        "img": "/worklife/cooking.jpg",
+        "alt": "Thibaut et Mallorie cuisinant ensemble",
+        "height": "h-[19rem]",
+        "width": "min-w-[25rem]"
       },
       {
-        "img": "donut.png",
-        "alt": "Un donut croqué",
-        "height": "h-[20rem]",
-        "width": "w-[19rem]"
+        "img": "/worklife/tabletop.jpg",
+        "alt": "Fabien et un collègue au bar à jeux",
+        "height": "h-[18rem]",
+        "width": "w-[24rem]"
       },
       {
-        "img": "living-room.png",
-        "alt": "Un salon remplit de personnes qui travaillent confortablement",
-        "height": "h-[20rem]",
-        "width": "min-w-[26rem]"
+        "img": "/worklife/trio.jpg",
+        "alt": "Merlin, Thibaut et Fabien ensemble",
+        "height": "h-[19rem]",
+        "width": "min-w-[25rem]"
       },
       {
-        "img": "drawing.png",
-        "alt": "Quelqu'un dessine un logo sur un colis",
-        "height": "h-[21rem]",
-        "width": "w-[21rem]"
+        "img": "/worklife/cat-learning.jpg",
+        "alt": "Mallorie présentant une SCI, les chats sont attentifs",
+        "height": "h-[19rem]",
+        "width": "w-[20rem]"
       }
     ],
     "colors": [["purple-spyrals", "blueLagoon"],"yellow", ["purple-dark", "miamiPink"],"yellow"],
