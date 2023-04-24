@@ -27,7 +27,7 @@
     "link_3": "cgv",
     "label_4": "Mentions légales",
     "link_4": "mentionslegales",
-    "hosted_text": "Fier d'être hébergé par",
+    "hosted_text": "Fiers d'être hébergés par",
     "hosted_link": "https://github.com/Spyrals-IO/Spyrals-io.github.io",
     "hosted_logo": "logo-github.svg",
     "hosted_alt": "Le logo de github, notre hébergeur"
@@ -211,7 +211,6 @@
   },
   "customers": {
     "title": "NOS CLIENTS",
-    "text": "Clique sur le logo et découvre l'app' !",
     "gallery": [
       {
         "logo": "/svgs/customers/BNP-logo.svg",
@@ -284,7 +283,7 @@
   "contact": {
     "title": "NOUS CONTACTER",
     "text": "Besoin d'un avis sur un projet, d'une collaboration. Envoyez-nous un message !",
-    "button_label": "Accéder au formulaire",
+    "button_label": "Vous préférez les mails ?",
     "button_link": "/nous-contacter",
     "phone_icon": "phone.svg",
     "mail_icon": "mail.svg",
