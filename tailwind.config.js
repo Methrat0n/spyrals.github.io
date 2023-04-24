@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'slide-track': 'scroll 40s linear infinite'
+        'slide-track': 'scroll 40s linear infinite',
+        'fadeOut': 'fadeOut ease 2s',
       },
       fontFamily: {
         'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
@@ -36,6 +37,10 @@ module.exports = {
         scroll: {
           '0%': { transform: 'translateX(0)' },
 	        '100%': { transform: 'translateX(-100%)' }
+        },
+        fadeOut: {
+          '0%': { opacity: '1' },
+          '100%': { opacity: '0' }
         }
       },
       rotate: {
