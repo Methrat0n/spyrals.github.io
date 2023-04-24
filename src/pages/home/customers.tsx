@@ -6,8 +6,7 @@ import Customer from '../../ui/atoms/Customer'
 export default () =>
   <section className="relative flex flex-col items-center pt-24 pb-44 overflow-x-clip" id='clients'>
     <h1 className="text-4xl md:text-5xl lg:text-6xl pt-12 font-title font-semibold">{config.customers.title}</h1>
-    <p className="text-2xl my-14">{config.customers.text}</p>
-    <div className="flex flex-row">
+    <div className="flex flex-row mt-28">
       <CustomersList />
       <CustomersList />
       <CustomersList />

@@ -194,7 +194,6 @@ interface Config {
   }
   customers: {
     title: string
-    text: string
     gallery: [
       {
         logo: string
