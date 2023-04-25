@@ -13,7 +13,7 @@ const figuresStyleVerso = "flex flex-col rounded-xl h-[29rem] w-[21rem] min-w-[2
 const cardStyle = "h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2 relative"
 
 const TeamContent = () =>
-  <div className="flex flex-row font-bold overflow-x-auto my-10 hide-scroll py-10 ml-10 md:ml-0">
+  <div className="flex flex-row font-bold overflow-x-auto my-10 hide-scroll py-10 ml-10 md:ml-0 scroll-smooth" id="teamCards">
     <Merlin />
     <Mallorie />
     <Julien />
