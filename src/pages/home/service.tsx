@@ -18,7 +18,7 @@ const ServiceLeft = () =>
 
 const ServiceRight = () =>
   <div className="flex flex-col items-center justify-around md:w-1/2 md:ml-0 lg:ml-12 mb-12 w-full">
-    <h1 className="text-4xl max-md:text-center md:text-5xl lg:text-6xl md:self-start font-title font-semibold max-md:mx-5">{config.offer.title}</h1>
-    <p className="mx-5 max-md:my-5 md:mx-10 self-center text-justify">{config.offer.text}</p>
+    <h1 className="text-4xl max-md:text-center md:text-5xl lg:text-6xl md:self-start font-title font-semibold max-md:mx-5 opacity-0" id="offerTitle">{config.offer.title}</h1>
+    <p className="mx-5 max-md:my-5 md:mx-10 self-center text-justify opacity-0" id="offerText">{config.offer.text}</p>
     <ButtonLink className="md:self-end lg:mr-24" href={config.offer.button_link} label={config.offer.button_label} />
   </div>
