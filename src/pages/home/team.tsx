@@ -78,7 +78,7 @@ const Merlin = () =>
     </div>
 
     <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`}>
-      <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.merlin.portrait} alt={config.team.merlin.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.merlin.portrait} alt={config.team.merlin.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.merlin.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.merlin.job}</p>
@@ -116,7 +116,7 @@ const Mallorie = () =>
     </div>
 
     <figure className={`from-[#FF03EE] to-[#880C85] ${figuresStyle} ${figuresAnimations}`}>
-      <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.mallorie.portrait} alt={config.team.mallorie.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.mallorie.portrait} alt={config.team.mallorie.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.mallorie.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.mallorie.job}</p>
@@ -162,7 +162,7 @@ const Julien = () =>
     </div>
 
     <figure className={`from-[#8C53FF] to-[#051133] ${figuresStyle} ${figuresAnimations}`}>
-      <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.julien.portrait} alt={config.team.julien.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.julien.portrait} alt={config.team.julien.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.julien.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.julien.job}</p>
@@ -208,7 +208,7 @@ const Fabien = () =>
     </div>
 
     <figure className={`from-[#FFBD59] to-[#D16023] ${figuresStyle} ${figuresAnimations}`}>
-      <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.fabien.portrait} alt={config.team.fabien.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.fabien.portrait} alt={config.team.fabien.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.fabien.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.fabien.job}</p>
@@ -255,7 +255,7 @@ const Thibaut = () =>
     </div>
 
     <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`}>
-      <img className='w-[12rem] min-h-[13rem] max-h-[13rem] object-contain' src={config.team.thibaut.portrait} alt={config.team.thibaut.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.thibaut.portrait} alt={config.team.thibaut.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.thibaut.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.thibaut.job}</p>
