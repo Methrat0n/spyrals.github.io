@@ -2,9 +2,12 @@ import React from 'react'
 import config from '../../utils/config'
 
 export default () =>
-  <section className="z-50 fixed top-[70%] md:top-[63%] lg:top-2/3 -left-[7.5rem] lg:-left-24 flex flex-row text-white -rotate-90 w-80" id="fixedbar">
-    <Contact />
-    <Video />    
+  <section >
+    <div className="z-50 fixed top-[70%] md:top-[63%] lg:top-2/3 -left-[7.5rem] lg:-left-24 flex flex-row text-white -rotate-90 w-80" id="fixedbar">
+      <Contact />
+      <Video />
+    </div>    
+    <Frame />
   </section>
 
 const fixedBarStyle = "flex flex-row pr-3 p-2 font-semibold justify-between"
@@ -18,7 +21,14 @@ const Contact = () =>
   </a>
 
 const Video = () =>
-  <a className={`rounded-r-md bg-orange ${fixedBarStyle}`} href={config.fixed.video_link}>
+  <a className={`rounded-r-md bg-orange ${fixedBarStyle}`} href='#video' id='btnVideo'>
     <img className={imagesStyle} src={config.svg_path + config.fixed.video_img}/>
     <p className={pStyles}>{config.fixed.video_text}</p>
   </a>
+
+const Frame = () =>
+  <div className='fixed top-[10%] left-[5%] z-40 hidden target:block' id='video'>
+    <video src="/videos/presentation.mp4" controls />
+    <a className='bg-white rounded-2xl absolute top-[2%] left-[97%] text-4xl text-black w-10 text-center' href='#'>&times;</a>
+  </div>
+  
