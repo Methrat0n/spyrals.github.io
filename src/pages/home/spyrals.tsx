@@ -14,7 +14,12 @@ const SpyralsLeft = () =>
   <div className="flex flex-col items-center md:justify-start lg:justify-center max-md:w-full md:mr-10 lg:mr-20 lg:mx-20">
     <SpyralsLogo className="md:hidden"/>
     <h1 className="hidden md:inline text-5xl self-start md:text-6xl 2xl:text-9xl md:pl-20 font-title font-semibold max-md:ml-5">{config.spyrals.title}</h1>
-    <p className="-mt-8 md:mt-0 text-2xl lg:text-3xl pt-10 pb-8 md:pl-8 lg:pl-40 font-semibold max-md:self-end text-right animate-bounceFadeAppear">{config.spyrals.text}</p>
+    <div className="flex flex-row justify-between -mt-8 md:mt-0 text-2xl lg:text-3xl pt-10 pb-8 md:pl-8 lg:pl-40 font-semibold max-md:self-end text-right">
+      <p className="block animate-bounceFadeAppear1 opacity-0 mr-2">Le</p>
+      <p className="block animate-bounceFadeAppear2 opacity-0 mr-2">développement</p>
+      <p className="block animate-bounceFadeAppear3 opacity-0 mr-2">sur</p>
+      <p className="block animate-bounceFadeAppear4 opacity-0">mesure</p>
+    </div>
     <ButtonLink className="mt-10 md:mr-20 lg:mr-40 md:ml-20" href={config.spyrals.button_link} label={config.spyrals.button_label} />
   </div>
 

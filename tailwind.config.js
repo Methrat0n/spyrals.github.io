@@ -10,7 +10,11 @@ module.exports = {
       animation: {
         'slide-track': 'scroll 40s linear infinite',
         'fadeOut': 'fadeOut ease 2s',
-        'bounceFadeAppear': 'bounceFadeAppear ease 2s'
+        'bounceFadeAppear1': 'bounceFadeAppear ease 4s forwards',
+        'bounceFadeAppear2': 'bounceFadeAppear ease 4s 0.5s forwards',
+        'bounceFadeAppear3': 'bounceFadeAppear ease 4s 1.5s forwards',
+        'bounceFadeAppear4': 'bounceFadeAppear ease 4s 2.5s forwards',
+        'leftFadeAppear': 'leftFadeAppear ease 1.25s forwards'
       },
       fontFamily: {
         'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
@@ -46,13 +50,23 @@ module.exports = {
         bounceFadeAppear: {
           '0%': { 
                   opacity: '0',
-                  transform: 'translateY(75%)' 
+                  transform: 'translateY(50%)' 
                 },
           '60%': {transform: 'translateY(-10%)'},
           '80%': {transform: 'translateY(5%)'},      
           '100%': { 
                     opacity: '1',
                     transform: 'translateY(0%)'
+                  }
+        },
+        leftFadeAppear: {
+          '0%': { 
+                  opacity: '0',
+                  transform: 'translateX(-50%)' 
+                },
+          '100%': { 
+                    opacity: '1',
+                    transform: 'translateX(0%)'
                   }
         }
       },
