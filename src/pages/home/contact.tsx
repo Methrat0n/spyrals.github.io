@@ -45,7 +45,7 @@ const Mail = () =>
   </a>
 
 const Phone = () =>
-  <a href={`tel:${config.telephone}`} className="flex flex-row bg-purple-spyrals rounded-xl p-8 md:py-9 md:px-8 lg:px-10 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg] hover:reflect">
+  <a href={`tel:${config.telephone}`} className="flex flex-row bg-purple-spyrals rounded-xl p-8 md:py-9 md:px-8 lg:px-10 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg] reflect">
     <img className="h-7 mr-2" src={config.svg_path + config.contact.phone_icon}/>
     <p className="font-bold text-lg md:text-2xl">{config.telephone}</p>
   </a>
