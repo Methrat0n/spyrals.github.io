@@ -16,10 +16,10 @@ const observerOffer = new IntersectionObserver(async entries => {
   if(entries[0].isIntersecting) {
     observerOffer.unobserve(offer)
     titleOffer.classList.remove('opacity-0')
-    titleOffer.animate(fadeInAnim, timing)
+    titleOffer.classList.add('animate-leftFadeAppear')
     await new Promise(r => setTimeout(r, 1000));
     titleText.classList.remove('opacity-0')
-    titleText.animate(fadeInAnim, timing)    
+    titleText.classList.add('animate-leftFadeAppear')
   }
 }, {
   threshold: 1
