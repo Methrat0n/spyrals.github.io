@@ -283,7 +283,7 @@
   "contact": {
     "title": "NOUS CONTACTER",
     "text": "Besoin d'un avis sur un projet, d'une collaboration. Envoyez-nous un message !",
-    "button_label": "Vous préférez les mails ?",
+    "button_label": "Vous préférez les mails !",
     "button_link": "/nous-contacter",
     "phone_icon": "phone.svg",
     "mail_icon": "mail.svg",
