@@ -10,10 +10,10 @@ module.exports = {
       animation: {
         'slide-track': 'scroll 40s linear infinite',
         'fadeOut': 'fadeOut ease 2s',
-        'bounceFadeAppear1': 'bounceFadeAppear ease 4s forwards',
-        'bounceFadeAppear2': 'bounceFadeAppear ease 4s 0.5s forwards',
-        'bounceFadeAppear3': 'bounceFadeAppear ease 4s 1.5s forwards',
-        'bounceFadeAppear4': 'bounceFadeAppear ease 4s 2.5s forwards',
+        'bounceFadeAppear1': 'bounceFadeAppear ease 2s forwards',
+        'bounceFadeAppear2': 'bounceFadeAppear ease 2s 0.5s forwards',
+        'bounceFadeAppear3': 'bounceFadeAppear ease 2s 1s forwards',
+        'bounceFadeAppear4': 'bounceFadeAppear ease 2s 1.5s forwards',
         'leftFadeAppear': 'leftFadeAppear ease 1.25s forwards'
       },
       fontFamily: {
