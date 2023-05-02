@@ -1,4 +1,4 @@
-const offer = document.querySelector('#services')
+const offer = document.querySelector('#offerContent')
 const titleOffer = offer.querySelector('#offerTitle')
 const titleText = offer.querySelector('#offerText')
 
