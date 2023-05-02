@@ -27,7 +27,7 @@ const Video = () =>
   </a>
 
 const Frame = () =>
-  <div className='fixed top-[10%] left-[5%] z-40 hidden' id='frame'>
+  <div className='fixed top-[10%] left-[5%] z-40 hidden w-[80vw]' id='frame'>
     <video src="/videos/presentation.mp4" controls id='video'/>
     <a className='bg-white rounded-2xl absolute top-[2%] left-[97%] text-4xl text-black w-10 text-center' href='#frame' id='btnCloseVideo'>&times;</a>
   </div>

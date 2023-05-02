@@ -20,29 +20,38 @@ const timing = {
 
 let clicked = false
 const fadeIn = frame.animate(fadeInAnim, timing)
+const mobileScreen = window.matchMedia("(max-width: 767px)").matches
 
 btnVideo.addEventListener('pointerenter', event => {
-  if (!clicked) {
-    frame.classList.toggle('hidden')
-    fadeIn.play()
-    fadeIn.finished.then(() => {
-      clicked = true
-      video.play()
-    }).catch(() => {return})
+  if(!mobileScreen) {
+    if (!clicked) {
+      frame.classList.toggle('hidden')
+      fadeIn.play()
+      fadeIn.finished.then(() => {
+        clicked = true
+        video.play()
+      }).catch(() => {return})
+    }
   }
 })
 
 btnVideo.addEventListener('click', event => {
-  clicked = true
+  if(!mobileScreen) {
+    clicked = true
+  } else {
+    frame.classList.toggle('hidden')
+  }
   video.play()
 })
 
 btnVideo.addEventListener('pointerleave', async event => {
-  if (!clicked) {  
-    fadeIn.cancel()
-    frame.animate(fadeOutAnim, timing)
-    await new Promise(r => setTimeout(r, 1000));
-    frame.classList.toggle('hidden')
+  if(!mobileScreen) {
+    if (!clicked) {  
+      fadeIn.cancel()
+      frame.animate(fadeOutAnim, timing)
+      await new Promise(r => setTimeout(r, 1000));
+      frame.classList.toggle('hidden')
+    }
   }
 })
 
