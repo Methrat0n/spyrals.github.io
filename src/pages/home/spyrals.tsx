@@ -8,6 +8,7 @@ export default () =>
   <section className="flex flex-col md:flex-row max-md:px-5 items-center justify-between lg:pt-14 pb-24 overflow-hidden" id='spyrals'>
     <SpyralsLeft />
     <SpyralsRight />
+    <ButtonLink className="md:hidden mt-20 md:mr-20 lg:mr-40 md:ml-20 animate-fadeIn" href={config.spyrals.button_link} label={config.spyrals.button_label} />
   </section>
 
 const SpyralsLeft = () =>
@@ -20,7 +21,7 @@ const SpyralsLeft = () =>
       <p className="block animate-bounceFadeAppear3 opacity-0 mr-2">sur</p>
       <p className="block animate-bounceFadeAppear4 opacity-0">mesure</p>
     </div>
-    <ButtonLink className="mt-10 md:mr-20 lg:mr-40 md:ml-20" href={config.spyrals.button_link} label={config.spyrals.button_label} />
+    <ButtonLink className="max-md:hidden mt-10 md:mr-20 lg:mr-40 md:ml-20 animate-fadeIn" href={config.spyrals.button_link} label={config.spyrals.button_label} />
   </div>
 
 const SpyralsRight = () =>
