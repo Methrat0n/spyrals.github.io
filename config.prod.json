@@ -146,7 +146,7 @@
       "name": "Julien",
       "job": "Fullstack Senior Engineer",
       "job_verso": "DEVELOPPEUR",
-      "portrait": "/images/merlin.png",
+      "portrait": "/images/julien-humain.png",
       "img_verso_1": "/images/team/julien/Card Julien Craftsman.png",
       "img_verso_2": "/images/team/julien/Card Julien React Copy.png",
       "img_verso_3": "/images/team/julien/Card Julien Architecte Copy.png",
@@ -273,6 +273,24 @@
         "alt": "Mallorie présentant une SCI, les chats sont attentifs",
         "height": "h-[19rem]",
         "width": "w-[20rem]"
+      },
+      {
+        "img": "/worklife/mallorie-outside.jpeg",
+        "alt": "Mallorie dehors",
+        "height": "h-[19rem]",
+        "width": "min-w-[10rem]"
+      },
+      {
+        "img": "/worklife/prank.png",
+        "alt": "Thibaut fait une blague à Fabien",
+        "height": "h-[21rem]",
+        "width": "min-w-[26rem]"
+      },
+      {
+        "img": "/worklife/trio-smiles-working.jpeg",
+        "alt": "Thibaut, Merlin et Fabien travaillent dans la bonne humeur",
+        "height": "h-[17.4rem]",
+        "width": "min-w-[23.4rem]"
       }
     ],
     "colors": [["purple-spyrals", "blueLagoon"],"yellow", ["purple-dark", "miamiPink"],"yellow"],
