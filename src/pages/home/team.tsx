@@ -8,7 +8,7 @@ export default () =>
   </section>
 
 const figuresAnimations = ""
-const figuresStyle = "flex flex-col items-center rounded-xl py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem] z-10 hover:fade-out absolute bg-gradient-to-br"
+const figuresStyle = "flex flex-col items-center rounded-xl py-8 px-4 h-[29rem] w-[21rem] min-w-[21rem] z-10 absolute bg-gradient-to-br"
 const figuresStyleVerso = "flex flex-col rounded-xl h-[29rem] w-[21rem] min-w-[21rem] z-10 bg-gradient-to-br absolute overflow-y-clip"
 const cardStyle = "h-[29rem] w-[21rem] min-w-[21rem] z-10 mx-2 relative"
 
@@ -34,7 +34,7 @@ const TeamContent = () =>
 // footer check les logos
 
 const Merlin = () =>
-  <div className={`${cardStyle}`} tabIndex={1}>
+  <div className={`${cardStyle}`} tabIndex={1} id='merlin'>
 
     <div className={`${figuresStyleVerso} from-purple-dark to-[#2E0237]`}>
         <h1 className='font-title text-2xl self-center mt-2'>{config.team.merlin.job_verso}</h1>
@@ -77,7 +77,7 @@ const Merlin = () =>
         <img className='absolute top-[26.5rem] h-10 w-[3rem]' src={config.team.merlin.img_verso_2} />
     </div>
 
-    <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`}>
+    <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`} id='merlinRecto'>
       <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.merlin.portrait} alt={config.team.merlin.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.merlin.name}</p>
@@ -88,7 +88,7 @@ const Merlin = () =>
   </div>
 
 const Mallorie = () =>
-  <div className={`${cardStyle}`} tabIndex={2}>
+  <div className={`${cardStyle}`} tabIndex={2} id='mallorie'>
     
     <div className={`${figuresStyleVerso} from-[#FF03EE] to-[#880C85]`}>
       <h1 className='font-title text-2xl text-center self-center mt-2'>{config.team.mallorie.job_verso}</h1>
@@ -115,7 +115,7 @@ const Mallorie = () =>
       </div>
     </div>
 
-    <figure className={`from-[#FF03EE] to-[#880C85] ${figuresStyle} ${figuresAnimations}`}>
+    <figure className={`from-[#FF03EE] to-[#880C85] ${figuresStyle} ${figuresAnimations}`} id='mallorieRecto'>
       <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.mallorie.portrait} alt={config.team.mallorie.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.mallorie.name}</p>
@@ -126,7 +126,7 @@ const Mallorie = () =>
   </div>
 
 const Julien = () =>
-  <div className={`${cardStyle}`} tabIndex={3}>
+  <div className={`${cardStyle}`} id='julien' tabIndex={3}>
 
     <div className={`${figuresStyleVerso} from-[#8C53FF] to-[#051133]`}>
       <h1 className='font-title text-2xl self-center mt-2'>{config.team.julien.job_verso}</h1>
@@ -161,7 +161,7 @@ const Julien = () =>
       <img className='absolute top-96 left-64 h-14 w-16' src={config.team.julien.img_verso_3} />
     </div>
 
-    <figure className={`from-[#8C53FF] to-[#051133] ${figuresStyle} ${figuresAnimations}`}>
+    <figure className={`from-[#8C53FF] to-[#051133] ${figuresStyle} ${figuresAnimations}`} id='julienRecto'>
       <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.julien.portrait} alt={config.team.julien.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.julien.name}</p>
@@ -172,7 +172,7 @@ const Julien = () =>
   </div>
 
 const Fabien = () =>
-  <div className={`${cardStyle}`} tabIndex={4}>
+  <div className={`${cardStyle}`} tabIndex={4} id='fabien'>
 
     <div className={`${figuresStyleVerso} from-[#FFBD59] to-[#D16023]`}>
       <h1 className='font-title text-2xl self-center mt-2'>{config.team.fabien.job_verso}</h1>
@@ -207,7 +207,7 @@ const Fabien = () =>
       </div>
     </div>
 
-    <figure className={`from-[#FFBD59] to-[#D16023] ${figuresStyle} ${figuresAnimations}`}>
+    <figure className={`from-[#FFBD59] to-[#D16023] ${figuresStyle} ${figuresAnimations}`} id='fabienRecto'>
       <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.fabien.portrait} alt={config.team.fabien.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.fabien.name}</p>
@@ -221,7 +221,7 @@ const skillsThibautStyle = 'flex flex-row items-center'
 const imagesThibautStyle = 'h-6 w-6 mr-2'
 
 const Thibaut = () =>
-  <div className={`${cardStyle}`} tabIndex={5}>
+  <div className={`${cardStyle}`} tabIndex={5} id='thibaut'>
 
     <div className={`${figuresStyleVerso} from-purple-dark to-[#2E0237]`}>
       <h1 className='font-title text-2xl text-center self-center mt-2'>{config.team.thibaut.job_verso}</h1>
@@ -254,7 +254,7 @@ const Thibaut = () =>
       </div>
     </div>
 
-    <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`}>
+    <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`} id='thibautRecto'>
       <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.thibaut.portrait} alt={config.team.thibaut.name} />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.thibaut.name}</p>
