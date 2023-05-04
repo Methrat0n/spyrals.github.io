@@ -14,7 +14,7 @@ module.exports = {
         'bounceFadeAppear1': 'bounceFadeAppear ease 2s forwards',
         'bounceFadeAppear2': 'bounceFadeAppear ease 2s 0.5s forwards',
         'bounceFadeAppear3': 'bounceFadeAppear ease 2s 1s forwards',
-        'bounceFadeAppear4': 'bounceFadeAppear ease 2s 1.5s forwards',
+        'bounceFadeAppear4': 'bounceFadeAppear ease 2s 1.5s forwards'
       },
       fontFamily: {
         'sans': ['Manrope', ...defaultTheme.fontFamily.sans],
