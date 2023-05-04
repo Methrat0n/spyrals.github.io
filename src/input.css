@@ -186,4 +186,23 @@
     50%{left:100%;top:100%;}  
     100%{left:100%;top:100%;}  
   }
+
+  .fadeInTopToBottom {
+    background: linear-gradient(#10002B, #ffffff, #ffffff, #10002B, #10002B);
+    background-size: 100% 400%;
+    animation: progressiveFadeInTopToBottom 5s ease forwards;
+    animation-play-state: paused;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+  @keyframes progressiveFadeInTopToBottom {
+    0% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 35%;
+    }
+  }
 }
