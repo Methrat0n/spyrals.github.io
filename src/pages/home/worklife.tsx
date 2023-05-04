@@ -5,7 +5,7 @@ import BordedPicture from '../../ui/atoms/BordedPicture'
 export default () =>
   <section className="flex flex-col items-center pt-24 md:ml-10 lg:ml-32 overflow-x-hidden" id='worklife'>
     <h1 className="text-4xl md:text-5xl lg:text-6xl self-start lg:ml-16 font-title font font-semibold max-md:mx-5 max-md:self-center">{config.worklife.title}</h1>
-    <p className="mt-12 mb-6 md:mx-14 lg:mx-96 mx-5 max-md:text-justify">{config.worklife.text}</p>
+    <p className="mt-12 mb-6 md:mx-14 lg:mx-96 mx-5 max-md:text-justify opacity-0 fadeInTopToBottom" id='worklifeText'>{config.worklife.text}</p>
     <Gallery />
   </section>
 
