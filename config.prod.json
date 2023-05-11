@@ -127,8 +127,8 @@
     },
     "mallorie": {
       "name": "Mallorie",
-      "job": "Operational Director & Head designer",
-      "job_verso": "OPERATIONAL DIRECTOR & HEAD DESIGNER",
+      "job": "Responsable administrative et commerciale",
+      "job_verso": "RESPONSABLE ADMINISTRATIVE ET COMMERCIALE",
       "portrait": "/images/mallorie-humain.png",
       "img_verso_1": "/images/team/mallorie/Card Mallo SST Copy.png",
       "skill_1": "Responsable prospection",
@@ -186,7 +186,7 @@
     },
     "thibaut": {
       "name": "Thibaut",
-      "job": "Frontend Developper & Designer",
+      "job": "Frontend Developper & UX Designer",
       "job_verso": "DEVELOPPEUR",
       "portrait": "/images/thibaut-humain.png",
       "img_verso_1": "/images/team/thibaut/Card Thibaut Typescript.png",
@@ -248,7 +248,7 @@
   },
   "worklife": {
     "title": "VIE D'ENTREPRISE",
-    "text": "Nous sommes fières d'avoir construit une entreprise ou les employés se sentent valorisé grâce à une culture d'entreprise forte. Notre défis était de créer un environnement de travail positif dans lequel chacun peut s'épanouir, prendre des responsabilité et developper de nouvelles compétences en collaborant avec un expert. La créativité et l'expertise technique étant nos points forts, nous essayons de toujours stimuler nos équipes en les encourageant à exprimer leurs idées sans crainte. Nous avons eu la chance d'avoir des profils très réceptifs à ces challenges ce qui nous permet de vivre une réelle aventure humaine",
+    "text": "Nous sommes fiers d'avoir construit une entreprise ou les employés sont valorisés grâce à une culture d'entreprise forte. Notre défi : créer un environnement de travail positif ou chacun s'épanouit en apprenant de nouvelles compétences avec des experts. Nous organisons beaucoup de sessions de partage afin d'encourager les transmissions de compétences mais aussi les projets solo de nos développeurs",
     "gallery": [
       {
         "img": "/worklife/cooking.jpg",
