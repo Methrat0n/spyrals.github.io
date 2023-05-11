@@ -44,15 +44,15 @@
   },
   "offer": {
     "title": "NOS SERVICES",
-    "text": "De la conception à la maintenance applicative, en passant par le design et l'implémentation, nous accompagnons nos clients sur la totalité de leurs projets ou des prestations ponctuelles. Nos business analyst et craftsmans se mettent à votre écoute afin d'éprouver votre projet, le rédiger, le challenger. Ils vous proposent les meilleurs méthodologies d'éxecution et d'implémentation pour vos besoins. Afin de vous fournir l'expérience la plus efficace et en phase avec votre identité nous investissons pour maîtriser toutes les dernières innovations design. Notre expertise en développement, nous permet de traiter tout sujet dans un délais minimal en nous concentrant sur notre objectif : satisfaire nos clients avec une éxecution et une fiabilité exemplaire",
+    "text": "Nous préparons votre implémentation en concevant vos modules, définissant vos interfaces et modélisant vos données. Nous mettons à votre disposition des méthodologies et y formons votre équipe  afin que de garantir que votre projet réponde à vos attentes."
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
     "card1_title": "Conception",
     "card1_text": "Nous analysons votre projet, le rédigeons et préparons les possibilités techniques pour vous offrir un choix éclairé. Vos équipes désirent de l'aide pour l'implémentation ou l'éxecution ? Nous proposons également du coaching ou du consulting spécialisé.",
     "card2_title": "Innovation & design",
-    "card2_text": "Parce que chaque client est différent, nous cherchons d'abors à analyser votre identité pour vous proposer des designs, des maquettes et prototypes pour une expérience client toujours plus optimale. Nous testons avec vous plusieurs visuels, afin de refléter aux mieux vos choix et partis pris.",
+    "card2_text": "Fort de notre expérience, nous éprouvons techniquement, juridiquement, commercialement et fonctionnellement votre projet. Fidèles à votre image de marque nous savons vous proposer des designs personnalisés et efficaces.  ",
     "card3_title": "Développement & Production",
-    "card3_text": "La transparence et la fiabilité étant au coeur de nos préocupations : nous nous chargeons de la mise en production et estimatons les coûts de votre maintenance applicative"
+    "card3_text": "Au coeur de notre expertise nous vous proposons les technologies adaptées, faisons vos test, corrigeons les bugs, documentant le code dans le respect des bonnes pratiques de programmation. "
   },
   "skills": {
     "title": "NOS COMPETENCES",
