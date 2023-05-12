@@ -93,7 +93,7 @@ const Mallorie = () =>
     <div className={`${figuresStyleVerso} from-[#FF03EE] to-[#880C85]`}>
       <h1 className='font-title text-2xl text-center self-center mt-2'>{config.team.mallorie.job_verso}</h1>
       <img className='absolute top-9 left-[17.5rem] h-[3.375rem] w-[3.375]' src={config.team.mallorie.img_verso_1} />
-      <div className='flex flex-col items-start w-full pl-3 mt-5'>
+      <div className='flex flex-col items-start w-full pl-3 mt-2'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.skill_title}</h2>
         <ul className='font-card text-lg pl-3'>
           <li>{config.team.mallorie.skill_1}</li>
@@ -104,7 +104,7 @@ const Mallorie = () =>
           <li>{config.team.mallorie.skill_6}</li>
         </ul>
       </div>
-      <div className='flex flex-col items-start w-full pl-3 mt-3'>
+      <div className='flex flex-col items-start w-full pl-3 mt-2'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.responsability_title}</h2>
         <ul className='font-card text-lg w-full pl-3'>
           <li>{config.team.mallorie.responsability_1}</li>
