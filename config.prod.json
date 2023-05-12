@@ -44,7 +44,7 @@
   },
   "offer": {
     "title": "NOS SERVICES",
-    "text": "Nous préparons votre implémentation en concevant vos modules, définissant vos interfaces et modélisant vos données. Nous mettons à votre disposition des méthodologies et y formons votre équipe  afin que de garantir que votre projet réponde à vos attentes."
+    "text": "Nous préparons votre implémentation en concevant vos modules, définissant vos interfaces et modélisant vos données. Nous mettons à votre disposition des méthodologies et y formons votre équipe  afin que de garantir que votre projet réponde à vos attentes.",
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
     "card1_title": "Conception",
@@ -52,7 +52,7 @@
     "card2_title": "Innovation & design",
     "card2_text": "Fort de notre expérience, nous éprouvons techniquement, juridiquement, commercialement et fonctionnellement votre projet. Fidèles à votre image de marque nous savons vous proposer des designs personnalisés et efficaces.  ",
     "card3_title": "Développement & Production",
-    "card3_text": "Au coeur de notre expertise nous vous proposons les technologies adaptées, faisons vos test, corrigeons les bugs, documentant le code dans le respect des bonnes pratiques de programmation. "
+    "card3_text": "Au coeur de notre expertise nous vous proposons les technologies adaptées, faisons vos test, corrigeons les bugs, documentant le code dans le respect des bonnes pratiques de programmation."
   },
   "skills": {
     "title": "NOS COMPETENCES",
