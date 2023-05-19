@@ -158,32 +158,8 @@
       animation: reflect 5s infinite forwards;
   }
 
-  .reflect-network{
-    position:relative;
-    overflow:hidden;
-  }
-
-  .reflect-network:before{
-    content:"";z-index:10;
-    position:absolute;height:200%;width:200%;top:-120%;left:-120%;
-    background:linear-gradient(transparent 0%,
-      rgba(255, 255, 255, 0.1) 45%,
-      rgba(255, 255, 255, 0.5) 50%,
-      rgba(255, 255, 255, 0.1) 55%,
-      transparent 100%);
-    transition:all 2s;
-    transform:rotate(-45deg);
-    animation: reflectNetwork 7s infinite forwards;
-  }
-
   @keyframes reflect{
     0%{top:-120%;left:-120%;}
-    100%{left:100%;top:100%;}  
-  }
-
-  @keyframes reflectNetwork{
-    0%{top:-120%;left:-120%;}
-    50%{left:100%;top:100%;}  
     100%{left:100%;top:100%;}  
   }
 
