@@ -18,9 +18,7 @@ export default ({ Main, description, title }: Props) =>
     <link rel="icon" href="/spyrals.svg" type="image/svg+xml" />
     <link href="/output.css" rel="stylesheet" />
     <script defer src="./assets/js/team.js"></script>
-    <script defer src="./assets/js/offer.js"></script>
     <script defer src="./assets/js/video.js"></script>
-    <script defer src="./assets/js/worklife.js"></script>
   </head>
   <body className="bg-purple-void">
     <Header />
