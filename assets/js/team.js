@@ -1,4 +1,3 @@
-const team = document.querySelector('#teamCards')
 const screenMobile = window.matchMedia("(max-width: 767px)").matches
 const merlinCard = document.getElementById('merlin')
 const merlinRecto = document.getElementById('merlinRecto')
@@ -25,15 +24,6 @@ const timingTeam = {
   duration: 1000,
   iterations: 1,
 };
-
-const observerTeam = new IntersectionObserver(entries => {
-  if(entries[0].isIntersecting && !screenMobile)
-    team.scrollLeft = team.scrollWidth
-}, {
-  threshold: 0.8
-})
-
-observerTeam.observe(team)
 
 const cardInteractivity = (recto, card) => {
   const cardFade = recto.animate(fadeOutTeam, timingTeam)
