@@ -44,7 +44,7 @@
   },
   "offer": {
     "title": "NOS SERVICES",
-    "text": "Nous préparons votre implémentation en concevant vos modules, définissant vos interfaces et modélisant vos données. Nous mettons à votre disposition des méthodologies et y formons votre équipe  afin que de garantir que votre projet réponde à vos attentes.",
+    "text": "Afin de nous adapter au mieux à chaque projet nous developpeurs travaillent en équipe ou individuellement à chaque étape de vos projets ou sur leur totalité. Formés à exercer des missions en interne, nous intervenons en indépendants comme directement dans vos effectifs à chaque étape de votre projet ou dans sa totalité..",
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
     "card1_title": "Conception",
@@ -210,7 +210,7 @@
     }
   },
   "customers": {
-    "title": "NOS CLIENTS",
+    "title": "ILS NOUS ONT FAIT CONFIANCE",
     "gallery": [
       {
         "logo": "/svgs/customers/BNP-logo.svg",
