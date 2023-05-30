@@ -21,7 +21,7 @@ export default ({ Main, description, title, preloads = [] }: Props) =>
     <link rel="icon" href="/spyrals.svg" type="image/svg+xml" />
     <link href="/output.css" rel="stylesheet" />
     {
-      preloads.map((preload) => <link rel="preload" {...preload} />)
+      preloads.map((preload) => <link rel="preload" {...preload} fetchpriority="high" />)
     }
     <script defer src="./assets/js/team.js"></script>
     <script defer src="./assets/js/video.js"></script>
