@@ -16,12 +16,12 @@ const ContactLeft = () =>
     <p className='font-medium text-xl max-md:pt-4 pb-7 md:pr-16 md:pb-20 text-jutify'>{config.contactForm.text}</p>
     <a href={`tel:${config.telephone}`} className='font-semibold md:self-end ml-32 relative block md:-mb-[6.8rem] md:ml-[8rem] lg:ml-[15.9rem]'>
       <div className='flex flex-row item-center h-8'>
-        <img src={config.svg_path + config.contactForm.phone_icon} alt={config.contactForm.phone_alt} className='scale-150'/>
+        <img src={config.svg_path + config.contactForm.phone_icon} alt={config.contactForm.phone_alt} className='scale-150' fetchpriority='low' />
         <span className='my-auto ml-4 text-xl'>{config.telephone}</span>
       </div>
     </a>
     <BordedPicture fetchPriority="low" sizes='h-80 min-w-[33rem] md:h-44 md:min-w-[18rem] lg:h-80 lg:min-w-[33rem]' positioning='-rotate-[9deg] translate-x-16 self-end z-20 mt-[18rem]' className='border-yellow hidden md:block' src={config.img_path + config.contactForm.img} alt={config.contactForm.img_alt} />
-    <img className='-z-10 absolute -ml-[27rem] min-w-fit max-w-fit overflow-x-clip md:self-end top-[35%] md:top-[34%] md:-left-[37%] lg:top-[24.20%] lg:left-[25.75%]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
+    <img className='-z-10 absolute -ml-[27rem] min-w-fit max-w-fit overflow-x-clip md:self-end top-[35%] md:top-[34%] md:-left-[37%] lg:top-[24.20%] lg:left-[25.75%]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' fetchpriority='low' />
   </div>
 
 const ContactRight = () =>

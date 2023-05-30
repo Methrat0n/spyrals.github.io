@@ -36,6 +36,6 @@ export default () =>
     <div className='flex items-center md:pl-[5.438rem] md:pb-3 lg:p-0'>
       <span className='mr-1 md:mr-4 md:pr-5'>{config.footer.hosted_text}</span>
       <a href={config.footer.hosted_link}>
-        <img className='h-7 md:h-12' src={config.svg_path + config.footer.hosted_logo} alt={config.footer.hosted_alt} />
+        <img className='h-7 md:h-12' src={config.svg_path + config.footer.hosted_logo} alt={config.footer.hosted_alt} fetchpriority='low'/>
       </a>
     </div>

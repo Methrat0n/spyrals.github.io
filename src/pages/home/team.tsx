@@ -38,7 +38,7 @@ const Merlin = () =>
 
     <div className={`${figuresStyleVerso} from-purple-dark to-[#2E0237]`}>
         <h1 className='font-title text-2xl self-center mt-2'>{config.team.merlin.job_verso}</h1>
-        <img className='absolute top-14 left-64 h-[2.625rem] w-[2.873]' src={config.team.merlin.img_verso_1} />
+        <img className='absolute top-14 left-64 h-[2.625rem] w-[2.873]' src={config.team.merlin.img_verso_1} fetchpriority='low'/>
         <div className='flex flex-col items-start w-full pl-3 mt-11'>
           <h2 className='font-menu text-2xl font-bold'>{config.team.skill_title}</h2>
           <div className='flex flex-row font-card text-lg w-full pl-3 mt-2'>
@@ -74,11 +74,11 @@ const Merlin = () =>
             </ul>
           </div>
         </div>
-        <img className='absolute top-[26.5rem] h-10 w-[3rem]' src={config.team.merlin.img_verso_2} />
+        <img className='absolute top-[26.5rem] h-10 w-[3rem]' src={config.team.merlin.img_verso_2} fetchpriority='low' />
     </div>
 
     <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`} id='merlinRecto'>
-      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.merlin.portrait} alt={config.team.merlin.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.merlin.portrait} alt={config.team.merlin.name} fetchpriority='low' />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.merlin.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.merlin.job}</p>
@@ -92,7 +92,7 @@ const Mallorie = () =>
     
     <div className={`${figuresStyleVerso} from-[#FF03EE] to-[#880C85]`}>
       <h1 className='font-title text-2xl text-center self-center mt-2'>{config.team.mallorie.job_verso}</h1>
-      <img className='absolute top-9 left-[17.5rem] h-[3.375rem] w-[3.375]' src={config.team.mallorie.img_verso_1} />
+      <img className='absolute top-9 left-[17.5rem] h-[3.375rem] w-[3.375]' src={config.team.mallorie.img_verso_1} fetchpriority='low' />
       <div className='flex flex-col items-start w-full pl-3 mt-2'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.skill_title}</h2>
         <ul className='font-card text-lg pl-3'>
@@ -116,7 +116,7 @@ const Mallorie = () =>
     </div>
 
     <figure className={`from-[#FF03EE] to-[#880C85] ${figuresStyle} ${figuresAnimations}`} id='mallorieRecto'>
-      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.mallorie.portrait} alt={config.team.mallorie.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.mallorie.portrait} alt={config.team.mallorie.name} fetchpriority='low' />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.mallorie.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.mallorie.job}</p>
@@ -130,8 +130,8 @@ const Julien = () =>
 
     <div className={`${figuresStyleVerso} from-[#8C53FF] to-[#051133]`}>
       <h1 className='font-title text-2xl self-center mt-2'>{config.team.julien.job_verso}</h1>
-      <img className='absolute top-[7.3rem] left-[0.9rem] w-10' src={config.team.julien.img_verso_1} />
-      <img className='absolute top-44 left-[16.5rem] h-11 w-11' src={config.team.julien.img_verso_2} />
+      <img className='absolute top-[7.3rem] left-[0.9rem] w-10' src={config.team.julien.img_verso_1} fetchpriority='low' />
+      <img className='absolute top-44 left-[16.5rem] h-11 w-11' src={config.team.julien.img_verso_2} fetchpriority='low' />
       <div className='flex flex-col items-start w-full pl-3 mt-11'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.skill_title}</h2>
         <div className='flex flex-row font-card text-xl w-full pl-11 mt-2'>
@@ -158,11 +158,11 @@ const Julien = () =>
           <li>{config.team.julien.responsability_4}</li>
         </ul>
       </div>
-      <img className='absolute top-96 left-64 h-14 w-16' src={config.team.julien.img_verso_3} />
+      <img className='absolute top-96 left-64 h-14 w-16' src={config.team.julien.img_verso_3} fetchpriority='low' />
     </div>
 
     <figure className={`from-[#8C53FF] to-[#051133] ${figuresStyle} ${figuresAnimations}`} id='julienRecto'>
-      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.julien.portrait} alt={config.team.julien.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.julien.portrait} alt={config.team.julien.name} fetchpriority='low' />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.julien.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.julien.job}</p>
@@ -176,8 +176,8 @@ const Fabien = () =>
 
     <div className={`${figuresStyleVerso} from-[#FFBD59] to-[#D16023]`}>
       <h1 className='font-title text-2xl self-center mt-2'>{config.team.fabien.job_verso}</h1>
-      <img className='absolute left-[17rem] h-16 w-16' src={config.team.fabien.img_verso_1} />
-      <img className='absolute top-72 left-[6.5rem] h-5 w-5' src={config.team.fabien.img_verso_2} />
+      <img className='absolute left-[17rem] h-16 w-16' src={config.team.fabien.img_verso_1} fetchpriority='low' />
+      <img className='absolute top-72 left-[6.5rem] h-5 w-5' src={config.team.fabien.img_verso_2} fetchpriority='low' />
       <div className='flex flex-col items-start w-full pl-3 mt-11'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.skill_title}</h2>
         <div className='flex flex-row font-card text-xl w-full pl-9'>
@@ -197,7 +197,7 @@ const Fabien = () =>
           </ul>
         </div>
       </div>
-      <img className='absolute top-[24rem] left-7 h-8 w-4' src={config.team.fabien.img_verso_3} />
+      <img className='absolute top-[24rem] left-7 h-8 w-4' src={config.team.fabien.img_verso_3} fetchpriority='low' />
       <div className='flex flex-col items-start w-full pl-3 mt-4'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.responsability_title}</h2>
         <ul className='font-card text-xl w-full pl-9'>
@@ -208,7 +208,7 @@ const Fabien = () =>
     </div>
 
     <figure className={`from-[#FFBD59] to-[#D16023] ${figuresStyle} ${figuresAnimations}`} id='fabienRecto'>
-      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.fabien.portrait} alt={config.team.fabien.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.fabien.portrait} alt={config.team.fabien.name} fetchpriority='low' />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.fabien.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.fabien.job}</p>
@@ -228,21 +228,21 @@ const Thibaut = () =>
       <div className='flex flex-col items-start w-full pl-3 mt-11'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.skill_title}</h2>
         <ul className='font-card text-xl pl-3'>
-          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_1} />{config.team.thibaut.skill_1}</li>
-          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_2} />{config.team.thibaut.skill_2}</li>
-          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_3} />{config.team.thibaut.skill_3}</li>
-          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_4} />{config.team.thibaut.skill_4}</li>
-          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_5} />{config.team.thibaut.skill_5}</li>
+          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_1} fetchpriority='low' />{config.team.thibaut.skill_1}</li>
+          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_2} fetchpriority='low' />{config.team.thibaut.skill_2}</li>
+          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_3} fetchpriority='low' />{config.team.thibaut.skill_3}</li>
+          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_4} fetchpriority='low' />{config.team.thibaut.skill_4}</li>
+          <li className={skillsThibautStyle}><img className={imagesThibautStyle} src={config.team.thibaut.img_verso_5} fetchpriority='low' />{config.team.thibaut.skill_5}</li>
         </ul>
       </div>
       <div className='flex flex-col items-start w-full pl-3 mt-3'>
         <h2 className='font-menu text-2xl font-bold'>{config.team.responsability_title}</h2>
         <div className='flex flex-row'>
           <div className='flex flex-col w-fit ml-3 items-center'>
-            <img className='max-h-9 min-w-7 mb-2' src={config.team.thibaut.img_verso_6} />
-            <img className='max-h-10 min-w-10 mb-2' src={config.team.thibaut.img_verso_7} />
-            <img className='h-9 w-4' src={config.team.thibaut.img_verso_8} />
-            <img className='h-10 w-8' src={config.team.thibaut.img_verso_9} />
+            <img className='max-h-9 min-w-7 mb-2' src={config.team.thibaut.img_verso_6} fetchpriority='low' />
+            <img className='max-h-10 min-w-10 mb-2' src={config.team.thibaut.img_verso_7} fetchpriority='low' />
+            <img className='h-9 w-4' src={config.team.thibaut.img_verso_8} fetchpriority='low' />
+            <img className='h-10 w-8' src={config.team.thibaut.img_verso_9} fetchpriority='low' />
           </div>
           <ul className='font-card text-xl w-full pl-3'>
             <li>{config.team.thibaut.responsability_1}</li>
@@ -255,7 +255,7 @@ const Thibaut = () =>
     </div>
 
     <figure className={`from-purple-dark to-[#2E0237] ${figuresStyle} ${figuresAnimations}`} id='thibautRecto'>
-      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.thibaut.portrait} alt={config.team.thibaut.name} />
+      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.thibaut.portrait} alt={config.team.thibaut.name} fetchpriority='low' />
       <figcaption className='flex flex-col items-center'>
         <p className='text-xl my-6'>{config.team.thibaut.name}</p>
         <p className='font-menu text-3xl text-center italic font-bold'>{config.team.thibaut.job}</p>
