@@ -3,12 +3,17 @@ import prettier from "prettier";
 import ReactDOMServer from "react-dom/server";
 import React from "react";
 import config from './utils/config'
-import Site from '.'
+import Site, { Preload } from '.'
 import Contact from './pages/nous-contacter'
 import Home from './pages/home'
 
+const HomePreloads: ReadonlyArray<Preload> = [
+  { as: 'image', href: config.img_path + config.spyrals.img1},
+  { as: 'image', href: config.img_path + config.spyrals.img2},
+]
+
 const pages = [
-  [<Site Main={Home} description={config.home_description} title={config.home_title} />,"./index.html"],
+  [<Site Main={Home} description={config.home_description} title={config.home_title} preloads={HomePreloads} />,"./index.html"],
   [<Site Main={Contact} description={config.contact_description} title={config.contact_title} />, "./nous-contacter.html"],
 ] as const
 
