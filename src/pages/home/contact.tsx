@@ -20,6 +20,7 @@ const ContactLeft = () =>
       sizes='h-[16rem] w-[13rem] md:min-h-[16rem] md:min-w-[13rem] lg:min-h-[30rem] lg:min-w-[24rem]'
       src={config.img_path + config.contact.img1} 
       alt={config.contact.img1_alt}
+      fetchPriority="low" 
     />
     <BordedPicture 
       positioning='rotate-6 z-20' 
@@ -27,6 +28,7 @@ const ContactLeft = () =>
       sizes='h-[11rem] w-[9.5rem] lg:h-[20rem] lg:w-[17rem]' 
       src={config.img_path + config.contact.img2} 
       alt={config.contact.img2_alt}
+      fetchPriority="low" 
     />
   </div>
 
@@ -40,13 +42,13 @@ const ContactRight = () =>
 
 const Mail = () =>
   <a href={`mailTo:${config.mail}`} className="flex flex-row mt-8 ml-8">
-    <img className="h-7 mr-2" src={config.svg_path + config.contact.mail_icon}/>
+    <img className="h-7 mr-2" src={config.svg_path + config.contact.mail_icon} fetchpriority='low'/>
     <p className="font-bold">{config.mail}</p>
   </a>
 
 const Phone = () =>
   <a href={`tel:${config.telephone}`} className="flex flex-row bg-purple-spyrals rounded-xl p-8 md:py-9 md:px-8 lg:px-10 mt-20 ml-6 items-center justify-center w-fit rotate-[7deg] reflect">
-    <img className="h-7 mr-2" src={config.svg_path + config.contact.phone_icon}/>
+    <img className="h-7 mr-2" src={config.svg_path + config.contact.phone_icon}  fetchpriority='low'/>
     <p className="font-bold text-lg md:text-2xl">{config.telephone}</p>
   </a>
   

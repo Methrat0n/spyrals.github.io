@@ -20,7 +20,7 @@ const ContactLeft = () =>
         <span className='my-auto ml-4 text-xl'>{config.telephone}</span>
       </div>
     </a>
-    <BordedPicture sizes='h-80 min-w-[33rem] md:h-44 md:min-w-[18rem] lg:h-80 lg:min-w-[33rem]' positioning='-rotate-[9deg] translate-x-16 self-end z-20 mt-[18rem]' className='border-yellow hidden md:block' src={config.img_path + config.contactForm.img} alt={config.contactForm.img_alt} />
+    <BordedPicture fetchPriority="low" sizes='h-80 min-w-[33rem] md:h-44 md:min-w-[18rem] lg:h-80 lg:min-w-[33rem]' positioning='-rotate-[9deg] translate-x-16 self-end z-20 mt-[18rem]' className='border-yellow hidden md:block' src={config.img_path + config.contactForm.img} alt={config.contactForm.img_alt} />
     <img className='-z-10 absolute -ml-[27rem] min-w-fit max-w-fit overflow-x-clip md:self-end top-[35%] md:top-[34%] md:-left-[37%] lg:top-[24.20%] lg:left-[25.75%]' src="/svgs/spyrals-background.svg" alt='Le logo de spyrals utilisé en background.' />
   </div>
 
