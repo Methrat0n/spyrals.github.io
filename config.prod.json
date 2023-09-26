@@ -47,12 +47,12 @@
     "text": "Afin de nous adapter au mieux à chaque projet nous developpeurs travaillent en équipe ou individuellement à chaque étape de vos projets ou sur leur totalité. Formés à exercer des missions en interne, nous intervenons en indépendants comme directement dans vos effectifs à chaque étape de votre projet ou dans sa totalité..",
     "button_label": "Nous contacter",
     "button_link": "nous-contacter",
-    "card1_title": "Conception",
-    "card1_text": "Nous analysons votre projet, le rédigeons et préparons les possibilités techniques pour vous offrir un choix éclairé. Vos équipes désirent de l'aide pour l'implémentation ou l'éxecution ? Nous proposons également du coaching ou du consulting spécialisé.",
-    "card2_title": "Innovation & design",
-    "card2_text": "Fort de notre expérience, nous éprouvons techniquement, juridiquement, commercialement et fonctionnellement votre projet. Fidèles à votre image de marque nous savons vous proposer des designs personnalisés et efficaces.  ",
-    "card3_title": "Développement & Production",
-    "card3_text": "Au coeur de notre expertise nous vous proposons les technologies adaptées, faisons vos test, corrigeons les bugs, documentant le code dans le respect des bonnes pratiques de programmation."
+    "card1_title": "Édition de logiciels",
+    "card1_text": "Conception - Maintenance - Distribution Nous guidons nos clients tout au long du processus de développement de leurs logiciels, de la conception initiale au design, en passant par la maintenance. Vos besoins sont notre priorité.",
+    "card2_title": "Programmation",
+    "card2_text": "API - Framework - Bibliothèque De la création d'une simple ligne de code à la mise en place d'une application complète, des micro-services aux bases de données, nous construisons des fondations solides, évolutives et réactives. Nos technologies de prédilection Scala, Typescript et Java.",
+    "card3_title": "Prestation de services",
+    "card3_text": "Parce que travailler toujours avec la même équipe ne favorise pas l'apprentissage, nous prenons soin d'intervenir chez nos clients en tant qu'équipe, que ce soit en tant que simple renfort pour leurs projets, que ce soit de manière anticipée ou en cas d'urgence. Nous aimons transmettre notre expertise et découvrir de nouveaux environnements de travail."
   },
   "skills": {
     "title": "NOS COMPETENCES",
