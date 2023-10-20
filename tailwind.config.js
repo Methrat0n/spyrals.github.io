@@ -22,6 +22,13 @@ module.exports = {
         'title': ['Furore', ...defaultTheme.fontFamily.sans],
         'card': ['Oswald', ...defaultTheme.fontFamily.sans]
       },
+      backgroundImage: {
+        'quote_node': "url('/images/quote_node.webp')",
+        'node_leftBar': "url('/images/node_leftBar.webp')"
+      },
+      backgroundSize: {
+        'quote_block': 'auto 80%'
+      },
       colors: {
         yellow: '#FFBD59',
         black: '#10002B',
