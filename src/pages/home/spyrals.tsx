@@ -30,7 +30,7 @@ const SpyralsRight = () =>
       borderGradient={{from: 'purple-spyrals', to: 'blueLagoon'}}
       positioning='-rotate-6 mt-12 z-20'
       sizes='h-48 w-48 md:h-[18rem] md:w-[18rem] lg:h-[21rem] lg:w-[21rem] 2xl:h-[35rem] 2xl:w-[35rem]'
-      src={config.img_path + config.spyrals.img1}
+      src={config.spyrals.img1}
       alt={config.spyrals.img1_alt}
       fetchPriority="high"
     />
@@ -38,7 +38,7 @@ const SpyralsRight = () =>
       borderGradient={{from: 'purple-dark', to: 'miamiPink'}}
       positioning='rotate-[16deg] z-10 max-md:translate-y-10'
       sizes='h-60 w-[9.1rem] md:h-[24.5rem] md:w-[15rem] lg:h-[36rem] lg:w-[22rem] 2xl:h-[45rem] 2xl:w-[28rem]'
-      src={config.img_path + config.spyrals.img2}
+      src={config.spyrals.img2}
       alt={config.spyrals.img2_alt}
       fetchPriority="high"
     />

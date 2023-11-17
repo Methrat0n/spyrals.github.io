@@ -5,17 +5,14 @@ import ConsoMax from './conso'
 import config from '../../../utils/config'
 import fs from 'fs'
 
-
-//const paths = ['./images/merlin-humain.webp', './images/julien-humain.webp', './images/fabien-humain.webp']
-
-
-
-const bettergetfilesize = (paths: ReadonlyArray<string>):number => {
+const getfilesize = (paths: ReadonlyArray<string>):string => {
   let total = 0
   paths.forEach((path) => {
     total += fs.statSync(path).size
   })
-  return total
+  const totalKB = Math.floor(total / 1000)
+  if (totalKB > 999)  return ((totalKB / 1000).toString()) + ' MB'
+  else return (totalKB.toString()) + ' KB'
 }
 
 const imageExtensions = ["png", "webp"]
@@ -31,51 +28,8 @@ const go = (obj: object):ReadonlyArray<string> =>
       return go(value)
     } else return [undefined]
   }).filter((str): str is string => str !== undefined)
-  
 
-
-const totalFilesSize = bettergetfilesize(go(config))
-
-
-//console.log('totalFilesSize = '+totalFilesSize)
-
-
-
-// TODO
-// Normaliser la gestion des path, actuellement certain path du front ont un path pourri, vue sur au moins trois objet ds config comme spyrals
-
-
-
-
-
-/*
-const getTotalFilesSize = (paths: string[], cb:any):number => {
-  let test = 0
-  paths.forEach(element => {
-    fs.stat(element, (err:any, stats: {size:any}) => {
-      if (err) {
-          // Handle errors here
-          console.log(err)
-          return
-      }
-      test += cb(stats.size)
-    })
-  })
-  console.log(test)
-  return test
-}
-
-let totalFilesSize = getTotalFilesSize(
-  paths,
-  (fileSize: any) => {
-    totalFilesSize += fileSize
-    return totalFilesSize
-  }
-)
-
-console.log("totalFilesSize = "+totalFilesSize)
-
-*/
+const totalFilesSize =  getfilesize(go(config))
 
 
 export default () => {

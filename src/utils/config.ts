@@ -12,7 +12,6 @@ try {
 interface Config {
   url: string
   svg_path: string
-  img_path: string
   logo: string
   logo_alt: string
   telephone: string
