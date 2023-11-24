@@ -41,5 +41,5 @@ const Frame = ({img, alt, height, width, border, rotation, translate, zIndex}: P
 
   const borderProps = Array.isArray(border) ? { borderGradient: {from: border[0], to: border[1]}} : { className: 'border-'+border}
 
-  return <BordedPicture fetchPriority="low"  sizes={`${height} ${width} `} positioning={`${rotation} ${translate} ${zIndex} mt-12`} src={config.img_path + img} alt={alt} {...borderProps} />
+  return <BordedPicture fetchPriority="low"  sizes={`${height} ${width} `} positioning={`${rotation} ${translate} ${zIndex} mt-12`} src={img} alt={alt} {...borderProps} />
 }

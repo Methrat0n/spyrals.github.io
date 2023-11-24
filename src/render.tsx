@@ -8,8 +8,8 @@ import Contact from './pages/nous-contacter'
 import Home from './pages/home'
 
 const HomePreloads: ReadonlyArray<Preload> = [
-  { as: 'image', href: config.img_path + config.spyrals.img1},
-  { as: 'image', href: config.img_path + config.spyrals.img2},
+  { as: 'image', href: config.spyrals.img1},
+  { as: 'image', href: config.spyrals.img2},
 ]
 
 const pages = [
