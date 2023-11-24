@@ -263,6 +263,18 @@ interface Config {
     linkedin_logo_white: string
     linkedin_logo_black: string
   }
+  quotes: {
+    img_nodes: string,
+    img_yellowQuotes: string,
+    quotes1_text: string
+    quotes1_author: string
+    quotes2_text: string
+    quotes2_author: string
+    quotes3_text: string
+    quotes3_author: string
+    quotes4_text: string
+    quotes4_author: string
+  }
 }
 
 export default {...configProdJson, ...configDevJson} as Config
