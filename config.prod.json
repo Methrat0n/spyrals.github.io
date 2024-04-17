@@ -141,27 +141,6 @@
       "responsability_3": "Gestion juridique",
       "responsability_4": "Coaching design"
     },
-    "julien": {
-      "name": "Julien",
-      "job": "Fullstack Senior Engineer",
-      "job_verso": "DEVELOPPEUR",
-      "portrait": "./images/julien-humain.webp",
-      "img_verso_1": "./images/team/julien/Card Julien Craftsman.webp",
-      "img_verso_2": "./images/team/julien/Card Julien React Copy.webp",
-      "img_verso_3": "./images/team/julien/Card Julien Architecte Copy.webp",
-      "skill_1": "Craftsman",
-      "skill_2": "Typescript",
-      "skill_3": "Javascript",
-      "skill_4": "Scala",
-      "skill_5": "C#",
-      "skill_6": "NodeJS",
-      "skill_7": "React",
-      "skill_8": "Java",
-      "responsability_1": "Conception architecturale &",
-      "responsability_2": "infrastructure",
-      "responsability_3": "Dev senior",
-      "responsability_4": "Coaching IT"
-    },
     "fabien": {
       "name": "Fabien",
       "job": "Fullstack Engineer",
