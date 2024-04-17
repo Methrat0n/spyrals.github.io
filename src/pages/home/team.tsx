@@ -16,7 +16,6 @@ const TeamContent = () =>
   <div className="flex flex-row font-bold overflow-x-auto my-10 hide-scroll py-10 ml-10 md:ml-0 scroll-smooth" id="teamCards">
     <Merlin />
     <Mallorie />
-    <Julien />
     <Fabien />
     <Thibaut />
   </div>
@@ -125,51 +124,6 @@ const Mallorie = () =>
 
   </div>
 
-const Julien = () =>
-  <div className={`${cardStyle}`} id='julien' tabIndex={3}>
-
-    <div className={`${figuresStyleVerso} from-[#8C53FF] to-[#051133]`}>
-      <h1 className='font-title text-2xl self-center mt-2'>{config.team.julien.job_verso}</h1>
-      <img className='absolute top-[7.3rem] left-[0.9rem] w-10' src={config.team.julien.img_verso_1} fetchpriority='low' />
-      <img className='absolute top-44 left-[16.5rem] h-11 w-11' src={config.team.julien.img_verso_2} fetchpriority='low' />
-      <div className='flex flex-col items-start w-full pl-3 mt-11'>
-        <h2 className='font-menu text-2xl font-bold'>{config.team.skill_title}</h2>
-        <div className='flex flex-row font-card text-xl w-full pl-11 mt-2'>
-          <ul>
-            <li>{config.team.julien.skill_1}</li>
-            <li>{config.team.julien.skill_2}</li>
-            <li>{config.team.julien.skill_3}</li>
-            <li>{config.team.julien.skill_4}</li>
-          </ul>
-          <ul className='pl-14'>
-            <li>{config.team.julien.skill_5}</li>
-            <li>{config.team.julien.skill_6}</li>
-            <li>{config.team.julien.skill_7}</li>
-            <li>{config.team.julien.skill_8}</li>
-          </ul>
-        </div>
-      </div>
-      <div className='flex flex-col items-start w-full pl-3 mt-12'>
-        <h2 className='font-menu text-2xl font-bold'>{config.team.responsability_title}</h2>
-        <ul className='font-card text-lg w-full pl-3'>
-          <li>{config.team.julien.responsability_1}</li>
-          <li>{config.team.julien.responsability_2}</li>
-          <li>{config.team.julien.responsability_3}</li>
-          <li>{config.team.julien.responsability_4}</li>
-        </ul>
-      </div>
-      <img className='absolute top-96 left-64 h-14 w-16' src={config.team.julien.img_verso_3} fetchpriority='low' />
-    </div>
-
-    <figure className={`from-[#8C53FF] to-[#051133] ${figuresStyle} ${figuresAnimations}`} id='julienRecto'>
-      <img className='w-[9rem] min-h-[12rem] max-h-[12rem] object-contain' src={config.team.julien.portrait} alt={config.team.julien.name} fetchpriority='low' />
-      <figcaption className='flex flex-col items-center'>
-        <p className='text-xl my-6'>{config.team.julien.name}</p>
-        <p className='font-menu text-3xl text-center italic font-bold'>{config.team.julien.job}</p>
-      </figcaption>
-    </figure>
-
-  </div>
 
 const Fabien = () =>
   <div className={`${cardStyle}`} tabIndex={4} id='fabien'>
